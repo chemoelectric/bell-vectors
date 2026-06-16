@@ -59,16 +59,18 @@ The liturgical language removed, the photons no longer are
 experiment, using column matrices. Call it stem:["prop"_1], meaning
 _proposition one_.
 
-[stem]
-++++
-"prop"_1 = 1/2((e_1),(e_2)) + 1/2((e_2),(e_1))
-++++
+$$
+\begin{equation}
+\text{prop}_1 = \frac12\begin{pmatrix}e_1\\e_2\end{pmatrix}
+              + \frac12\begin{pmatrix}e_2\\e_1\end{pmatrix}
+\end{equation}
+$$
 
-Let us assume the photons are ejected in directions left and right.
-One should read stem:["prop"_1] as follows: “There is probability
-stem:[1/2] of an stem:[e_1] photon on the left and an stem:[e_2]
-photon on the right, and probability stem:[1/2] of an stem:[e_2]
-photon on the left and an stem:[e_1] photon on the right.”
+Let us assume the photons are transmitted in directions left and
+right. One should read stem:["prop"_1] as follows: “There is
+probability stem:[1/2] of an stem:[e_1] photon on the left and an
+stem:[e_2] photon on the right, and probability stem:[1/2] of an
+stem:[e_2] photon on the left and an stem:[e_1] photon on the right.”
 
 Of course the Dirac notation also would mean this, if it did not have
 a liturgical magic that transformed photons into “entangled pairs.”
@@ -91,7 +93,7 @@ between the two polarizer settings._
 This fact has been ignored by physicists, with the result Clauser,
 Aspect, and Zeilinger were awarded a Nobel prize by mistake, and an
 industry in “quantum computers” exists even though such devices cannot
-possibly function as expected.
+possibly function as predicted.
 
 In particular, the form of the CHSH inequality is obviously incorrect.
 There _must_ be a mathematical error in its derivation. I have no
@@ -130,10 +132,10 @@ experiments such as Aspect’s, violate even the predictions of quantum
 mechanics! More recently, “quantum computers” research is starting to
 fill up with reports of data being _deliberately_ faked. A reason for
 faking data is obvious: the devices cannot possibly function as
-expected.] There is no violation of action by direct contact. There is
-no “instantaneous action at a distance.” Keep that in mind. Our
-photons are unentangled, and they are passing through ordinary
-polarizing filters.
+predicted by physicists.] There is no violation of action by direct
+contact. There is no “instantaneous action at a distance.” Keep that
+in mind. Our photons are unentangled, and they are passing through
+ordinary polarizing filters.
 
 Physicists sometimes brag that their tensor space is a _Hilbert_
 space, and the coordinates are complex numbers. “Look how _smart_ we
@@ -146,12 +148,13 @@ trying to impress laypeople is a stupid activity.
 
 Thus let us define
 
-[stem]
-++++
-I_12 = e_1^^e_2 = e_1 e_2
-++++
+$$
+\begin{equation}
+I_{12} = e_1\wedge e_2 = e_1 e_2
+\end{equation}
+$$
 
-as the unit bivector. We will use the right-hand rule, and thus
+as the basis bivector. We will use the right-hand rule, and thus
 stem:[I_12] is a counterclockwise-oriented unit of area in the
 stem:[(e_1,e_2)]-plane.
 
@@ -227,3 +230,72 @@ Of course, we could have come to this conclusion immediately. This
 way, however (like physicists with their Hilbert tensor space and
 other liturgical incantations), we have impressed the laypeople with
 our immense intellect.
+
+***
+
+With means to write an arbitrary unit vector, in terms of the basis
+vectors, there is almost enough to write a tensor for the polarizing
+beam splitters. What else is needed? The beam-splitting introduces new
+dimensions to the tensor space. One now has to distinguish the two
+paths at the exit of either beam splitter.
+
+We will again use geometric algebra! We will use the dot product.
+Fortunately for the proletarians, the dot product of two vectors in
+geometric algebra is the same as the dot product of two vectors in
+ordinary vector algebra.
+
+We will also use the Law of Malus, equating the intensity of an
+electromagnetic wave with the probability of occurrence of a photon.
+The change in intensity due to a polarizing filter, according to the
+Law of Malus, is a factor of
+
+$$
+\begin{equation}
+\cos^2 (\theta - \phi) = (e_\theta\cdot e_\phi)^2
+\end{equation}
+$$
+
+where stem:[theta] is the angle of polarization of the filter and
+stem:[phi] is the angle of polarization of the impinging
+plane-polarized light. For a lossless _beam-splitting_ polarizer, one
+channel follows that rule and the other channel the complementary rule
+
+$$
+\begin{equation}
+\sin^2(\theta - \phi) = 1 - (e_\theta\cdot e_\phi)^2
+\end{equation}
+$$
+
+The impinging photon is polarized either stem:[e_1] or stem:[e_2].
+Therefore the dot product is either stem:[e_theta*e_1 = cos theta] or
+stem:[e_theta*e_2 = sin theta], and the loss of intensity according to
+the Law of Malus is stem:[cos^2 theta] or stem:[sin^2 theta],
+respectively. What is more, the Law of Malus for the complementary
+channel of a beam splitter is
+
+$$
+\begin{equation}
+1-(e_\theta\cdot e_1)^2 = 1-\cos^2\theta = \sin^2\theta
+\end{equation}
+$$
+
+or
+
+$$
+\begin{equation}
+1-(e_\theta\cdot e_2)^2 = 1-\sin^2\theta = \cos^2\theta
+\end{equation}
+$$
+
+and so the rule for a complementary channel is simply the rule for the
+regular channel, but with the roles of stem:[e_1] and stem:[e_2]
+reversed.
+
+Of course this makes intuitive sense. Nevertheless, it is worth doing
+the mathematics, to verify we are not making any errors.footnote:[This
+kind of verification obviously _has not_ been done by the physicists
+who claim there is “entanglement.” Their quasi-mathematics is packed
+with errors, which they sometimes accidentally discover but then write
+off as “loopholes” that somehow might be eliminated by experimental
+controls.]
+
