@@ -136,11 +136,13 @@ photons are unentangled, and they are passing through ordinary
 polarizing filters.
 
 Physicists sometimes brag that their tensor space is a _Hilbert_
-space, and the coordinates are complex numbers. They are using complex
-numbers to represent rotations. Remember, after all, that stem:[e^(i
-phi) = cos phi + i sin phi], and so is analogous to a clock face.
-Complex numbers, however, are properly roots of polynomials, not
-geometric entities. We can instead use geometric algebra.
+space, and the coordinates are complex numbers. “Look how _smart_ we
+are!” They are using complex numbers to represent rotations. Remember,
+after all, that stem:[e^(i phi) = cos phi + i sin phi], and so is
+analogous to a clock face. Complex numbers, however, are properly
+roots of polynomials, not geometric entities. We can instead try to
+impress people even more by using geometric algebra, even though
+trying to impress laypeople is a stupid activity.
 
 Thus let us define
 
@@ -149,6 +151,79 @@ Thus let us define
 I_12 = e_1^^e_2 = e_1 e_2
 ++++
 
-as the unit bivector, which is analogous to the unit imaginary
-stem:[i]. We will use the right-hand rule, and thus stem:[I_12] is a
-unit of area oriented counterclockwise.
+as the unit bivector. We will use the right-hand rule, and thus
+stem:[I_12] is a counterclockwise-oriented unit of area in the
+stem:[(e_1,e_2)]-plane.
+
+We can get any vector on the clock face by using a geometric rotor.
+For an angle stem:[phi] a convenient rotor and its inverse are
+
+$$
+\begin{align*}
+R_\phi &= \cos\frac\phi2 - I_{12} \sin\frac\phi2 = \cos\frac\phi2 - e_1 e_2 \sin\frac\phi2 \\
+R_\phi^{-1} &= \cos\frac\phi2 + I_{12} \sin\frac\phi2 = \cos\frac\phi2 + e_1 e_2 \sin\frac\phi2
+\end{align*}
+$$
+
+Thus any unit vector on the clock face can be obtained by computing
+
+$$
+\begin{align*}
+e_\phi &= R_\phi \, e_1 \, R_\phi^{-1} \\
+      &= (\cos\frac\phi2 - e_1 e_2 \sin\frac\phi2) \, e_1 \, (\cos\frac\phi2 + e_1 e_2 \sin\frac\phi2) \\
+      &= e_1 \cos^2\frac\phi2 - e_1 e_2 e_1 \cos\frac\phi2\sin\frac\phi2
+          + e_1 e_1 e_2 \cos\frac\phi2\sin\frac\phi2 - e_1 e_2 e_1 e_1 e_2 \sin^2\frac\phi2
+\end{align*}
+$$
+
+To simplify, use the following identities:
+
+$$
+\begin{align*}
+e_1 e_1 &= 1 \\
+e_2 e_2 &= 1 \\
+e_2 e_1 &= - e_1 e_2
+\end{align*}
+$$
+
+Thus:
+
+$$
+\begin{align*}
+-e_1 e_2 e_1 &= e_2 \\
+e_1 e_1 e_2 &= e_2 \\
+- e_1 e_2 e_1 e_1 e_2 &= -e_1
+\end{align*}
+$$
+
+Therefore:
+
+$$
+\begin{align*}
+e_\phi &= (\cos^2\frac\phi2 - \sin^2\frac\phi2)\,e_1 + (2\,\cos\frac\phi2\sin\frac\phi2)\,e_2
+\end{align*}
+$$
+
+Let us refer to the _CRC Handbook of Mathematical Sciences, 6th
+Edition_, where we find the following double-angle relations on page
+170:
+
+$$
+\begin{align*}
+\sin 2\alpha &= 2\sin\alpha\cos\alpha \\
+\cos 2\alpha &= \cos^2\alpha - \sin^2\alpha
+\end{align*}
+$$
+
+Therefore:
+
+$$
+\begin{align*}
+e_\phi &= e_1\cos\phi + e_2\sin\phi
+\end{align*}
+$$
+
+Of course, we could have come to this conclusion immediately. This
+way, however (like physicists with their Hilbert tensor space and
+other liturgical incantations), we have impressed the laypeople with
+our immense intellect.
