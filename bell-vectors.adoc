@@ -122,22 +122,18 @@ to my eyeballs with their nonsense, which not only passes for
 mathematics while being sacred scripture, and for science while being
 holy revelations, and for engineering while being divine alchemy, but
 is a threat to world peace. The United States Department of Defense
-spends how much money on “quantum computers”? And experimental
-research is filled with biased data. That garbage can get published
-where the nominal values are not checked is infuriating. Experiments
-such as Aspect’s violate even the predictions of quantum mechanics!
-Which one might know if one read papers in lower circulation journals
-(except the language of even these physics papers is so opaque it is
-almost impossible to understand), or actually did the mathematics for
-oneself. Whereas “quantum computers” research is starting to fill up
-with reports in “elite” journals of data being _deliberately_ faked. A
-reason for faking data is obvious: the devices cannot possibly
-function as expected. Frankly, though, that Aspect-type experiments
-violate QM must surely be known to many and therefore deliberately
-kept quiet about, even if only to avoid abuse.] There is no violation
-of action by direct contact. There is no “instantaneous action at a
-distance.” Keep that in mind. Our photons are unentangled, and they
-are passing through ordinary polarizing filters.
+spends how much money on “quantum computers”? University students also
+are fleeced for millions and millions of dollars. Experimental
+research is filled with biased data, infuriatingly published despite
+the absence of nominal values. Bell and CHSH inequalities, and
+experiments such as Aspect’s, violate even the predictions of quantum
+mechanics! More recently, “quantum computers” research is starting to
+fill up with reports of data being _deliberately_ faked. A reason for
+faking data is obvious: the devices cannot possibly function as
+expected.] There is no violation of action by direct contact. There is
+no “instantaneous action at a distance.” Keep that in mind. Our
+photons are unentangled, and they are passing through ordinary
+polarizing filters.
 
 
 
