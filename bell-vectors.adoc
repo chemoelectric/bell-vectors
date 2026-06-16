@@ -18,16 +18,16 @@ Suppose we have a light source generating photons of complementary
 plane polarizations. We do not specify in what planes they are
 polarized, except that, of course, the planes are orthogonal to each
 other. One photon will be represented in the Dirac notation by
-stem:["↑"] and the other by stem:["→"]. Thus we can write bras
-stem:["⟨↑→|"] and stem:["⟨→↑|"] and kets stem:["|↑→⟩"] and
-stem:["|→↑⟩"]. Writing these liturgical notations turns the photons
+stem:["→"] and the other by stem:["↑"]. Thus we can write bras
+stem:["⟨→↑|"] and stem:["⟨↑→|"] and kets stem:["|→↑⟩"] and
+stem:["|↑→⟩"]. Writing these liturgical notations turns the photons
 into “an entangled pair.” But we will undo this “entanglement” by
 defining mathematical notations.
 
 Let us define the following. For one of the photons we write the
-vector in a common notation for basis vectors, as stem:[e_1="↑"]. The
+vector in a common notation for basis vectors, as stem:[e_1="→"]. The
 other photon we write as an orthogonal basis vector thus:
-stem:[e_2="→"].
+stem:[e_2="↑"].
 
 Notice, by the way, that this notation does not mislead us about the
 direction of the plane polarization. In fact, the basis vectors are
@@ -39,19 +39,19 @@ row matrices and instead of kets we will write column matrices. Thus:
 
 [stem]
 ++++
-"⟨↑→|" = ((e_1,e_2))
+"⟨→↑|" = ((e_1,e_2))
 ++++
 [stem]
 ++++
-"⟨→↑|" = ((e_2,e_1))
+"⟨↑→|" = ((e_2,e_1))
 ++++
 [stem]
 ++++
-"|↑→⟩" = ((e_1),(e_2))
+"|→↑⟩" = ((e_1),(e_2))
 ++++
 [stem]
 ++++
-"|→↑⟩" = ((e_2),(e_1))
+"|↑→⟩" = ((e_2),(e_1))
 ++++
 
 The liturgical language removed, the photons no longer are
@@ -135,5 +135,20 @@ no “instantaneous action at a distance.” Keep that in mind. Our
 photons are unentangled, and they are passing through ordinary
 polarizing filters.
 
+Physicists sometimes brag that their tensor space is a _Hilbert_
+space, and the coordinates are complex numbers. They are using complex
+numbers to represent rotations. Remember, after all, that stem:[e^(i
+phi) = cos phi + i sin phi], and so is analogous to a clock face.
+Complex numbers, however, are properly roots of polynomials, not
+geometric entities. We can instead use geometric algebra.
 
+Thus let us define
 
+[stem]
+++++
+I_12 = e_1^^e_2 = e_1 e_2
+++++
+
+as the unit bivector, which is analogous to the unit imaginary
+stem:[i]. We will use the right-hand rule, and thus stem:[I_12] is a
+unit of area oriented counterclockwise.
