@@ -37,22 +37,14 @@ distinction is one of orthogonality.
 To further mathematize our notations, instead of bras we will write
 row matrices and instead of kets we will write column matrices. Thus:
 
-[stem]
-++++
-"⟨→↑|" = ((e_1,e_2))
-++++
-[stem]
-++++
-"⟨↑→|" = ((e_2,e_1))
-++++
-[stem]
-++++
-"|→↑⟩" = ((e_1),(e_2))
-++++
-[stem]
-++++
-"|↑→⟩" = ((e_2),(e_1))
-++++
+$$
+\begin{align*}
+\text{⟨→↑|} &= \begin{pmatrix}e_1  & e_2\end{pmatrix}  \\
+\text{⟨↑→|} &= \begin{pmatrix}e_2  & e_1\end{pmatrix}  \\
+\text{|→↑⟩} &= \begin{pmatrix}e_1 \\ e_2\end{pmatrix}  \\
+\text{|↑→⟩} &= \begin{pmatrix}e_2 \\ e_1\end{pmatrix}  \\
+\end{align*}
+$$
 
 The liturgical language removed, the photons no longer are
 “entangled.” Let us now write down the initial condition of the
@@ -102,7 +94,7 @@ physicists such as Clauser have “done the calculations” but not done
 actual mathematics. Actual mathematics requires reasoning ahead, such
 as that the correlation must be a function of the difference of the
 polarizer settings. Clauser’s true mistake was to believe his
-inequality had any chance of being correct.
+inequality had any chance to be correct.
 
 ***
 
