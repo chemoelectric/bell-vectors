@@ -565,3 +565,22 @@ $$
      \end{pmatrix}
 \end{equation}
 $$
+
+Notice that \(\text{prop}_3\) has form similar to what a physicist
+might write for the “entangled state” of Bell test event, before
+someone actually examines the data. Or when the magic occurs may be
+sometime else. Who knows when?
+
+_Action at a distance would be magic._ Anyone who feels otherwise
+should not be a scientist. People such as Maxwell and Einstein went to
+enormous trouble to explain the universe in action-by-direct-contact
+terms. In particular, there is absolutely no possibility “entangled
+photons” are consistent with Maxwell’s theory of electromagnetism,
+which is explicitly action-by-contact.
+
+It is no wonder they tell us “Quantum physics makes no logical sense,
+and you should not try to understand it.” They are depending on us to
+be pseudoscientists with purely a quasi-religious faith in “quantum”
+doctrine.
+
+***
