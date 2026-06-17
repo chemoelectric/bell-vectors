@@ -421,8 +421,8 @@ e_\beta \\ e_{\lbrace\beta\rbrace}
   \cos\alpha & \sin\alpha \\
   \sin\alpha & \cos\alpha \\
   \hline
-  \cos\alpha & \sin\alpha \\
-  \sin\alpha & \cos\alpha
+  \cos\beta & \sin\beta \\
+  \sin\beta & \cos\beta
   \end{pmatrix}
   \begin{pmatrix}e_1\\e_2\end{pmatrix}
 \end{equation}
