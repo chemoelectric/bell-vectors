@@ -225,21 +225,60 @@ our immense intellect.
 
 ***
 
-With means to write an arbitrary unit vector, in terms of the basis
-vectors, there is almost enough to write a tensor for the polarizing
-beam splitters. What else is needed? The beam-splitting introduces new
-dimensions to the tensor space. One now has to distinguish the two
-paths at the exit of either beam splitter.
+Here let us insert a diversion on more of geometric algebra.
 
-We will again use geometric algebra! We will use the dot product.
-Fortunately for the proletarians, the dot product of two vectors in
-geometric algebra is the same as the dot product of two vectors in
-ordinary vector algebra.
+The geometric product stem:[uv] of vectors stem:[u] and stem:[v] is
 
-We will also use the Law of Malus, equating the intensity of an
+$$
+\begin{equation}
+uv = u\cdot v + u\wedge v
+\end{equation}
+$$
+
+where \(u\cdot v\) is the same as the dot product in ordinary
+(Gibbs-Heaviside) vector algebra and \(u\wedge v\) is a _bivector_. A
+bivector is a finite planar area that is oriented either
+counterclockwise or clockwise.
+
+_It is allowed_ to add scalars, vectors, and bivectors to each other.
+Your friends are likely to argue with you, when you tell them scalars
+and vectors _can_ be added to each other. Your friends are cursed with
+school educations they have not overcome. It is important to overcome
+one’s school education. The mathematics will work out just fine, no
+matter what your teachers told you.
+
+The following identities are important to us:
+
+$$
+\begin{align*}
+u\cdot v &= \lVert u\rVert\lVert v\rVert &\text{if } u\parallel v \\
+u\cdot v &= 0 &\text{if } u\perp v \\
+u\wedge v &= 0 &\text{if } u\parallel v \\
+u\wedge v &= -v\wedge u &\text{if } u\perp v \\
+\end{align*}
+$$
+
+In particular:
+
+$$
+\begin{align*}
+e_1\cdot e_2 &= e_2\cdot e_1 = 0 \\
+e_1\wedge e_1 &= e_2\wedge e_2 = 0 \\
+e_1\cdot e_1 &= e_1 e_1 = e_2\cdot e_2 = e_2 e_2 = 1 \\
+e_1\wedge e_2 &= e_1 e_2 = -e_2\wedge e_1 = -e_2 e_1
+\end{align*}
+$$
+
+We already have used some of these identities.
+
+***
+
+_On y va_.
+
+Let us review the Law of Malus, but equating the intensity of an
 electromagnetic wave with the probability of occurrence of a photon.
 The change in intensity due to a polarizing filter, according to the
-Law of Malus, is a factor of
+Law of Malus, is a factor
 
 $$
 \begin{equation}
@@ -252,8 +291,11 @@ where stem:[vartheta] is the angle of polarization of the filter and
 stem:[varphi] is the angle of polarization of the impinging
 plane-polarized light. Here \(\text{proj}_{e_\vartheta}e_\varphi\) is
 the projection of \(e_\varphi\) onto \(e_\vartheta\), and the double
-bars denote magnitude. For a lossless _beam-splitting_ polarizer, one
-channel follows that rule and the other channel the complementary rule
+bars denote magnitude. The polarizer can be visualized as a “magnitude
+window” for the light vector, and intensity (or ability to perform
+work) equals the square of magnitude. For a lossless _beam-splitting_
+polarizer, the regular channel follows that rule and the complementary
+channel the complementary rule
 
 $$
 \begin{equation}
@@ -294,11 +336,6 @@ with errors, which they sometimes accidentally discover but then write
 off as “loopholes” that somehow might be eliminated by experimental
 controls.]
 
-***
-
-Before we attempt to arrange the different cases into a tensor
-notation, let us see what they are.
-
 Let us call the setting for the left polarizing beam splitter
 stem:[alpha] and that for the right splitter stem:[beta]. For the
 photons transmitted by the source, there are two cases,
@@ -326,3 +363,11 @@ polarizer or if the vector sum of retransmitted photons averages out
 as polarized along this line. Either kind of polarizer might suffice
 in some role.] The latter two vectors are for retransmission along the
 complementary path of the respective polarizing beam splitter.
+
+I will describe the polarizers by their settings vectors.
+
+$$
+\begin{align*}
+x &= y
+\end{align*}
+$$
