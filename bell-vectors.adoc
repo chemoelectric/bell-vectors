@@ -284,6 +284,16 @@ $$
 \end{align*}
 $$
 
+Given the grade operation, the dot and wedge products of two vectors
+can be defined in terms of their geometric product as follows:
+
+$$
+\begin{align*}
+u\cdot v &= {\left\langle uv\right\rangle}_0 \\
+u\wedge v &= {\left\langle uv\right\rangle}_2
+\end{align*}
+$$
+
 Below we will use the operations described above. We will also do
 projections of vectors onto other vectors, but in geometric algebra
 this is a non-fundamental operation I shall not bother to explore in
@@ -470,24 +480,3 @@ _not_ magical “entanglement.”
 
 ***
 
-
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-Furthermore, the probabilities of photons being retransmitted along
-channels can be calculated by matrix and dot multiplications:
-
-$$
-\begin{equation}
-{\left\langle
-\begin{pmatrix}e_\alpha \\ e_{\lbrace\alpha\rbrace}\end{pmatrix}
-\begin{pmatrix}e_\alpha  & e_{\lbrace\alpha\rbrace}\end{pmatrix}
-\right\rangle}_0
-\end{equation} =
-  \begin{pmatrix}
-  \cos^2
-  \end{pmatrix}
-$$
-
-Here the grade operation is a clever way to make the vector
-multiplications be dot multiplications.
