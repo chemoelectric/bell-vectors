@@ -572,11 +572,11 @@ someone actually examines the data. Or when the magic occurs may be
 sometime else. Who knows when?
 
 _Action at a distance would be magic._ Anyone who feels otherwise
-should not be a scientist. People such as Maxwell and Einstein went to
-enormous trouble to explain the universe in action-by-direct-contact
-terms. In particular, there is absolutely no possibility “entangled
-photons” are consistent with Maxwell’s theory of electromagnetism,
-which is explicitly action-by-contact.
+should not be a scientist. People such as Maxwell, Heaviside, and
+Einstein went to enormous trouble to try to explain the universe in
+action-by-direct-contact terms. In particular, there is absolutely no
+possibility “entangled photons” are consistent with Maxwell’s theory
+of electromagnetism, which is explicitly action-by-contact.
 
 It is no wonder they tell us “Quantum physics makes no logical sense,
 and you should not try to understand it.” They are depending on us to
