@@ -300,25 +300,79 @@ Later we will encounter matrices with multiple columns, representing
 propositions in tensor spaces of higher dimensionality, and weighted
 sums of matrices, representing propositions of probability theory.
 
+=== Polarizing beam splitters (PBSes)
 
+The effect of a polarizing filter on plane-polarized light is
+described by the _Law of Malus_: the intensity of the retransmitted
+light is reduced by a factor of \(\cos^2(\vartheta-\varphi)\), where
+\(\vartheta\) is the angle of the filter’s axis of transmission and
+\(\varphi\) is the angle of polarization of the impinging light. Let
+us suppose the mechanism of light is such that a pulse either is or is
+not retransmitted. In that case intensity can be equated with
+probability of retransmission of a light pulse.
 
+Now let us proceed from simple polarizing filters to _polarizing beam
+splitters (PBSes)_, also known as _beam-splitting polarizers_. These
+are devices made, one way or another, from two complementary
+polarizing filters, that split a light beam into complementary
+polarizations. In one channel the light will be polarized along the
+main axis of transmission, and in the other channel along the
+complementary axis, which is normal to the main axis. Ideally, the
+intensity of light in the complementary channel is reduced by the
+factor \(\sin^2(\vartheta-\varphi)\), so the total intensity is not
+lost. Similarly, for our probabilistic interpretation, we will make an
+idealistic assumption: that the light pulse is retransmitted in either
+the main or the complementary channel, but never lost. The probability
+of retransmission is \( \cos^2 (\vartheta - \varphi) + \sin^2
+(\vartheta - \varphi) = 1 \).
 
+Sometimes I visualize the action of a polarizing filter as the
+projection of the vector of the impinging light onto the axis of
+polarization of the filter. This gives a vector of magnitude reduced
+from unity, and the square of that magnitude is the intensity of the
+retransmitted light. If \(e_\vartheta\) is a unit vector representing
+the axis of transmission of the filter, and \(e_\varphi\) the angle of
+polarization of the impinging light, then the projection is
 
+$$
+\begin{equation}
+\text{proj}_{e_\vartheta}e_\varphi
+        = (e_\varphi\cdot e_\vartheta)e_\vartheta
+\end{equation}
+$$
 
+The probability of retransmission is, conveniently, the geometric
+product of this projection with itself:
 
+$$
+\begin{equation}
+(\text{proj}_{e_\vartheta}e_\varphi)^2
+        = (e_\varphi\cdot e_\vartheta)^2 e_\vartheta e_\vartheta
+        = \cos^2 (\vartheta - \varphi)
+\end{equation}
+$$
 
-//
-// The plan for moving forwards:
-//
-//    Then we start with the initial state (e_1 e_2)' rather than the
-//    sum of two columns with probability 1/2 each. Why? BECAUSE THE
-//    POLARIZATION ANGLE IS ARBITRARY. So there was no need for the
-//    1/2 foo + 1/2 bar dice roll. THIS IS WHY THE PROBABILITIES END
-//    UP BEING COMBINED, ANYWAY.
-//
+Above we have presumed light plane-polarized either \(e_1\)
+or{nbsp}\(e_2\), and there are two polarizers, the main channel
+\(e_\vartheta\) and the complementary channel \(e_{\vartheta+\pi/2}\).
+Therefore we have the following special instances:
 
-
-
+$$
+\begin{align*}
+(\text{proj}_{e_\vartheta}e_1)^2
+        &= (e_1\cdot e_\vartheta)^2 e_\vartheta^2
+        = \cos^2\vartheta \\
+(\text{proj}_{e_\vartheta}e_2)^2
+        &= (e_2\cdot e_\vartheta)^2 e_\vartheta^2
+        = \sin^2\vartheta \\
+(\text{proj}_{e_{\vartheta+\pi/2}}e_1)^2
+        &= (e_1\cdot e_{\vartheta+\pi/2})^2 e_{\vartheta+\pi/2}^2
+        = \cos^2(\vartheta+\pi/2) = \sin^2\vartheta \\
+(\text{proj}_{e_{\vartheta+\pi/2}}e_2)^2
+        &= (e_2\cdot e_{\vartheta+\pi/2})^2 e_{\vartheta+\pi/2}^2
+        = \sin^2(\vartheta+\pi/2) = \cos^2\vartheta
+\end{align*}
+$$
 
 
 

@@ -451,6 +451,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_planes_of_polarization_vectors_and_tensor_spaces">Planes of polarization, vectors, and tensor spaces</a>
 <ul class="sectlevel2">
 <li><a href="#_notations">Notations</a></li>
+<li><a href="#_polarizing_beam_splitters_pbses">Polarizing beam splitters (PBSes)</a></li>
 </ul>
 </li>
 </ul>
@@ -811,12 +812,95 @@ propositions in tensor spaces of higher dimensionality, and weighted
 sums of matrices, representing propositions of probability theory.</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_polarizing_beam_splitters_pbses">Polarizing beam splitters (PBSes)</h3>
+<div class="paragraph">
+<p>The effect of a polarizing filter on plane-polarized light is
+described by the <em>Law of Malus</em>: the intensity of the retransmitted
+light is reduced by a factor of \(\cos^2(\vartheta-\varphi)\), where
+\(\vartheta\) is the angle of the filter’s axis of transmission and
+\(\varphi\) is the angle of polarization of the impinging light. Let
+us suppose the mechanism of light is such that a pulse either is or is
+not retransmitted. In that case intensity can be equated with
+probability of retransmission of a light pulse.</p>
+</div>
+<div class="paragraph">
+<p>Now let us proceed from simple polarizing filters to <em>polarizing beam
+splitters (PBSes)</em>, also known as <em>beam-splitting polarizers</em>. These
+are devices made, one way or another, from two complementary
+polarizing filters, that split a light beam into complementary
+polarizations. In one channel the light will be polarized along the
+main axis of transmission, and in the other channel along the
+complementary axis, which is normal to the main axis. Ideally, the
+intensity of light in the complementary channel is reduced by the
+factor \(\sin^2(\vartheta-\varphi)\), so the total intensity is not
+lost. Similarly, for our probabilistic interpretation, we will make an
+idealistic assumption: that the light pulse is retransmitted in either
+the main or the complementary channel, but never lost. The probability
+of retransmission is \( \cos^2 (\vartheta - \varphi) + \sin^2
+(\vartheta - \varphi) = 1 \).</p>
+</div>
+<div class="paragraph">
+<p>Sometimes I visualize the action of a polarizing filter as the
+projection of the vector of the impinging light onto the axis of
+polarization of the filter. This gives a vector of magnitude reduced
+from unity, and the square of that magnitude is the intensity of the
+retransmitted light. If \(e_\vartheta\) is a unit vector representing
+the axis of transmission of the filter, and \(e_\varphi\) the angle of
+polarization of the impinging light, then the projection is</p>
+</div>
+<div class="paragraph">
+<p>
+\begin{equation}
+\text{proj}_{e_\vartheta}e_\varphi
+        = (e_\varphi\cdot e_\vartheta)e_\vartheta
+\end{equation}
+</p>
+</div>
+<div class="paragraph">
+<p>The probability of retransmission is, conveniently, the geometric
+product of this projection with itself:</p>
+</div>
+<div class="paragraph">
+<p>
+\begin{equation}
+(\text{proj}_{e_\vartheta}e_\varphi)^2
+        = (e_\varphi\cdot e_\vartheta)^2 e_\vartheta e_\vartheta
+        = \cos^2 (\vartheta - \varphi)
+\end{equation}
+</p>
+</div>
+<div class="paragraph">
+<p>Above we have presumed light plane-polarized either \(e_1\)
+or&#160;\(e_2\), and there are two polarizers, the main channel
+\(e_\vartheta\) and the complementary channel \(e_{\vartheta+\pi/2}\).
+Therefore we have the following special instances:</p>
+</div>
+<div class="paragraph">
+<p>
+\begin{align*}
+(\text{proj}_{e_\vartheta}e_1)^2
+        &amp;= (e_1\cdot e_\vartheta)^2 e_\vartheta^2
+        = \cos^2\vartheta \\
+(\text{proj}_{e_\vartheta}e_2)^2
+        &amp;= (e_2\cdot e_\vartheta)^2 e_\vartheta^2
+        = \sin^2\vartheta \\
+(\text{proj}_{e_{\vartheta+\pi/2}}e_1)^2
+        &amp;= (e_1\cdot e_{\vartheta+\pi/2})^2 e_{\vartheta+\pi/2}^2
+        = \cos^2(\vartheta+\pi/2) = \sin^2\vartheta \\
+(\text{proj}_{e_{\vartheta+\pi/2}}e_2)^2
+        &amp;= (e_2\cdot e_{\vartheta+\pi/2})^2 e_{\vartheta+\pi/2}^2
+        = \sin^2(\vartheta+\pi/2) = \cos^2\vartheta
+\end{align*}
+</p>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-06-18 10:32:12 -0500
+Last updated 2026-06-18 11:59:05 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">
