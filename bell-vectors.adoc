@@ -141,7 +141,23 @@ u\wedge v  &= -v\wedge u & \text{always}
 \end{align*}
 $$
 
+=== Basis vectors
 
+Suppose we want to have an \((x,y)\) coordinate system for geometric
+algebra. We can do this by defining _basis vectors_ \(e_1\) of
+magnitude{nbsp}1 in the \(x\)-direction and \(e_2\) of
+magnitude{nbsp}1 in the \(y\)-direction.
+
+The following are useful identities:
+
+$$
+\begin{align*}
+e_1\cdot e_2 &= e_2\cdot e_1 = 0 \\
+e_1\wedge e_1 &= e_2\wedge e_2 = 0 \\
+e_1\cdot e_1 &= e_1 e_1 = e_2 e_2 = e_2\cdot e_2 = 1 \\
+e_1\wedge e_2 &= e_1 e_2 = -e_2 e_1 = -e_2\wedge e_1
+\end{align*}
+$$
 
 
 
