@@ -233,9 +233,9 @@ plebeians with rotors and our possession of a massive reference book
 from yesteryear.
 
 We have also shown by implication that using complex numbers is the
-same thing: impressing the plebeians with the mysteriously named
-numbers “complex” and “imaginary” numbers, when actually you are
-simply doing trigonometry and component addition.
+same thing: impressing the plebeians with mysteriously named entities
+“complex” and “imaginary” numbers, when actually you are simply doing
+trigonometry and component addition.
 
 
 
