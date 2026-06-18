@@ -1,8 +1,6 @@
 = Analysis of the two-channel optical Bell test, using multivectors and matrices
-
 :stem: mathjax
-
-:toc:
+:toc: left
 
 == Introduction
 
@@ -68,6 +66,8 @@ complex tensor space, but something even fancier. I will use a tensor
 space of _multivectors_.
 
 == Multivectors and geometric algebra
+
+=== Vector products and grade
 
 Ordinary Gibbs-Heaviside vectors are nice enough, but, like
 physicists, we want to impress the plebeians. Physicists do this by
@@ -209,8 +209,8 @@ e_\varphi = (\cos^2\varphi' - \sin^2\varphi')\,e_1 + (2\,\cos\varphi'\sin\varphi
 $$
 
 Let us refer to the _CRC Handbook of Mathematical Sciences, 6th
-Edition_, where we find the following double-angle relations on page
-170:
+Edition_, where we find the following double-angle relations on
+page{nbsp}170:
 
 $$
 \begin{align*}
@@ -234,8 +234,74 @@ from yesteryear.
 
 We have also shown by implication that using complex numbers is the
 same thing: impressing the plebeians with mysteriously named entities
-“complex” and “imaginary” numbers, when actually you are simply doing
+“complex” and “imaginary” numbers, when actually you are doing
 trigonometry and component addition.
+
+== Planes of polarization, vectors, and tensor spaces
+
+=== Notations
+
+Physicists often impress the plebeians that they do quantum mechanics
+in a “complex Hilbert tensor space” or as many terms as necessary to
+make it sound like magic. And they really do believe the space is
+magical, and that each point in it represents an instance in the
+magical phase of existence where instantaneous action at a distance
+occurs. Physicists use funny notations that are not used by
+mathematicians and therefore can be read as meaning physical entities
+rather than mathematical ones.
+
+We instead will use notations similar to those used by mathematicians.
+My education was in electrical engineering, with some applied
+mathematics, and my work has been in computer programming, so I do not
+write things as “pure” mathematicians do, and cannot read their very
+abstruse papers. But also, despite that electrical engineering is
+applied physics, I do not take anywhere near the liberties that “pure”
+physicists do. With the Dirac notation, they have drifted so far from
+mathematical notations that they do not read the notations as
+mathematics, but instead as liturgical incantations about physical
+beings of a mysterious and magical nature. And they do not _reason
+logically_ as they work, but instead _just do the calculations_.
+
+Instead of _bras_, _kets_, and whatnot to represent tensors, the
+following will employ such notations as multivectors and matrices.
+Thus a pulse of plane-polarized light oriented along the \(x\)-axis
+can be represented by either \(e_1\) or{nbsp}\(-e_1\). Let us
+choose{nbsp}\(e_1\). Similarly, for a pulse of light plane-polarized
+normal to the first, the representation can be{nbsp}\(e_2\). Now
+suppose there is a light source that transmits a light pulse \(e_1\)
+to the left and \(e_2\) to the right. This initial _proposition_ can
+be written as a matrix thus:
+
+$$
+\begin{equation}
+\text{prop}_1 = \begin{pmatrix}e_1\\e_2\end{pmatrix}
+\end{equation}
+$$
+
+The upper row of such a matrix represents the left arm of the
+apparatus, and the lower row represents the right arm. The expression
+\(\text{prop}_1\) defines a point in a tensor space. Its meaning is
+_not_ a magical “entangled pair” of light pulses (photons). If we had
+written the same thing in Dirac notation, that is what it _would have_
+meant. But we wrote the same thing in a different notation, and so it
+does not mean that. Instead it means the proposition, “To the left,
+there is a light pulse polarized in the \(e_1\) direction, and to the
+right there is a light pulse polarized in the \(e_2\) direction.”
+
+That a point in a space might represent something _verbal_ rather than
+physical may seem strange to many physicists, and difficult to handle.
+If so, that is their problem, not ours. Let them get other jobs. They
+are costing university students a fortune to teach them nonsense, and
+they are ruining the electronics profession and threatening global
+peace, with “quantum electronics” and “quantum computers” junk that
+cannot possibly work as advertised.
+
+Later we will encounter matrices with multiple columns, representing
+propositions in tensor spaces of higher dimensionality, and weighted
+sums of matrices, representing propositions of probability theory.
+
+
+
 
 
 
@@ -243,10 +309,6 @@ trigonometry and component addition.
 
 //
 // The plan for moving forwards:
-//
-//    Next demonstrate rotations and do the part where we show that we
-//    could simply have used the ordinary rule for components. But
-//    this way we impress the plebs.
 //
 //    Then we start with the initial state (e_1 e_2)' rather than the
 //    sum of two columns with probability 1/2 each. Why? BECAUSE THE

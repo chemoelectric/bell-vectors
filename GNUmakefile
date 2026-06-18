@@ -3,7 +3,7 @@
 .DELETE_ON_ERROR:
 
 %.html: %.adoc
-	asciidoctor $(<)
+	asciidoctor --safe $(<) -o $(@)
 
 .PHONY: clean
 clean:
