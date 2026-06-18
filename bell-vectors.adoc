@@ -159,6 +159,87 @@ e_1\wedge e_2 &= e_1 e_2 = -e_2 e_1 = -e_2\wedge e_1
 \end{align*}
 $$
 
+=== Rotors
+
+What if you need a unit vector other than one of the basis vectors?
+Complex numbers around the clock face are obtained by rotating the
+number{nbsp}1: the number{nbsp}1 is rotated counterclockwise by an
+angle{nbsp}\(\varphi\) by multiplying it by \(e^{i\varphi} =
+\cos\varphi + i\sin\varphi\).
+
+There is an analogous operation in geometric algebra. For this
+operation, one uses a _rotor_. To rotate counterclockwise
+by{nbsp}\(\varphi\), the rotor and its inverse are
+
+$$
+\begin{align*}
+R_\varphi &= \cos(\varphi/2) - e_1 e_2 \sin(\varphi/2) \\
+R_\varphi^{-1} &= \cos(\varphi/2) + e_1 e_2 \sin(\varphi/2)
+\end{align*}
+$$
+
+Any vector around the clock face can be gotten by rotating \(e_1\),
+thus:
+
+$$
+\begin{align*}
+e_\varphi &= R_\varphi \, e_1 \, R_\varphi^{-1} \\
+      &= (\cos\varphi' - e_1 e_2 \sin\varphi') \, e_1 \, (\cos\varphi' + e_1 e_2 \sin\varphi') \\
+      &= e_1 \cos^2\varphi' - e_1 e_2 e_1 \cos\varphi'\sin\varphi'
+          + e_1 e_1 e_2 \cos\varphi'\sin\varphi' - e_1 e_2 e_1 e_1 e_2 \sin^2\varphi'
+\end{align*}
+$$
+
+where \(\varphi' = \varphi/2\). Identities mentioned above allow simplifications:
+
+$$
+\begin{align*}
+-e_1 e_2 e_1 &= e_2 \\
+e_1 e_1 e_2 &= e_2 \\
+- e_1 e_2 e_1 e_1 e_2 &= -e_1
+\end{align*}
+$$
+
+Therefore,
+
+$$
+\begin{equation}
+e_\varphi = (\cos^2\varphi' - \sin^2\varphi')\,e_1 + (2\,\cos\varphi'\sin\varphi')\,e_2
+\end{equation}
+$$
+
+Let us refer to the _CRC Handbook of Mathematical Sciences, 6th
+Edition_, where we find the following double-angle relations on page
+170:
+
+$$
+\begin{align*}
+\sin 2\alpha &= 2\sin\alpha\cos\alpha \\
+\cos 2\alpha &= \cos^2\alpha - \sin^2\alpha
+\end{align*}
+$$
+
+Therefore,
+
+$$
+\begin{align*}
+e_\varphi &= e_1\cos\varphi + e_2\sin\varphi
+\end{align*}
+$$
+
+or, in other words, we can use trigonometry and component addition.
+Which many readers already knew, but now we have impressed the
+plebeians with rotors and our possession of a massive reference book
+from yesteryear.
+
+We have also shown by implication that using complex numbers is the
+same thing: impressing the plebeians with the mysteriously named
+numbers “complex” and “imaginary” numbers, when actually you are
+simply doing trigonometry and component addition.
+
+
+
+
 
 //
 // The plan for moving forwards:

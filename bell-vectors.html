@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.26">
-<title>Analysis of the Two-Channel Optical Bell Test, Using Vectors and Matrices</title>
+<title>Analysis of the two-channel optical Bell test, using multivectors and matrices</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -436,200 +436,230 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Analysis of the Two-Channel Optical Bell Test, Using Vectors and Matrices</h1>
+<h1>Analysis of the two-channel optical Bell test, using multivectors and matrices</h1>
 </div>
 <div id="content">
+<div class="sect1">
+<h2 id="_introduction">Introduction</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>Let us demonstrate that the supposed “entangled pairs” of photons in
-the two-channel optical Bell test are actually ordinary
-plane-polarized photons. The silly Dirac notation is just a liturgical
-language for probability theory, in the pseudoscientific
-quasi-religion called “quantum physics.”</p>
+<p>I have had it up to my eyeballs with physicists and their belief in
+magical instantaneous action at a distance.</p>
 </div>
 <div class="paragraph">
-<p>To demonstrate that the silly Dirac notation is just a vector notation
-for probability theory, first let us define real math notations to
-mean the same as the silly Dirac scribbles.</p>
+<p>Yes, I said <em>magical</em>.</p>
 </div>
 <div class="paragraph">
-<p>Suppose we have a light source generating photons of complementary
-plane polarizations. We do not specify in what planes they are
-polarized, except that, of course, the planes are orthogonal to each
-other. One photon will be represented in the Dirac notation by
-\$"→"\$ and the other by \$"↑"\$. Thus we can write bras
-\$"⟨→↑|"\$ and \$"⟨↑→|"\$ and kets \$"|→↑⟩"\$ and
-\$"|↑→⟩"\$. Writing these liturgical notations turns the photons
-into “an entangled pair.” But we will undo this “entanglement” by
-defining mathematical notations.</p>
+<p>Some will fault me for calling what appears in “serious” scientific
+journals (including <em>Science</em>, to which I subscribe) as <em>magic</em>, but
+it is nothing less. No physicist should believe in action at a
+distance, and if they do they should be looking for another career.
+People like Maxwell and Heaviside went to enormous trouble to base
+physics on action by direct contact. Maxwell’s theory of
+electromagnetism is thus <em>explicitly</em> one of action by direct contact,
+and the electromagnetic field <em>obey’s Newton’s laws of motion</em>.
+Einstein’s attempt at a theory of gravity, which as far as I know is
+the best we have so far, is also based <em>explicitly</em> on action by
+direct contact.</p>
 </div>
 <div class="paragraph">
-<p>Let us define the following. For one of the photons we write the
-vector in a common notation for basis vectors, as \$e_1="→"\$. The
-other photon we write as an orthogonal basis vector thus:
-\$e_2="↑"\$.</p>
+<p>Yet we are told by physicists that two or more pulses of light can be
+“entangled,” thus forming a single physical entity spanning any
+distance whatsoever. When one of the “entangled” pulses is resolved
+into a distinct pulse, supposedly the others <em>instantaneously</em>, over
+even light years of distance, also resolve into distinct pulses. They
+do this, even though there is no possibility this is logically
+consistent with Maxwell’s theory of electromagnetism. There is no
+possible mathematical resolution to this puzzle, because Maxwell’s
+theory is one of action by direct contact.</p>
 </div>
 <div class="paragraph">
-<p>Notice, by the way, that this notation does not mislead us about the
-direction of the plane polarization. In fact, the basis vectors are
-agnostic about what distinguishes the photons, as long as the
-distinction is one of orthogonality.</p>
+<p>No wonder it is, then, that, when I was taught “Engineering Physics”
+at just the same time Alain Aspect was publishing his famous (but in
+multiple ways incorrect) results, I was also told the following: that
+“quantum physics” made no logical sense and I should not try to
+understand it. In fact I was <em>ordered</em> in a loud voice not to try to
+understand it, and <em>ordered</em> “Just do the calculations!”</p>
 </div>
 <div class="paragraph">
-<p>To further mathematize our notations, instead of bras we will write
-row matrices and instead of kets we will write column matrices. Thus:</p>
+<p>“Quantum physics” does not deserve the respect of the title “science.”
+It is a quasi-religion and a pseudoscience. Dirac notation is a
+liturgical language for nothing but propositions of probability
+theory, but physicists transmogrify these propositions, by religious
+incantations written in Dirac bras and kets, into “entangled”
+entities.</p>
 </div>
 <div class="paragraph">
-<p>
-\begin{align*}
-\text{⟨→↑|} &amp;= \begin{pmatrix}e_1  &amp; e_2\end{pmatrix}  \\
-\text{⟨↑→|} &amp;= \begin{pmatrix}e_2  &amp; e_1\end{pmatrix}  \\
-\text{|→↑⟩} &amp;= \begin{pmatrix}e_1 \\ e_2\end{pmatrix}  \\
-\text{|↑→⟩} &amp;= \begin{pmatrix}e_2 \\ e_1\end{pmatrix}  \\
-\end{align*}
-</p>
+<p>This pseudoscience not only costs university students and their
+families millions and millions and millions of wasted dollars, but is
+a threat to world peace. How much does the United States Department of
+Defense spend on “quantum computers”? Yet “quantum computers” are
+utter junk that cannot possibly function as physicists predict. We
+should not tolerate this state of affairs. If every “quantum
+physicist” should be laughed out of a job, perhaps it would be only a
+good beginning. There are many more competent persons who can approach
+the same empirical problems using <em>real</em> physics.</p>
 </div>
 <div class="paragraph">
-<p>The liturgical language removed, the photons no longer are
-“entangled.” Let us now write down the initial condition of the
-experiment, using column matrices. Call it \$"prop"_1\$, meaning
-<em>proposition one</em>.</p>
+<p>Physicists brag that the Dirac notation represents a complex tensor or
+“Hilbert” space, as if this made the notation magical. In fact, this
+is exactly what they believe, that the complex tensor space is a
+magical phase of existence, in which instantaneous action at a
+distance occurs. But such a space is merely a mathematical construct.
+It has no physical meaning. I will demonstrate this below by analyzing
+the two-channel optical Bell test (the Aspect experiment) using not a
+complex tensor space, but something even fancier. I will use a tensor
+space of <em>multivectors</em>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_multivectors_and_geometric_algebra">Multivectors and geometric algebra</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Ordinary Gibbs-Heaviside vectors are nice enough, but, like
+physicists, we want to impress the plebeians. Physicists do this by
+using complex numbers to represent rotations in a plane, but are not
+complex numbers are more properly roots of univariate real
+polynomials? A much more general set of methods is <em>geometric
+algebra</em>, from which we will draw just a miniscule subset of what it
+contains and can do.</p>
 </div>
 <div class="paragraph">
-<p>
-\begin{equation}
-\text{prop}_1 = \frac12\begin{pmatrix}e_1\\e_2\end{pmatrix}
-              + \frac12\begin{pmatrix}e_2\\e_1\end{pmatrix}
-\end{equation}
-</p>
+<p>In geometric algebra, you can add a scalar and a vector. At least if
+you are as old as I am, you are likely to have an acquaintance who
+will argue with you vociferously that you <em>cannot</em> add a scalar and a
+vector. Such an acquaintance is a person who has obtained a high
+school or university education, but has not <em>overcome</em> that education.
+It is important to obtain an education, but current educations are
+very bad, and so it is necessary also to <em>overcome</em> the damage done. A
+school education has solidified the brain rather than made it more
+plastic, and also much of what is taught is simply wrong, or limited
+to a context but taught as if it were universal.</p>
 </div>
 <div class="paragraph">
-<p>Let us assume the photons are transmitted in directions left and
-right. One should read \$"prop"_1\$ as follows: “There is
-probability \$1/2\$ of an \$e_1\$ photon on the left and an
-\$e_2\$ photon on the right, and probability \$1/2\$ of an
-\$e_2\$ photon on the left and an \$e_1\$ photon on the right.”</p>
-</div>
-<div class="paragraph">
-<p>Of course the Dirac notation also would mean this, if it did not have
-a liturgical magic that transformed photons into “entangled pairs.”
-But we are not using Dirac notation, so there is no magic. We are
-stuck with \$"prop"_1\$ instead of a magical entity that defies
-Newton’s laws of motion.</p>
-</div>
-<div class="paragraph">
-<p>You might not have noticed that \$"prop"_1\$ is a point in a tensor
-space. This fact is of no major importance. That \$"prop"_1\$
-represents a proposition of probability theory is important.</p>
-</div>
-<div class="paragraph">
-<p>Note carefully something else: we have chosen as basis vectors the
-planes of polarization of the photons, but these planes are not
-specified. The settings of the polarizers will have to be defined in
-terms of \$e_1\$ and \$e_2\$. But these basis vectors are
-unspecified, and therefore <em>the calibration of the polarizers will be
-arbitrary</em>. <em>The correlation must be a function of the difference
-between the two polarizer settings.</em></p>
-</div>
-<div class="paragraph">
-<p>This fact has been ignored by physicists, with the result Clauser,
-Aspect, and Zeilinger were awarded a Nobel prize by mistake, and an
-industry in “quantum computers” exists even though such devices cannot
-possibly function as predicted.</p>
-</div>
-<div class="paragraph">
-<p>In particular, the form of the CHSH inequality is obviously incorrect.
-There <em>must</em> be a mathematical error in its derivation. I have no
-interest here in fishing out that error. It is enough to observe that
-physicists such as Clauser have “done the calculations” but not done
-actual mathematics. Actual mathematics requires reasoning ahead, such
-as that the correlation must be a function of the difference of the
-polarizer settings. Clauser’s true mistake was to believe his
-inequality had any chance to be correct.</p>
-</div>
-<hr>
-<div class="paragraph">
-<p>I am not going to spend time fiddling around with whatever
-unenlightening things the “quantum physics” literature has to say
-about the polarizing beam splitters. What it amounts to is that, in
-quantum mechanics, the polarizers are represented by the Law of Malus,
-just as they are in wave mechanics. The loss in intensity of an
-electromagnetic wave passing through the polarizer corresponds
-one-to-one with the probability that a photon will be retransmitted.
-We merely have to write out the different cases in tensor form.</p>
-</div>
-<div class="paragraph">
-<p>We are using the ordinary Law of Malus, but written as a point in a
-tensor space, to cover the various possible cases. Writing the Law of
-Malus as a point in a tensor space does not make it
-magical.<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup> There is no violation of action by direct
-contact. There is no “instantaneous action at a distance.” Keep that
-in mind. Our photons are unentangled, and they are passing through
-ordinary polarizing filters.</p>
-</div>
-<div class="paragraph">
-<p>Physicists sometimes brag that their tensor space is a <em>Hilbert</em>
-space, and the coordinates are complex numbers. “Look how <em>smart</em> we
-are!” They are using complex numbers to represent rotations. Remember,
-after all, that \$e^(i varphi) = cos varphi + i sin varphi\$, and so is
-analogous to a clock face. Complex numbers, however, are properly
-roots of polynomials, not geometric entities. We can instead try to
-impress people even more by using geometric algebra, even though
-trying to impress laypeople is a stupid activity.</p>
-</div>
-<div class="paragraph">
-<p>Thus let us define</p>
+<p>You can also multiply vectors in ways other than dot and cross
+products. The <em>geometric product</em> \(uv\) of vectors \(u\) and \(v\) is</p>
 </div>
 <div class="paragraph">
 <p>
 \begin{equation}
-I_{12} = e_1\wedge e_2 = e_1 e_2
+uv = u\cdot v + u\wedge v
 \end{equation}
 </p>
 </div>
 <div class="paragraph">
-<p>as the basis bivector. We will use the right-hand rule, and thus
-\$I_12\$ is a counterclockwise-oriented unit of area in the
-\$(e_1,e_2)\$-plane.</p>
+<p>where \(u\cdot v\) is the familiar dot product, but the <em>wedge
+product</em> \(u\wedge v\) is a new entity called a <em>bivector</em>. A bivector
+is a finite planar area that is oriented either counterclockwise or
+clockwise. You can picture a bivector as an entity normal to which is
+the familiar cross product.</p>
 </div>
 <div class="paragraph">
-<p>We can get any vector on the clock face by using a geometric rotor.
-For an angle \$varphi\$ a convenient rotor and its inverse are</p>
+<p>The sum of any scalars, vectors, and bivectors is called a
+<em>multivector</em>.</p>
+</div>
+<div class="paragraph">
+<p>Let us also introduce the <em>grade</em> operator, which returns the scalar
+(<em>grade&#160;0</em>), vector (<em>grade&#160;1</em>), or bivector
+(<em>grade&#160;2</em>) part of a multivector:</p>
 </div>
 <div class="paragraph">
 <p>
 \begin{align*}
-R_\varphi &amp;= \cos\frac\varphi2 - I_{12} \sin\frac\varphi2 = \cos\frac\varphi2 - e_1 e_2 \sin\frac\varphi2 \\
-R_\varphi^{-1} &amp;= \cos\frac\varphi2 + I_{12} \sin\frac\varphi2 = \cos\frac\varphi2 + e_1 e_2 \sin\frac\varphi2
+{\left\langle{5 + 2e_1 + 7e_1\wedge e_2}\right\rangle}_0 &amp;= 5 \\
+{\left\langle{5 + 2e_1 + 7e_1\wedge e_2}\right\rangle}_1 &amp;= 2e_1 \\
+{\left\langle{5 + 2e_1 + 7e_1\wedge e_2}\right\rangle}_2 &amp;= 7e_1\wedge e_2 \\
 \end{align*}
 </p>
 </div>
 <div class="paragraph">
-<p>Thus any unit vector on the clock face can be obtained by computing</p>
+<p>Given the grade operation, the dot and wedge products of two vectors
+can be obtained from their geometric product:</p>
+</div>
+<div class="paragraph">
+<p>
+\begin{align*}
+u\cdot v &amp;= {\left\langle uv\right\rangle}_0 \\
+u\wedge v &amp;= {\left\langle uv\right\rangle}_2
+\end{align*}
+</p>
+</div>
+<div class="paragraph">
+<p>Here are some identities:</p>
+</div>
+<div class="paragraph">
+<p>
+\begin{align*}
+u\cdot v &amp;= \lVert u\rVert\lVert v\rVert &amp;\text{if } u\parallel v \\
+u\wedge v &amp;= 0 &amp;\text{if } u\parallel v \\
+u\cdot v &amp;= 0 &amp;\text{if } u\perp v \\
+u\wedge v = uv = -vu &amp;= -v\wedge u &amp;\text{if } u\perp v \\
+u\cdot v  &amp;= v\cdot u &amp; \text{always} \\
+u\wedge v  &amp;= -v\wedge u &amp; \text{always}
+\end{align*}
+</p>
+</div>
+<div class="sect2">
+<h3 id="_basis_vectors">Basis vectors</h3>
+<div class="paragraph">
+<p>Suppose we want to have an \((x,y)\) coordinate system for geometric
+algebra. We can do this by defining <em>basis vectors</em> \(e_1\) of
+magnitude&#160;1 in the \(x\)-direction and \(e_2\) of
+magnitude&#160;1 in the \(y\)-direction.</p>
+</div>
+<div class="paragraph">
+<p>The following are useful identities:</p>
+</div>
+<div class="paragraph">
+<p>
+\begin{align*}
+e_1\cdot e_2 &amp;= e_2\cdot e_1 = 0 \\
+e_1\wedge e_1 &amp;= e_2\wedge e_2 = 0 \\
+e_1\cdot e_1 &amp;= e_1 e_1 = e_2 e_2 = e_2\cdot e_2 = 1 \\
+e_1\wedge e_2 &amp;= e_1 e_2 = -e_2 e_1 = -e_2\wedge e_1
+\end{align*}
+</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rotors">Rotors</h3>
+<div class="paragraph">
+<p>What if you need a unit vector other than one of the basis vectors?
+Complex numbers around the clock face are obtained by rotating the
+number&#160;1: the number&#160;1 is rotated counterclockwise by an
+angle&#160;\(\varphi\) by multiplying it by \(e^{i\varphi} =
+\cos\varphi + i\sin\varphi\).</p>
+</div>
+<div class="paragraph">
+<p>There is an analogous operation in geometric algebra. For this
+operation, one uses a <em>rotor</em>. To rotate counterclockwise
+by&#160;\(\varphi\), the rotor and its inverse are</p>
+</div>
+<div class="paragraph">
+<p>
+\begin{align*}
+R_\varphi &amp;= \cos(\varphi/2) - e_1 e_2 \sin(\varphi/2) \\
+R_\varphi^{-1} &amp;= \cos(\varphi/2) + e_1 e_2 \sin(\varphi/2)
+\end{align*}
+</p>
+</div>
+<div class="paragraph">
+<p>Any vector around the clock face can be gotten by rotating \(e_1\),
+thus:</p>
 </div>
 <div class="paragraph">
 <p>
 \begin{align*}
 e_\varphi &amp;= R_\varphi \, e_1 \, R_\varphi^{-1} \\
-      &amp;= (\cos\frac\varphi2 - e_1 e_2 \sin\frac\varphi2) \, e_1 \, (\cos\frac\varphi2 + e_1 e_2 \sin\frac\varphi2) \\
-      &amp;= e_1 \cos^2\frac\varphi2 - e_1 e_2 e_1 \cos\frac\varphi2\sin\frac\varphi2
-          + e_1 e_1 e_2 \cos\frac\varphi2\sin\frac\varphi2 - e_1 e_2 e_1 e_1 e_2 \sin^2\frac\varphi2
+      &amp;= (\cos\varphi' - e_1 e_2 \sin\varphi') \, e_1 \, (\cos\varphi' + e_1 e_2 \sin\varphi') \\
+      &amp;= e_1 \cos^2\varphi' - e_1 e_2 e_1 \cos\varphi'\sin\varphi'
+          + e_1 e_1 e_2 \cos\varphi'\sin\varphi' - e_1 e_2 e_1 e_1 e_2 \sin^2\varphi'
 \end{align*}
 </p>
 </div>
 <div class="paragraph">
-<p>To simplify, use the following identities:</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-e_1 e_1 &amp;= 1 \\
-e_2 e_2 &amp;= 1 \\
-e_2 e_1 &amp;= - e_1 e_2
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>Thus:</p>
+<p>where \(\varphi' = \varphi/2\). Identities mentioned above allow simplifications:</p>
 </div>
 <div class="paragraph">
 <p>
@@ -641,13 +671,13 @@ e_1 e_1 e_2 &amp;= e_2 \\
 </p>
 </div>
 <div class="paragraph">
-<p>Therefore:</p>
+<p>Therefore,</p>
 </div>
 <div class="paragraph">
 <p>
-\begin{align*}
-e_\varphi &amp;= (\cos^2\frac\varphi2 - \sin^2\frac\varphi2)\,e_1 + (2\,\cos\frac\varphi2\sin\frac\varphi2)\,e_2
-\end{align*}
+\begin{equation}
+e_\varphi = (\cos^2\varphi' - \sin^2\varphi')\,e_1 + (2\,\cos\varphi'\sin\varphi')\,e_2
+\end{equation}
 </p>
 </div>
 <div class="paragraph">
@@ -664,7 +694,7 @@ Edition</em>, where we find the following double-angle relations on page
 </p>
 </div>
 <div class="paragraph">
-<p>Therefore:</p>
+<p>Therefore,</p>
 </div>
 <div class="paragraph">
 <p>
@@ -674,425 +704,24 @@ e_\varphi &amp;= e_1\cos\varphi + e_2\sin\varphi
 </p>
 </div>
 <div class="paragraph">
-<p>Of course, we could have come to this conclusion immediately. This
-way, however (like physicists with their Hilbert tensor space and
-other liturgical incantations), we have impressed the laypeople with
-our immense intellect.</p>
-</div>
-<hr>
-<div class="paragraph">
-<p>Here let us insert a diversion on more of geometric algebra.</p>
+<p>or, in other words, we can use trigonometry and component addition.
+Which many readers already knew, but now we have impressed the
+plebeians with rotors and our possession of a massive reference book
+from yesteryear.</p>
 </div>
 <div class="paragraph">
-<p>The geometric product \$uv\$ of vectors \$u\$ and \$v\$ is</p>
+<p>We have also shown by implication that using complex numbers is the
+same thing: impressing the plebeians with the mysteriously named
+numbers “complex” and “imaginary” numbers, when actually you are
+simply doing trigonometry and component addition.</p>
 </div>
-<div class="paragraph">
-<p>
-\begin{equation}
-uv = u\cdot v + u\wedge v
-\end{equation}
-</p>
 </div>
-<div class="paragraph">
-<p>where \(u\cdot v\) is the same as the dot product in ordinary
-(Gibbs-Heaviside) vector algebra and the wedge product \(u\wedge v\)
-is a <em>bivector</em>. A bivector is a finite planar area that is oriented
-either counterclockwise or clockwise. You can picture a bivector as an
-entity normal to which is the familiar cross product.</p>
 </div>
-<div class="paragraph">
-<p><em>It is allowed</em> to add scalars, vectors, and bivectors to each other,
-with the result that you get a <em>multivector</em>. At least if you are as
-old as I am, your friends are likely to argue vociferously with you,
-when you tell them scalars and vectors <em>can</em> be added to each other.
-Your friends are cursed with school educations they have not overcome.
-It is important to overcome one’s school education. The mathematics
-will work out just fine, no matter what your teachers told you.</p>
-</div>
-<div class="paragraph">
-<p>The following identities are important to us:</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-u\cdot v &amp;= \lVert u\rVert\lVert v\rVert &amp;\text{if } u\parallel v \\
-u\cdot v &amp;= 0 &amp;\text{if } u\perp v \\
-u\wedge v &amp;= 0 &amp;\text{if } u\parallel v \\
-u\wedge v &amp;= -v\wedge u &amp;\text{if } u\perp v \\
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>In particular:</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-e_1\cdot e_2 &amp;= e_2\cdot e_1 = 0 \\
-e_1\wedge e_1 &amp;= e_2\wedge e_2 = 0 \\
-e_1\cdot e_1 &amp;= e_1 e_1 = e_2\cdot e_2 = e_2 e_2 = 1 \\
-e_1\wedge e_2 &amp;= e_1 e_2 = -e_2\wedge e_1 = -e_2 e_1
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>We already have used some of these identities.</p>
-</div>
-<div class="paragraph">
-<p>Let us also introduce the <em>grade</em> operator, which returns the scalar,
-vector, or bivector part of a multivector:</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-{\left\langle{5 + e_1 + e_1\wedge e_2}\right\rangle}_0 &amp;= 5 \\
-{\left\langle{5 + e_1 + e_1\wedge e_2}\right\rangle}_1 &amp;= e_1 \\
-{\left\langle{5 + e_1 + e_1\wedge e_2}\right\rangle}_2 &amp;= e_1\wedge e_2 \\
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>Given the grade operation, the dot and wedge products of two vectors
-can be defined in terms of their geometric product as follows:</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-u\cdot v &amp;= {\left\langle uv\right\rangle}_0 \\
-u\wedge v &amp;= {\left\langle uv\right\rangle}_2
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>Below we will use the operations described above. We will also do
-projections of vectors onto other vectors, but in geometric algebra
-this is a non-fundamental operation I shall not bother to explore in
-detail.</p>
-</div>
-<hr>
-<div class="paragraph">
-<p><em>On y va</em>.</p>
-</div>
-<div class="paragraph">
-<p>Let us review the Law of Malus, but equating the intensity of an
-electromagnetic wave with the probability of occurrence of a photon.
-The change in intensity due to a polarizing filter, according to the
-Law of Malus, is a factor</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{equation}
-\cos^2 (\vartheta - \varphi) = (e_\vartheta\cdot e_\varphi)^2
-       = {\lVert \text{proj}_{e_\vartheta}e_\varphi\rVert}^2
-\end{equation}
-</p>
-</div>
-<div class="paragraph">
-<p>where \$vartheta\$ is the angle of polarization of the filter and
-\$varphi\$ is the angle of polarization of the impinging
-plane-polarized light. Here \(\text{proj}_{e_\vartheta}e_\varphi\) is
-the projection of \(e_\varphi\) onto \(e_\vartheta\), and the double
-bars denote magnitude. The polarizer can be visualized as a “magnitude
-window” for the light vector, and intensity (or ability to perform
-work) equals the square of magnitude. For a lossless <em>beam-splitting</em>
-polarizer, the regular channel follows that rule and the complementary
-channel the complementary rule</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{equation}
-\sin^2(\vartheta - \varphi) = 1 - (e_\vartheta\cdot e_\varphi)^2
-                 = 1 - {\lVert \text{proj}_{e_\vartheta}e_\varphi\rVert}^2
-\end{equation}
-</p>
-</div>
-<div class="paragraph">
-<p>The impinging photon is polarized either \$e_1\$ or \$e_2\$.
-Therefore the intensity loss is in the regular channel of a beam
-splitter is one of</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-(e_\vartheta\cdot e_1)^2  &amp;= {\lVert\text{proj}_{e_\vartheta}e_1\rVert}^2  = \cos^2 \vartheta \\
-(e_\vartheta\cdot e_2)^2  &amp;= {\lVert\text{proj}_{e_\vartheta}e_2\rVert}^2  = \sin^2 \vartheta \\
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>and for the respective complementary channel is</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-1-\cos^2\vartheta &amp;= \sin^2\vartheta \\
-1-\sin^2\vartheta &amp;= \cos^2\vartheta
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>and so the rule for a complementary channel is simply the rule for the
-regular channel, but with the roles of \$e_1\$ and \$e_2\$
-reversed.</p>
-</div>
-<div class="paragraph">
-<p>Of course this makes intuitive sense. Nevertheless, it is worth doing
-the mathematics, to verify we are not making any errors.<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup></p>
-</div>
-<div class="paragraph">
-<p>Let us call the setting for the left polarizing beam splitter
-\$alpha\$ and that for the right splitter \$beta\$. For the
-photons transmitted by the source, there are two cases,
-\$"initial-case"_1 = ((e_1),(e_2))\$ and \$"initial-case"_2 =
-((e_2),(e_1))\$, where the upper half of the column represents the left
-arm of the experiment, and the bottom half represents the right
-arm.<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup></p>
-</div>
-<div class="paragraph">
-<p>I will introduce the shorthands</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-\lbrace\alpha\rbrace &amp;= \alpha - \pi/2\\
-\lbrace\beta\rbrace &amp;= \beta - \pi/2
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>and refer to the final possible light pulses using the unit vectors
-\(e_\alpha\), \(e_\beta\), \(e_{\lbrace\alpha\rbrace}\), and
-\(e_{\lbrace\beta\rbrace}\).<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup> The latter two vectors are for retransmission along the
-complementary path of the respective polarizing beam splitter.</p>
-</div>
-<div class="paragraph">
-<p>One could just go ahead now and analyze the experiment using
-probability theory, but the purpose of this exhibition is to wow the
-proletariat with tensor spaces. In other words, we are mocking
-physicists for believing writing probability theory in a cumbersome
-vector notation performs magical miracles. So we must invent some very
-clever way to write the analysis. It would be helpful if we were even
-cleverer than physicists!</p>
-</div>
-<hr>
-<div class="paragraph">
-<p>It is called the “two-channel” Bell test because there two polarizer
-channels in either arm. There are four polarizer channels in all. The
-respective vectors for the four channels are:</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-e_\alpha &amp;= e_1\cos\alpha + e_2\sin\alpha
-\\
-e_{\lbrace\alpha\rbrace} &amp;= e_1\sin\alpha + e_2\cos\alpha
-\\
-e_\beta &amp;= e_1\cos\beta + e_2\sin\beta
-\\
-e_{\lbrace\beta\rbrace} &amp;= e_1\sin\beta + e_2\cos\beta
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>One can write this as matrices:</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{equation}
-\begin{pmatrix}
-e_\alpha \\ e_{\lbrace\alpha\rbrace} \\
-\hline
-e_\beta \\ e_{\lbrace\beta\rbrace}
-\end{pmatrix} =
-  \begin{pmatrix}
-  \cos\alpha &amp; \sin\alpha \\
-  \sin\alpha &amp; \cos\alpha \\
-  \hline
-  \cos\beta &amp; \sin\beta \\
-  \sin\beta &amp; \cos\beta
-  \end{pmatrix}
-  \begin{pmatrix}e_1\\e_2\end{pmatrix}
-\end{equation}
-</p>
-</div>
-<div class="paragraph">
-<p>Notice that nothing magical happens when we write the same thing with
-matrices as we wrote before without matrices. It does, however, for
-instance, become more obvious how to invert the equations. For</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-\begin{pmatrix}
-  \cos\alpha &amp; \sin\alpha \\
-  \sin\alpha &amp; \cos\alpha
-\end{pmatrix}
-  \begin{pmatrix}
-    \cos\alpha &amp; -\sin\alpha \\
-    -\sin\alpha &amp; \cos\alpha
-  \end{pmatrix} &amp;=
-  {\cos 2\alpha}
-  \begin{pmatrix}
-    1 &amp; 0 \\ 0 &amp; 1
-  \end{pmatrix} \\
-\begin{pmatrix}
-  \cos\beta &amp; \sin\beta \\
-  \sin\beta &amp; \cos\beta
-\end{pmatrix}
-  \begin{pmatrix}
-    \cos\beta &amp; -\sin\beta \\
-    -\sin\beta &amp; \cos\beta
-  \end{pmatrix} &amp;=
-  {\cos 2\beta}
-  \begin{pmatrix}
-    1 &amp; 0 \\ 0 &amp; 1
-  \end{pmatrix}
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>Nothing magical happens. Curiously, however, we get the expressions
-\(\cos 2\alpha\) and \(\cos 2\beta\) that resemble the correlation of
-the Bell test.</p>
-</div>
-<div class="paragraph">
-<p>Perhaps this is a hint that correlations are due to polarization and
-<em>not</em> magical “entanglement.”</p>
-</div>
-<hr>
-<div class="paragraph">
-<p>Let us now do something physicists seem not to have done clearly. They
-have not, because they believe (fallaciously) that their Hilbert
-tensor space represents <em>physical</em> entities. Thus they merely “do the
-calculations” and see what <em>physical</em> entities pop into existence.
-They simply follow liturgical procedures laid out for them decades ago
-by their Church Fathers (Bohr, Pauli, Dirac, von Neumann, etc.). We,
-on the other, know that our spaces represent <em>logical</em> entities. Thus
-we must decide <em>what</em> it is we wish to <em>deduce</em>. Otherwise we have no
-guidance.</p>
-</div>
-<div class="paragraph">
-<p>There is no <em>a priori</em> reason to throw away information about the
-initial state of the experiment. Thus we might want to know the
-probabilities \(P_{11},P_{21},\ldots,P_{42}\) in</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{align*}
-\text{prop}_2 =
- &amp;\
-  P_{11}
-     \begin{pmatrix}
-       e_\alpha &amp; e_1 \\
-       e_\beta &amp; e_2
-     \end{pmatrix} +
-  P_{21}
-     \begin{pmatrix}
-       e_{\lbrace\alpha\rbrace} &amp; e_1 \\
-       e_\beta &amp; e_2
-     \end{pmatrix} +
-  P_{31}
-     \begin{pmatrix}
-       e_\alpha &amp; e_1 \\
-       e_{\lbrace\beta\rbrace} &amp; e_2
-     \end{pmatrix} +
-  P_{41}
-     \begin{pmatrix}
-       e_{\lbrace\alpha\rbrace} &amp; e_1 \\
-       e_{\lbrace\beta\rbrace} &amp; e_2
-     \end{pmatrix}
-     \\ &amp;+
-  P_{12}
-     \begin{pmatrix}
-       e_\alpha &amp; e_2 \\
-       e_\beta &amp; e_1
-     \end{pmatrix} +
-  P_{22}
-     \begin{pmatrix}
-       e_{\lbrace\alpha\rbrace} &amp; e_2 \\
-       e_\beta &amp; e_1
-     \end{pmatrix} +
-  P_{32}
-     \begin{pmatrix}
-       e_\alpha &amp; e_2 \\
-       e_{\lbrace\beta\rbrace} &amp; e_1
-     \end{pmatrix} +
-  P_{42}
-     \begin{pmatrix}
-       e_{\lbrace\alpha\rbrace} &amp; e_2 \\
-       e_{\lbrace\beta\rbrace} &amp; e_1
-     \end{pmatrix}
-\end{align*}
-</p>
-</div>
-<div class="paragraph">
-<p>This proposition is in a tensor space of one more dimension than that
-of \(\text{prop}_1\). Again the upper row represents the left arm of
-the experiment and the lower row represents the right arm. Once the
-probabilities are known, marginalization can find \(P_1,P_2,P_3,P_4\)
-in the following:</p>
-</div>
-<div class="paragraph">
-<p>
-\begin{equation}
-\text{prop}_3 =
-  P_1\begin{pmatrix}
-       e_\alpha \\ e_\beta
-     \end{pmatrix} +
-  P_2\begin{pmatrix}
-       e_{\lbrace\alpha\rbrace} \\ e_\beta
-     \end{pmatrix} +
-  P_3\begin{pmatrix}
-       e_\alpha \\ e_{\lbrace\beta\rbrace}
-     \end{pmatrix} +
-  P_4\begin{pmatrix}
-       e_{\lbrace\alpha\rbrace} \\ e_{\lbrace\beta\rbrace}
-     \end{pmatrix}
-\end{equation}
-</p>
-</div>
-<div class="paragraph">
-<p>Notice that \(\text{prop}_3\) has form similar to what a physicist
-might write for the “entangled state” of Bell test event, before
-someone actually examines the data. Or when the magic occurs may be
-sometime else. Who knows when?</p>
-</div>
-<div class="paragraph">
-<p><em>Action at a distance would be magic.</em> Anyone who feels otherwise
-should not be a scientist. People such as Maxwell, Heaviside, and
-Einstein went to enormous trouble to try to explain the universe in
-action-by-direct-contact terms. In particular, there is absolutely no
-possibility “entangled photons” is consistent with Maxwell’s theory of
-electromagnetism, which is explicitly action-by-contact.</p>
-</div>
-<div class="paragraph">
-<p>It is no wonder they tell us “Quantum physics makes no logical sense,
-and you should not try to understand it.” Physicists imagine “quantum
-physics” is consistent with Maxwell’s theory, though logically it
-cannot be. Only by deliberate ignorance of logic is the consistency
-possible. They are depending on us to be pseudoscientists with purely
-a quasi-religious faith in “quantum” doctrine.</p>
-</div>
-<hr>
-</div>
-<div id="footnotes">
-<hr>
-<div class="footnote" id="_footnotedef_1">
-<a href="#_footnoteref_1">1</a>. Physicists will abuse me for calling “magic” what they call “science,” but they can stuff it. I have finally had it up to my eyeballs with their nonsense, which not only passes for mathematics while being sacred scripture, and for science while being holy revelations, and for engineering while being divine alchemy, but is a threat to world peace. The United States Department of Defense spends how much money on “quantum computers”? University students also are fleeced for millions and millions of dollars. Experimental research is filled with biased data, infuriatingly published despite the absence of nominal values. Bell and CHSH inequalities, and experiments such as Aspect’s, violate even the predictions of quantum mechanics! More recently, “quantum computers” research is starting to fill up with reports of data being <em>deliberately</em> faked. A reason for faking data is obvious: the devices cannot possibly function as predicted by physicists.
-</div>
-<div class="footnote" id="_footnotedef_2">
-<a href="#_footnoteref_2">2</a>. This kind of verification obviously <em>has not</em> been done by the physicists who claim there is “entanglement.” Their quasi-mathematics is packed with errors, which they sometimes accidentally discover but then write off as “loopholes” that somehow might be eliminated by experimental controls.
-</div>
-<div class="footnote" id="_footnotedef_3">
-<a href="#_footnoteref_3">3</a>. Remember that \$"prop"_1\$ represents a proposition, not an “entangled pair.” It says that either of the two initial cases has probability one half.
-</div>
-<div class="footnote" id="_footnotedef_4">
-<a href="#_footnoteref_4">4</a>. I leave it an open question whether a retransmitted photon is polarized along the line of the polarizer or if the vector sum of retransmitted photons averages out as polarized along this line. Either kind of polarizer might suffice in some role.
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-06-17 12:40:14 -0500
+Last updated 2026-06-18 08:38:25 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">
