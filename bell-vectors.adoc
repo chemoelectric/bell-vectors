@@ -4,6 +4,77 @@
 
 :toc:
 
+== Introduction
+
+I have had it up to my eyeballs with physicists and their belief in
+magical instantaneous action at a distance.
+
+Yes, I said _magical_.
+
+Some will fault me for calling what appears in “serious” scientific
+journals (including _Science_, to which I subscribe) as _magic_, but
+it is nothing less. No physicist should believe in action at a
+distance, and if they do they should be looking for another career.
+People like Maxwell and Heaviside went to enormous trouble to base
+physics on action by direct contact. Maxwell’s theory of
+electromagnetism is thus _explicitly_ one of action by direct contact,
+and the electromagnetic field _obey’s Newton’s laws of motion_.
+Einstein’s attempt at a theory of gravity, which as far as I know is
+the best we have so far, is also based _explicitly_ on action by
+direct contact.
+
+Yet we are told by physicists that two or more pulses of light can be
+“entangled,” thus forming a single physical entity spanning any
+distance whatsoever. When one of the “entangled” pulses is resolved
+into a distinct pulse, supposedly the others _instantaneously_, over
+even light years of distance, also resolve into distinct pulses. They
+do this, even though there is no possibility this is logically
+consistent with Maxwell’s theory of electromagnetism. There is no
+possible mathematical resolution to this puzzle, because Maxwell’s
+theory is one of action by direct contact.
+
+No wonder it is, then, that, when I was taught “Engineering Physics”
+at just the same time Alain Aspect was publishing his famous (but in
+multiple ways incorrect) results, I was also told the following: that
+“quantum physics” made no logical sense and I should not try to
+understand it. In fact I was _ordered_ in a loud voice not to try to
+understand it, and _ordered_ “Just do the calculations!”
+
+“Quantum physics” does not deserve the respect of the title “science.”
+It is a quasi-religion and a pseudoscience. Dirac notation is a
+liturgical language for nothing but propositions of probability
+theory, but physicists transmogrify these propositions, by religious
+incantations written in Dirac bras and kets, into “entangled”
+entities.
+
+This pseudoscience not only costs university students and their
+families millions and millions and millions of wasted dollars, but is
+a threat to world peace. How much does the United States Department of
+Defense spend on “quantum computers”? Yet “quantum computers” are
+utter junk that cannot possibly function as physicists predict. We
+should not tolerate this state of affairs. If every “quantum
+physicist” should be laughed out of a job, perhaps it would be only a
+good beginning. There are many more competent persons who can approach
+the same empirical problems using _real_ physics.
+
+Physicists brag that the Dirac notation represents a complex tensor or
+“Hilbert” space, as if this made the notation magical. In fact, this
+is exactly what they believe, that the complex tensor space is a
+magical phase of existence, in which instantaneous action at a
+distance occurs. But such a space is merely a mathematical construct.
+It has no physical meaning. I will demonstrate this below by analyzing
+the two-channel optical Bell test (the Aspect experiment) using not a
+complex tensor space, but something even fancier. I will use a tensor
+space of _multivectors_.
+
+
+
+
+
+
+
+== What follows is old text to be discarded but kept here for reference.
+
 Let us demonstrate that the supposed “entangled pairs” of photons in
 the two-channel optical Bell test are actually ordinary
 plane-polarized photons. The silly Dirac notation is just a liturgical
@@ -544,9 +615,8 @@ $$
 
 This proposition is in a tensor space of one more dimension than that
 of \(\text{prop}_1\). Again the upper row represents the left arm of
-the experiment and the lower row represents the right arm. Once the
-probabilities are known, marginalization can find \(P_1,P_2,P_3,P_4\)
-in the following:
+the experiment and the lower row represents the right arm. If the
+probabilities were known, then we could easily get
 
 $$
 \begin{equation}
@@ -566,10 +636,23 @@ $$
 \end{equation}
 $$
 
-Notice that \(\text{prop}_3\) has form similar to what a physicist
-might write for the “entangled state” of Bell test event, before
-someone actually examines the data. Or when the magic occurs may be
-sometime else. Who knows when?
+by additions:
+
+$$
+\begin{align*}
+P_1 &= P_{11} + P_{12} \\
+P_2 &= P_{21} + P_{22} \\
+P_3 &= P_{31} + P_{32} \\
+P_4 &= P_{41} + P_{42}
+\end{align*}
+$$
+
+Notice that \(text{prop}_2\) and \(\text{prop}_3\) have form similar
+to what a physicist might write for the “entangled state” of an event,
+before someone actually examines the data. Or when the magic occurs
+may be sometime else. Who knows when? What we are reading as
+propositions are points in tensor spaces. Physicists read such points
+as preliminaries to action at a distance.
 
 _Action at a distance would be magic._ Anyone who feels otherwise
 should not be a scientist. People such as Maxwell, Heaviside, and
@@ -586,3 +669,140 @@ possible. They are depending on us to be pseudoscientists with purely
 a quasi-religious faith in “quantum” doctrine.
 
 ***
+
+Probabilities such as \(P_{11}\) are mutual probabilities. What
+\(P_{11}\) represents is the probability of photons being
+retransmitted in the regular channels on both sides of the experiment,
+_and_ that the light source transmitted photons polarized \(e_1\) on
+the left and \(e_2\) on the right.
+
+John S. Bell misinterprets conditional probability as a notation for
+action by direct contact. In reality, conditional probability is _by
+definition_ a shorthand for the ratio of a mutual probability and one
+of its “constituent” probabilities.footnote:[You can look this up in a
+text on probability theory.] In other words:
+
+$$
+\begin{equation}
+\text{P}(\text{prop}_x|\text{prop}_y) =
+  \frac{\text{P}(\text{prop}_x \wedge \text{prop}_y)}{
+          \text{P}(\text{prop}_y)}
+\end{equation}
+$$
+
+This is not a mathematical theorem, nor is it physics. It cannot be
+simplified for the sake of an “encoding.” It is a _definition_.
+Conditional probability is _verbal shorthand for a ratio_. Bestowing
+any meaning of “causality” on it was and is very, very wrong.
+
+The intuition of a conditional probability as the probability of some
+proposition being true, _given that another proposition is true_, is,
+by contrast, correct. The definition was designed so this would be so.
+(One can convince oneself of this by playing with collections of
+objects.) _There is no implication of causality._
+
+Conditional probability is like a chain rule for solving problems in
+probability theory. You break the mutual probability into a
+conditional probability times the “constituent” probability that is in
+the denominator.
+
+Thus we can find \(P_{11}\) by determining the conditional probability
+of \({\begin{pmatrix}e_\alpha\\e_\beta\end{pmatrix}}\) given
+\({\begin{pmatrix}e_1\\e_2\end{pmatrix}}\), then multiplying that by
+the probability of \({\begin{pmatrix}e_1\\e_2\end{pmatrix}}\), which
+is \(1/2\).
+
+But we saw above that the roles of \(e_1\) and \(e_2\) are reversed
+for the complementary channels. Thus simplifications are possible
+right away:
+
+$$
+\begin{align*}
+P_{11} &= P_{42} \\
+P_{21} &= P_{32} \\
+P_{31} &= P_{22} \\
+P_{41} &= P_{12}
+\end{align*}
+$$
+
+Therefore
+
+$$
+\begin{align*}
+P_1 &= P_{11} + P_{12} = P_{42} + P_{41} = P_4 \\
+P_2 &= P_{21} + P_{22} = P_{32} + P_{31} = P_3
+\end{align*}
+$$
+
+and so
+
+$$
+\begin{align*}
+\text{prop}_2 =
+ &\
+  P_{11}
+     \left(
+     \begin{pmatrix}
+       e_\alpha & e_1 \\
+       e_\beta & e_2
+     \end{pmatrix} +
+     \begin{pmatrix}
+       e_{\lbrace\alpha\rbrace} & e_2 \\
+       e_{\lbrace\beta\rbrace} & e_1
+     \end{pmatrix}
+     \right) +
+  P_{21}
+     \left(
+     \begin{pmatrix}
+       e_{\lbrace\alpha\rbrace} & e_1 \\
+       e_\beta & e_2
+     \end{pmatrix} +
+     \begin{pmatrix}
+       e_\alpha & e_2 \\
+       e_{\lbrace\beta\rbrace} & e_1
+     \end{pmatrix}
+     \right) \\ & +
+  P_{31}
+     \left(
+     \begin{pmatrix}
+       e_\alpha & e_1 \\
+       e_{\lbrace\beta\rbrace} & e_2
+     \end{pmatrix} +
+     \begin{pmatrix}
+       e_{\lbrace\alpha\rbrace} & e_2 \\
+       e_\beta & e_1
+     \end{pmatrix}
+     \right) +
+  P_{41}
+     \left(
+     \begin{pmatrix}
+       e_{\lbrace\alpha\rbrace} & e_1 \\
+       e_{\lbrace\beta\rbrace} & e_2
+     \end{pmatrix} +
+     \begin{pmatrix}
+       e_\alpha & e_2 \\
+       e_\beta & e_1
+     \end{pmatrix}
+     \right)
+\end{align*}
+$$
+
+and
+
+$$
+\begin{equation}
+\text{prop}_3 =
+  P_1\left(\begin{pmatrix}
+       e_\alpha \\ e_\beta
+      \end{pmatrix} +
+      \begin{pmatrix}
+       e_{\lbrace\alpha\rbrace} \\ e_{\lbrace\beta\rbrace}
+      \end{pmatrix}\right) +
+  P_2\left(\begin{pmatrix}
+       e_{\lbrace\alpha\rbrace} \\ e_\beta
+      \end{pmatrix} +
+      \begin{pmatrix}
+       e_\alpha \\ e_{\lbrace\beta\rbrace}
+      \end{pmatrix}\right)
+\end{equation}
+$$
