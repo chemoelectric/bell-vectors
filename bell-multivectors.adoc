@@ -489,6 +489,30 @@ P_4 &= \sin^2\zeta \, \cos^2\eta
 \end{align*}
 $$
 
+The tensor \(\text{prop}_2\) is a proposition stating the probability
+of each possible event in the two-channel Bell test experiment, in
+terms of \(\zeta\) and{nbsp}\(\eta\). Be very careful, though, in how
+you evaluate that! Those angles are defined relative to{nbsp}\(e_1\),
+and{nbsp}\(e_1\) is itself pointed in some unstated direction. We do
+not yet have a suitable result.
+
+We do, however, have a result that gives a probability for every
+possible event in the experiment and which can be checked for
+summation to one:
+
+$$
+\begin{align*}
+P_1 + P_2 + P_3 + P_4
+  &= \cos^2\zeta \, \sin^2\eta
+     + \sin^2\zeta \, \sin^2\eta \\
+      &\quad\quad + \cos^2\zeta \, \cos^2\eta
+          + \sin^2\zeta \, \cos^2\eta \\
+  &= (\cos^2\zeta)(\sin^2\eta + \cos^2\eta) \\
+       &\quad\quad + (\sin^2\zeta)(\sin^2\eta + \cos^2\eta) \\
+  &= \cos^2\zeta + \sin^2\zeta \\
+  &= 1
+\end{align*}
+$$
 
 
 
