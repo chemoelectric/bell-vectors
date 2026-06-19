@@ -433,8 +433,37 @@ is the probability \(\text{prop}_x\) is true, given that
 \(\text{prop}_y\) is true.
 
 This means we calculate \(P_1,P_2,P_3,P_4\) by assuming \(e_1\) on the
-left and \(e_2\) on the right. We would have done so, anyway, but it
-is nice to see the mathematics agreeing with us in subtle ways.
+left and \(e_2\) on the right. We would have done so anyway, but it is
+nice to see the mathematics even subtly agreeing with us.
+
+A formula for computing the probabilities is as follows. If
+
+$$
+\begin{equation}
+P_n =
+  \begin{pmatrix}
+    e_{\angle a} & e_1 \\ e_{\angle b} & e_2
+  \end{pmatrix}
+\end{equation}
+$$
+
+then
+
+$$
+\begin{equation}
+P_n = (\text{proj}_{e_{\angle a}}e_1)^2
+         (\text{proj}_{e_{\angle b}}e_2)^2
+\end{equation}
+$$
+
+which is the mutual probability of the top row and bottom row. We do
+not have to do probability theory calculations to eliminate \(e_1\)
+and{nbsp}\(e_2\), because the projection operations already have
+eliminated these vectors. Furthermore, the probability of one
+polarizer setting is obviously not conditional on the probability of
+the other polarizer setting, because both these settings are
+arbitrary. Thus computing \(P_n\) is simply multiplying the
+probabilities of the two rows.
 
 
 
