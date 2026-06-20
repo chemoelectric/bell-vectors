@@ -107,8 +107,8 @@ The sum of any scalars, vectors, and bivectors is called a
 _multivector_.
 
 Let us also introduce the _grade_ operator, which returns the scalar
-(_grade&#x00A0;0_), vector (_grade&#x00A0;1_), or bivector
-(_grade&#x00A0;2_) part of a multivector:
+(_grade&#xA0;0_), vector (_grade&#xA0;1_), or bivector
+(_grade&#xA0;2_) part of a multivector:
 
 $$
 \begin{align*}
@@ -145,8 +145,8 @@ $$
 
 Suppose we want to have an \((x,y)\) coordinate system for geometric
 algebra. We can do this by defining _basis vectors_ \(e_1\) of
-magnitude&#x00A0;1 in the \(x\)-direction and \(e_2\) of
-magnitude&#x00A0;1 in the \(y\)-direction.
+magnitude&#xA0;1 in the \(x\)-direction and \(e_2\) of
+magnitude&#xA0;1 in the \(y\)-direction.
 
 The following are useful identities:
 
@@ -163,13 +163,13 @@ $$
 
 What if you need a unit vector other than one of the basis vectors?
 Complex numbers around the clock face are obtained by rotating the
-number&#x00A0;1: the number&#x00A0;1 is rotated counterclockwise by an
-angle&#x00A0;\(\varphi\) by multiplying it by \(e^{i\varphi} =
+number&#xA0;1: the number&#xA0;1 is rotated counterclockwise by an
+angle&#xA0;\(\varphi\) by multiplying it by \(e^{i\varphi} =
 \cos\varphi + i\sin\varphi\).
 
 There is an analogous operation in geometric algebra. For this
 operation, one uses a _rotor_. To rotate counterclockwise
-by&#x00A0;\(\varphi\), the rotor and its inverse are
+by&#xA0;\(\varphi\), the rotor and its inverse are
 
 $$
 \begin{align*}
@@ -210,7 +210,7 @@ $$
 
 Let us refer to the _CRC Handbook of Mathematical Sciences, 6th
 Edition_, where we find the following double-angle relations on
-page&#x00A0;170:
+page&#xA0;170:
 
 $$
 \begin{align*}
@@ -265,9 +265,9 @@ logically_ as they work, but instead _just do the calculations_.
 Instead of _bras_, _kets_, and whatnot to represent tensors, the
 following will employ such notations as multivectors and matrices.
 Thus a pulse of plane-polarized light oriented along the \(x\)-axis
-can be represented by either \(e_1\) or&#x00A0;\(-e_1\). Let us
-choose&#x00A0;\(e_1\). Similarly, for a pulse of light plane-polarized
-normal to the first, the representation can be&#x00A0;\(e_2\). Now
+can be represented by either \(e_1\) or&#xA0;\(-e_1\). Let us
+choose&#xA0;\(e_1\). Similarly, for a pulse of light plane-polarized
+normal to the first, the representation can be&#xA0;\(e_2\). Now
 suppose there is a light source that transmits a light pulse \(e_1\)
 to the left and \(e_2\) to the right. This initial _proposition_ can
 be written as a matrix thus:
@@ -353,7 +353,7 @@ $$
 $$
 
 Above we have presumed light plane-polarized either \(e_1\)
-or&#x00A0;\(e_2\), and there are two polarizers, the main channel
+or&#xA0;\(e_2\), and there are two polarizers, the main channel
 \(e_\vartheta\) and the complementary channel \(e_{\vartheta+\pi/2}\).
 Therefore there are the following special instances:
 
@@ -458,7 +458,7 @@ $$
 
 which is the mutual probability of the top row and bottom row. We do
 not have to do probability theory calculations to eliminate \(e_1\)
-and&#x00A0;\(e_2\), because the projection operations already have
+and&#xA0;\(e_2\), because the projection operations already have
 eliminated these vectors. Furthermore, the probability of one
 polarizer setting is obviously not conditional on the probability of
 the other polarizer setting, because both these settings are
@@ -491,9 +491,9 @@ $$
 
 The tensor \(\text{prop}_2\) is a proposition stating the probability
 of each possible event in the two-channel Bell test experiment, in
-terms of \(\zeta\) and&#x00A0;\(\eta\). Be very careful, though, in how
-you evaluate that! Those angles are defined relative to&#x00A0;\(e_1\),
-and&#x00A0;\(e_1\) is itself pointed in some unstated direction. We do
+terms of \(\zeta\) and&#xA0;\(\eta\). Be very careful, though, in how
+you evaluate that! Those angles are defined relative to&#xA0;\(e_1\),
+and&#xA0;\(e_1\) is itself pointed in some unstated direction. We do
 not yet have a suitable result.
 
 We do, however, have a result that gives a probability for every
@@ -561,7 +561,7 @@ $$
 
 === Covariance and correlation
 
-If there are two sets of numbers, \(f(i)\) and&#x00A0;\(g(j)\), it can
+If there are two sets of numbers, \(f(i)\) and&#xA0;\(g(j)\), it can
 be useful to compute a figure analogous to the variance, but involving
 both sets. Such a figure is called the _covariance_:
 
@@ -577,7 +577,7 @@ $$
 $$
 
 A dimensionless figure called the _correlation_ is obtained by
-dividing the covariance of \(f\) and&#x00A0;\(g\) by the respective
+dividing the covariance of \(f\) and&#xA0;\(g\) by the respective
 standard deviations:
 
 $$
@@ -589,7 +589,7 @@ $$
 
 For the two-channel optical Bell test, there is a dimensionless figure
 physicists call the “quantum correlation” that equals
-\(-\cos2(\alpha-\beta)\), where \(\alpha\) and&#x00A0;\(\beta\) are the
+\(-\cos2(\alpha-\beta)\), where \(\alpha\) and&#xA0;\(\beta\) are the
 polarizer settings. If physicists are correct, this figure
 characterizes the supposedly “spooky action at a distance” of the
 experiment, and should not be derivable without quantum mechanics. Yet
@@ -651,11 +651,15 @@ which is the probability of a retransmission in the main channel minus
 the probability of a retransmission in the complementary channel.
 
 We would have liked for the expectation to equal zero. So let us use a
-trick.footnote:[_There is no “physics” reason for this trick._ It is
-purely a mathematical maneuver.] Let us solve two problems
-simultaneously. Let us solve also for the case where the initial light
-pulses are \(\begin{pmatrix}e_2&e_1\end{pmatrix}^t\). Towards that
-end, introduce \(\text{prop}_3\) and let us analyze \(\text{prop}_3\):
+trick.footnote:specialization[There is no “physics” reason for
+this trick._ It is a _mathematical_ maneuver to take advantage of
+symmetry, and I would classify it as an example of the
+_specialization_ heuristic discussed in George Pólya’s _How to Solve
+It_. The specialization heuristic will reappear later.] Let us solve
+two problems simultaneously. Let us solve also for the case where the
+initial light pulses are \(\begin{pmatrix}e_2&e_1\end{pmatrix}^t\).
+Towards that end, introduce \(\text{prop}_3\) and let us analyze
+\(\text{prop}_3\):
 
 $$
 \begin{equation}
@@ -693,10 +697,10 @@ P_n' =
   \begin{cases}
   \frac12(\text{proj}_{e_{\angle a}}e_1)^2
          (\text{proj}_{e_{\angle b}}e_2)^2
-         & n=1,2,3,4 \\
+         & \text{if } n\in\{1,2,3,4\} \\
   \frac12(\text{proj}_{e_{\angle a}}e_2)^2
          (\text{proj}_{e_{\angle b}}e_1)^2
-         & n=5,6,7,8
+         & \text{if } n\in\{5,6,7,8\}
   \end{cases}
 \end{equation}
 $$
@@ -742,4 +746,70 @@ deviation, is one. So let us see if we get that. The correlation is
 designed to eliminate the effects of the particular choices for
 functions such as \(f\), but that is what lets us choose our \(f\) to
 give us expectation and standard deviation that are easy to work with.
+
+$$
+\begin{align*}
+2\,\sigma_f^2
+  &= (\cos^2\zeta \, \sin^2\eta)\,(+1 - 0)^2
+     + (\sin^2\zeta \, \sin^2\eta)\,(-1 - 0)^2\\
+     &\quad\quad +(\cos^2\zeta \, \cos^2 \eta)\,(+1 - 0)^2
+                 + (\sin^2\zeta \, \cos^2\eta)\,(-1 - 0)^2\\
+     &\quad\quad\quad  +(\sin^2\zeta \, \cos^2 \eta)\,(+1 - 0)^2
+                       +(\cos^2\zeta \, \cos^2\eta)\,(-1 - 0)^2\\
+     &\quad\quad\quad\quad +(\sin^2\zeta \, \sin^2 \eta)\,(+1 - 0)^2
+                           +(\cos^2\zeta \, \sin^2\eta)\,(-1 - 0)^2
+     = 2
+\end{align*}
+$$
+
+Indeed, then, \(\sigma_f = 1\) as desired.
+
+Define a function \(g\) that is similar to{nbsp}\(f\), but responds to
+the right-hand PBS instead of the left:
+
+$$
+\begin{align*}
+g(M_1) = g(M_2) = g(M_3) &= g(M_4) = +1 \\
+g(M_5) = g(M_6) = g(M_7) &= g(M_8) = -1
+\end{align*}
+$$
+
+The function \(g\), like \(f\), has expectation zero and standard
+deviation one.
+
+=== A naïve attempt to derive the correlation of \(f\) and \(g\)
+
+Because the expectations of \(f\) and&#xA0;\(g\) are both zero, and
+their standard deviations are both one, the covariance and correlation
+of \(f\) and&#xA0;\(g\) are equal to each other. In general they would
+be different at least in that correlation is dimensionless, but our
+\(f\) and&#xA0;\(g\) already are dimensionless.
+
+We can thus compute the covariance and treat the result as the
+correlation.
+
+Let us try to derive the covariance of \(f\) and&#xA0;\(g\) by the
+formula
+
+$$
+\begin{equation}
+\text{cov}_{fg}
+  \stackrel{?}{=} \mkern-10mu
+  \sum_{i,j\in {1,\ldots,8}}
+      \mkern-10mu P_i P_j\,f(M_i) g(M_j)
+\end{equation}
+$$
+
+This results in expressions similar to those of the CHSH inequality.
+
+A little thought makes obvious a very serious problem with this
+approach: the mathematics does not distinguish effects that are due to
+\(\zeta\) from those that are due to \(\eta\). The polarizers could be
+anywhere within the apparatus, and the mathematics cannot tell the
+difference. The resulting expressions are useless.
+
+The CHSH inequality also is useless.
+
+It is necessary to _specialize_ the problem so there is only one
+polarizer setting. (See footnote:specialization[])
 
