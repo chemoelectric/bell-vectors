@@ -651,10 +651,11 @@ which is the probability of a retransmission in the main channel minus
 the probability of a retransmission in the complementary channel.
 
 We would have liked for the expectation to equal zero. So let us use a
-trick. Let us solve two problems simultaneously. Let us solve also for
-the case where the initial light pulses are
-\(\begin{pmatrix}e_2&e_1\end{pmatrix}^t\). Towards that end, introduce
-\(\text{prop}_3\) and let us analyze \(\text{prop}_3\):
+trick.footnote:[_There is no “physics” reason for this trick._ It is
+purely a mathematical maneuver.] Let us solve two problems
+simultaneously. Let us solve also for the case where the initial light
+pulses are \(\begin{pmatrix}e_2&e_1\end{pmatrix}^t\). Towards that
+end, introduce \(\text{prop}_3\) and let us analyze \(\text{prop}_3\):
 
 $$
 \begin{equation}
@@ -735,3 +736,10 @@ $$
                            -\cos^2\zeta \, \sin^2\eta = 0
 \end{align*}
 $$
+
+A desirable value for the variance, and thus also of the standard
+deviation, is one. So let us see if we get that. The correlation is
+designed to eliminate the effects of the particular choices for
+functions such as \(f\), but that is what lets us choose our \(f\) to
+give us expectation and standard deviation that are easy to work with.
+
