@@ -802,7 +802,7 @@ $$
 
 This results in expressions similar to those of the CHSH inequality.
 
-A little thought makes obvious a very serious problem with this
+A little thought makes obvious a tremendous problem with this
 approach: the mathematics does not distinguish effects that are due to
 \(\zeta\) from those that are due to \(\eta\). Polarizers could be
 stuck willy-nilly anywhere within the apparatus, and the mathematics
