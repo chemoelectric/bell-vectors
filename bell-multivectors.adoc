@@ -603,7 +603,7 @@ Alain Aspect and others must be flawed.]
 
 == The correlation of the two-channel optical Bell test
 
-=== A second problem
+=== Solving two problems at once
 
 Let
 
