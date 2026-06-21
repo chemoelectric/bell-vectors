@@ -10,3 +10,8 @@ Also I fault the physics community for endangering world peace with
 their nonfunctioning “quantum computers,” and for bankrupting
 university students while teaching them entangled fairies and
 teleporting unicorns in the name of “physics.”
+
+The text is written in AsciiDoc for translation to HTML/MathJax. A
+browser with JavaScript support is needed to read the article. The
+mathematics is written in latexmath notation, though, so I believe the
+text might easily be revised for other translators.
