@@ -893,43 +893,8 @@ quoted from the _CRC Handbook of Mathematical Sciences_. The last step
 is true because \(\eta=0\).
 
 The result is the same as the “quantum correlation” for the given PBS
-settings. Hopefully this correspondence hints we are on a correct
-path.
-
-=== Generalizing the solution
-
-Now suppose \(\eta\) may be nonzero in the \((x,y)\) coordinate
-system, but we want to solve for light pulses whose planes of
-polarization are aligned with \(\eta\). Then the correlation has the
-same expression as we just got above:
-
-$$
-\begin{equation}
-\rho_{fg} = -\cos2(\zeta - \eta)
-\end{equation}
-$$
-
-Describe the light pulses with unit vectors \(e_1'\)
-and&#xA0;\(e_2'\). As we saw in an earlier subsection on
-<<Rotors,rotors>>, such rotated unit vectors can be broken into
-components, returning the problem to one in terms of the basis
-vectors. But it works the other way around, as well. That is, \(e_1\)
-and&#xA0;\(e_2\) can be broken into components based on \(e_1'\)
-and&#xA0;\(e_2'\).
-
-Some physicist might object we are physically breaking a “photon”
-components without justification, but it is mathematics, not physics,
-that we are engaged in. We are working in linear spaces. We are
-allowed to rotate coordinate systems and break vectors into
-components.
-
-We end up with different “component problems” in which the correlation
-is either \(-\cos2(\zeta - \eta)\) or \(-\cos2(\eta - \zeta)\). But
-these functions are equivalent, so \(\rho_{fg} = -\cos2(\zeta -
-\eta)\).
-
-But there is still one more step before we get a truly satisfying
-expression for the correlation.
+settings. But there is still one more step before we get the complete
+answer.
 
 === Realizing that the particular polarization angle makes no difference
 
@@ -950,14 +915,27 @@ $$
 
 Thus the PBS settings can be rotated together to any new calibration,
 without this rotation changing the form of the correlation. However,
-let us assume there is a standard calibration for PBS. There remains
-an equivalent interpretation: that the polarization angles of the
-initial light pulses do not matter towards the correlation, as long as
-the two planes of polarization are normal to each other.
+let us assume there is a standard calibration for PBS. We cannot
+recalibrated. There remains, however, an equivalent interpretation of
+adding zero this way: that the polarization angles of the initial
+light pulses do not matter towards the correlation, as long as the two
+planes of polarization are normal to each other.
 
-We have thus derived the correlation of the two-channel optical Bell
-test, without quantum mechanics and assuming only action by direct
-contact. The correlation is
+_This is because the correlation has turned out to be a function of
+relative angle, expressed as a cosine._
+
+There is a factor of two that does not appear if the experiment were
+to be done with spin-1 particles. Mathematically, the only difference
+is a change of factor in the independent variables. Physically, I
+would give polarizing filters have the “projection” interpretation
+described above, whereas, perhaps, for spin-1 particles the device
+(such as a Stern-Gerlach magnet) is more like a rectangular window
+that is open only a certain amount. I base this interpretation on some
+investigation of trigonometric identities.
+
+In any instance, the goal is achieved. I have derived the correlation
+of the two-channel optical Bell test, without quantum mechanics and
+assuming only action by direct contact. The correlation is
 
 $$
 \begin{equation}
@@ -971,10 +949,42 @@ of main channels the two PBS.
 This is the same expression as the so-called “quantum correlation,”
 and it is correct, but we can see that “quantum” is a misnomer. It is
 the ordinary correlation from probability theory. It also can be
-derived from classical coherence theory of electromagnetic waves. The
-only thing mysteriously “quantum” about the expression is how any
-“quantum” physicist obtained it by _some_ means,footnote:[Was it John
-von Neumann? Did he at least spell out a method by which to obtain the
-answer mechanically? I ask because I do not know and am curious.]
-given the field’s habit of uncritically publishing fallacious
-solutions.
+derived from classical coherence theory of electromagnetic
+waves.footnote:[This was done by A.&#xA0;F. Kracklauer.] The only
+thing mysteriously “quantum” about the expression is how any “quantum”
+physicist obtained it by _some_ means, given the field’s habit of
+uncritically publishing fallacious semi-solutions such as Bell’s and
+Clauser’s.
+
+Indeed, given the “quantum correlation” as written above, recognizing
+it is invariant as long as the difference \(\alpha-\beta\) is
+preserved, and so, setting \(\beta=0\), one could then work backwards
+and show that no quantum mechanics were necessary for a derivation.
+That no such “reverse derivation” appears in the “elite journals” is
+testimony to the incompetence of a physics community that awarded the
+Nobel prize to Clauser, Aspect, and Zeilinger. Their research ought to
+have been withdrawn, instead.
+
+Bell’s _Speakable and Unspeakable in Quantum Mechanics_ ought to be
+reclassified as “Pathological Science.” It would be one of the most
+pathological examples there were.
+
+Let me finish by repeating my harshness is because the defense of the
+United States is at stake, and because students are being fleeced to
+be taught nonsense. “Collegial politeness” is unaffordable. In any
+case I am not a colleague of “professional physicists,” and they would
+not hesitate to tell me so. I am an amateur with no institutional
+affiliation, my education is in electrical engineering, and my trade
+was computer programming. The politeness is one-way. Gone are the days
+when Michael Faraday or Benjamin Franklin could become Fellow of the
+Royal Society.
+
+An excuse will be made that “specialization is necessary now and you
+cannot be a polymath,” and yet here they are, physicists, pretending
+to be able to do random process analysis without even bothering to
+study the subject. A reasonable conclusion is they believe they are so
+smart they need not study the subject. They can intuit it all
+themselves with their gigantic brains.
+
+If they really were so smart, they would not believe in entangled
+fairies and teleporting unicorns.&#xA0;&#9756;
