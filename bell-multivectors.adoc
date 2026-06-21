@@ -159,6 +159,7 @@ e_1\wedge e_2 &= e_1 e_2 = -e_2 e_1 = -e_2\wedge e_1
 \end{align*}
 $$
 
+[[Rotors]]
 === Rotors
 
 What if you need a unit vector other than one of the basis vectors?
@@ -660,12 +661,12 @@ was derived by questionable means. The reason is that \(\eta\)
 disappears from the answer.)
 
 We would have liked for the expectation to equal zero. So let us use a
-trick.footnote:specialization[There is no “physics” reason for
-this trick._ It is a _mathematical_ maneuver to take advantage of
-symmetry, and I would classify it as an example of the
-_specialization_ heuristic discussed in George Pólya’s _How to Solve
-It_. The specialization heuristic will reappear later.] Let us solve
-two problems simultaneously. Let us solve also for the case where the
+trick.footnote:specialization[_There is no “physics” reason for this
+trick._ It is a _mathematical_ maneuver to take advantage of symmetry,
+and I would classify it as an example of the _specialization_
+heuristic discussed in George Pólya’s _How to Solve It_. The
+specialization heuristic will reappear later.] Let us solve two
+problems simultaneously. Let us solve also for the case where the
 initial light pulses are \(\begin{pmatrix}e_2&e_1\end{pmatrix}^t\).
 Towards that end, introduce \(\text{prop}_3\) and let us analyze
 \(\text{prop}_3\), which has symmetry:
@@ -849,6 +850,7 @@ What works is to _specialize_ the problem so there is only one
 polarizer setting. Then that specialized solution can be generalized.
 (See footnote:specialization[])
 
+[[SpecializedSolution]]
 === A solution for \(\eta=0\)
 
 It \(\eta=0\), then on the right side every \(e_1\) is retransmitted
@@ -894,3 +896,85 @@ The result is the same as the “quantum correlation” for the given PBS
 settings. Hopefully this correspondence hints we are on a correct
 path.
 
+=== Generalizing the solution
+
+Now suppose \(\eta\) may be nonzero in the \((x,y)\) coordinate
+system, but we want to solve for light pulses whose planes of
+polarization are aligned with \(\eta\). Then the correlation has the
+same expression as we just got above:
+
+$$
+\begin{equation}
+\rho_{fg} = -\cos2(\zeta - \eta)
+\end{equation}
+$$
+
+Describe the light pulses with unit vectors \(e_1'\)
+and&#xA0;\(e_2'\). As we saw in an earlier subsection on
+<<Rotors,rotors>>, such rotated unit vectors can be broken into
+components, returning the problem to one in terms of the basis
+vectors. But it works the other way around, as well. That is, \(e_1\)
+and&#xA0;\(e_2\) can be broken into components based on \(e_1'\)
+and&#xA0;\(e_2'\).
+
+Some physicist might object we are physically breaking a “photon”
+components without justification, but it is mathematics, not physics,
+that we are engaged in. We are working in linear spaces. We are
+allowed to rotate coordinate systems and break vectors into
+components.
+
+We end up with different “component problems” in which the correlation
+is either \(-\cos2(\zeta - \eta)\) or \(-\cos2(\eta - \zeta)\). But
+these functions are equivalent, so \(\rho_{fg} = -\cos2(\zeta -
+\eta)\).
+
+But there is still one more step before we get a truly satisfying
+expression for the correlation.
+
+=== Realizing that the particular polarization angle makes no difference
+
+That step is to add zero to \(\zeta - \eta\).
+
+But not just any zero. Let \(\delta\) be any angle whatsoever. Also
+let \(\alpha=\zeta+\delta\) and \(\beta=\eta+\delta\). Then
+
+$$
+\begin{align*}
+-\cos2(\alpha-\beta)
+  &= -\cos2((\zeta+\delta)-(\eta+\delta)) \\
+  &= -\cos2((\zeta-\eta)+(\delta-\delta)) \\
+  &= -\cos2((\zeta-\eta)+0) \\
+  &= -\cos2(\zeta-\eta)
+\end{align*}
+$$
+
+Thus the PBS settings can be rotated together to any new calibration,
+without this rotation changing the form of the correlation. However,
+let us assume there is a standard calibration for PBS. There remains
+an equivalent interpretation: that the polarization angles of the
+initial light pulses do not matter towards the correlation, as long as
+the two planes of polarization are normal to each other.
+
+We have thus derived the correlation of the two-channel optical Bell
+test, without quantum mechanics and assuming only action by direct
+contact. The correlation is
+
+$$
+\begin{equation}
+\rho_{fg} = -\cos2(\alpha-\beta)
+\end{equation}
+$$
+
+where \(\alpha\) and \(\beta\) are the respective axes of transmission
+of main channels the two PBS.
+
+This is the same expression as the so-called “quantum correlation,”
+and it is correct, but we can see that “quantum” is a misnomer. It is
+the ordinary correlation from probability theory. It also can be
+derived from classical coherence theory of electromagnetic waves. The
+only thing mysteriously “quantum” about the expression is how any
+“quantum” physicist obtained it by _some_ means,footnote:[Was it John
+von Neumann? Did he at least spell out a method by which to obtain the
+answer mechanically? I ask because I do not know and am curious.]
+given the field’s habit of uncritically publishing fallacious
+solutions.

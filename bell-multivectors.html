@@ -445,7 +445,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_vector_products_and_grade">Vector products and grade</a></li>
 <li><a href="#_basis_vectors">Basis vectors</a></li>
-<li><a href="#_rotors">Rotors</a></li>
+<li><a href="#Rotors">Rotors</a></li>
 </ul>
 </li>
 <li><a href="#_planes_of_polarization_vectors_and_tensor_spaces">Planes of polarization, vectors, and tensor spaces</a>
@@ -465,7 +465,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_solving_two_problems_at_once">Solving two problems at once</a></li>
 <li><a href="#_a_naïve_attempt_to_derive_the_correlation_of_f_and_g">A naïve attempt to derive the correlation of \(f\) and \(g\)</a></li>
-<li><a href="#_a_solution_for_eta0">A solution for \(\eta=0\)</a></li>
+<li><a href="#SpecializedSolution">A solution for \(\eta=0\)</a></li>
+<li><a href="#_generalizing_the_solution">Generalizing the solution</a></li>
+<li><a href="#_realizing_that_the_particular_polarization_angle_makes_no_difference">Realizing that the particular polarization angle makes no difference</a></li>
 </ul>
 </li>
 </ul>
@@ -659,7 +661,7 @@ e_1\wedge e_2 &amp;= e_1 e_2 = -e_2 e_1 = -e_2\wedge e_1
 </div>
 </div>
 <div class="sect2">
-<h3 id="_rotors">Rotors</h3>
+<h3 id="Rotors">Rotors</h3>
 <div class="paragraph">
 <p>What if you need a unit vector other than one of the basis vectors?
 Complex numbers around the clock face are obtained by rotating the
@@ -1247,8 +1249,8 @@ disappears from the answer.)</p>
 </div>
 <div class="paragraph">
 <p>We would have liked for the expectation to equal zero. So let us use a
-trick.<sup class="footnote" id="_footnote_specialization">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> Let us solve
-two problems simultaneously. Let us solve also for the case where the
+trick.<sup class="footnote" id="_footnote_specialization">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> Let us solve two
+problems simultaneously. Let us solve also for the case where the
 initial light pulses are \(\begin{pmatrix}e_2&amp;e_1\end{pmatrix}^t\).
 Towards that end, introduce \(\text{prop}_3\) and let us analyze
 \(\text{prop}_3\), which has symmetry:</p>
@@ -1464,7 +1466,7 @@ polarizer setting. Then that specialized solution can be generalized.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_a_solution_for_eta0">A solution for \(\eta=0\)</h3>
+<h3 id="SpecializedSolution">A solution for \(\eta=0\)</h3>
 <div class="paragraph">
 <p>It \(\eta=0\), then on the right side every \(e_1\) is retransmitted
 and every \(e_2\) is blocked. Thus the symbol \(\eta\) disappears from
@@ -1517,6 +1519,103 @@ settings. Hopefully this correspondence hints we are on a correct
 path.</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_generalizing_the_solution">Generalizing the solution</h3>
+<div class="paragraph">
+<p>Now suppose \(\eta\) may be nonzero in the \((x,y)\) coordinate
+system, but we want to solve for light pulses whose planes of
+polarization are aligned with \(\eta\). Then the correlation has the
+same expression as we just got above:</p>
+</div>
+<div class="paragraph">
+<p>
+\begin{equation}
+\rho_{fg} = -\cos2(\zeta - \eta)
+\end{equation}
+</p>
+</div>
+<div class="paragraph">
+<p>Describe the light pulses with unit vectors \(e_1'\)
+and&#xA0;\(e_2'\). As we saw in an earlier subsection on
+<a href="#Rotors">rotors</a>, such rotated unit vectors can be broken into
+components, returning the problem to one in terms of the basis
+vectors. But it works the other way around, as well. That is, \(e_1\)
+and&#xA0;\(e_2\) can be broken into components based on \(e_1'\)
+and&#xA0;\(e_2'\).</p>
+</div>
+<div class="paragraph">
+<p>Some physicist might object we are physically breaking a “photon”
+components without justification, but it is mathematics, not physics,
+that we are engaged in. We are working in linear spaces. We are
+allowed to rotate coordinate systems and break vectors into
+components.</p>
+</div>
+<div class="paragraph">
+<p>We end up with different “component problems” in which the correlation
+is either \(-\cos2(\zeta - \eta)\) or \(-\cos2(\eta - \zeta)\). But
+these functions are equivalent, so \(\rho_{fg} = -\cos2(\zeta -
+\eta)\).</p>
+</div>
+<div class="paragraph">
+<p>But there is still one more step before we get a truly satisfying
+expression for the correlation.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_realizing_that_the_particular_polarization_angle_makes_no_difference">Realizing that the particular polarization angle makes no difference</h3>
+<div class="paragraph">
+<p>That step is to add zero to \(\zeta - \eta\).</p>
+</div>
+<div class="paragraph">
+<p>But not just any zero. Let \(\delta\) be any angle whatsoever. Also
+let \(\alpha=\zeta+\delta\) and \(\beta=\eta+\delta\). Then</p>
+</div>
+<div class="paragraph">
+<p>
+\begin{align*}
+-\cos2(\alpha-\beta)
+  &amp;= -\cos2((\zeta+\delta)-(\eta+\delta)) \\
+  &amp;= -\cos2((\zeta-\eta)+(\delta-\delta)) \\
+  &amp;= -\cos2((\zeta-\eta)+0) \\
+  &amp;= -\cos2(\zeta-\eta)
+\end{align*}
+</p>
+</div>
+<div class="paragraph">
+<p>Thus the PBS settings can be rotated together to any new calibration,
+without this rotation changing the form of the correlation. However,
+let us assume there is a standard calibration for PBS. There remains
+an equivalent interpretation: that the polarization angles of the
+initial light pulses do not matter towards the correlation, as long as
+the two planes of polarization are normal to each other.</p>
+</div>
+<div class="paragraph">
+<p>We have thus derived the correlation of the two-channel optical Bell
+test, without quantum mechanics and assuming only action by direct
+contact. The correlation is</p>
+</div>
+<div class="paragraph">
+<p>
+\begin{equation}
+\rho_{fg} = -\cos2(\alpha-\beta)
+\end{equation}
+</p>
+</div>
+<div class="paragraph">
+<p>where \(\alpha\) and \(\beta\) are the respective axes of transmission
+of main channels the two PBS.</p>
+</div>
+<div class="paragraph">
+<p>This is the same expression as the so-called “quantum correlation,”
+and it is correct, but we can see that “quantum” is a misnomer. It is
+the ordinary correlation from probability theory. It also can be
+derived from classical coherence theory of electromagnetic waves. The
+only thing mysteriously “quantum” about the expression is how any
+“quantum” physicist obtained it by <em>some</em> means,<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup>
+given the field’s habit of uncritically publishing fallacious
+solutions.</p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -1526,12 +1625,15 @@ path.</p>
 <a href="#_footnoteref_1">1</a>. I believe you will also find, if you go to the trouble, that violations of Bell or CHSH inequalities are inconsistent with this correlation function, no matter how it be derived. The inequalities are incorrect mathematics. The experimental technique of Alain Aspect and others must be flawed.
 </div>
 <div class="footnote" id="_footnotedef_2">
-<a href="#_footnoteref_2">2</a>. There is no “physics” reason for this trick._ It is a <em>mathematical</em> maneuver to take advantage of symmetry, and I would classify it as an example of the <em>specialization</em> heuristic discussed in George Pólya’s <em>How to Solve It</em>. The specialization heuristic will reappear later.
+<a href="#_footnoteref_2">2</a>. <em>There is no “physics” reason for this trick.</em> It is a <em>mathematical</em> maneuver to take advantage of symmetry, and I would classify it as an example of the <em>specialization</em> heuristic discussed in George Pólya’s <em>How to Solve It</em>. The specialization heuristic will reappear later.
+</div>
+<div class="footnote" id="_footnotedef_3">
+<a href="#_footnoteref_3">3</a>. Was it John von Neumann? Did he at least spell out a method by which to obtain the answer mechanically? I ask because I do not know and am curious.
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-06-20 18:00:54 -0500
+Last updated 2026-06-20 19:53:12 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">
