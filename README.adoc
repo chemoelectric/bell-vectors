@@ -1,1 +1,12 @@
-= This is a work in progress.
+= Analysis of the two-channel optical Bell test, using multivectors and matrices
+
+I derive the correlation of the two-channel optical Bell test, using
+probability theory, geometric algebra, and tensor spaces. No quantum
+mechanics nor any Dirac bra-ket notation are employed. All activity is
+by direct contact. There is no “action at a distance.” Bell, Clauser,
+Aspect, and Zeilinger are wrong.
+
+Also I fault the physics community for endangering world peace with
+their nonfunctioning “quantum computers,” and for bankrupting
+university students while teaching them entangled fairies and
+teleporting unicorns in the name of “physics.”
