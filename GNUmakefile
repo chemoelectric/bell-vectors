@@ -16,7 +16,7 @@ all: $(BELLMVEC).html $(BELLMVEC).pdf
 %.html: %.adoc GNUmakefile
 	$(M4) -Ddoctype_attribute=article \
 	      -Dtoc_attribute=left \
-	      -Dstem_attribute=mathjax \
+	      -Dstem_attribute=latexmath \
 	      $(<) > $(@).tmp.adoc && \
 	$(ASCDOC) -b html5 -S safe $(@).tmp.adoc -o $(@) && \
 	rm $(@).tmp.adoc
