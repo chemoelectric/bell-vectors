@@ -254,36 +254,36 @@ reference book.
 
 === Notations
 
-Physicists often impress the plebeians that they do quantum mechanics
-in a “complex Hilbert tensor space” or as many terms as necessary to
-make it sound like magic. And they really do believe the space is
-magical, and that each point in it represents an instance in the
-magical phase of existence where instantaneous action at a distance
-occurs. Physicists use funny notations that are not used by
-mathematicians and therefore can be read as meaning physical entities
-rather than mathematical ones.
+The “complex tensor space” of quantum mechanics may seem like magic.
+Many do indeed seem to believe the space is magical, and that each
+point in it represents an instance in a phase of existence where
+“instantaneous action at a distance” occurs. Physicists use funny
+notations that are not used by mathematicians and therefore can be
+read as meaning “spooky” (that is, magical) _physical_ entities rather
+than mathematical, purely _verbal_ entities.
 
 We instead will use notations similar to those used by mathematicians.
 My education was in electrical engineering, with some applied
-mathematics, and my work has been in computer programming, so I do not
-write things as “pure” mathematicians do, and cannot read their very
-abstruse papers. But also, despite that electrical engineering is
-applied physics, I do not take anywhere near the liberties that “pure”
+mathematics, and my trade was computer programming, so I do not write
+things as “pure” mathematicians do, and cannot read their abstruse
+papers. But also, despite electrical engineering being applied
+physics, I do not take anywhere near the liberties that “pure”
 physicists do. With the Dirac notation, they have drifted so far from
 mathematical notations that they do not read the notations as
 mathematics, but instead as liturgical incantations about physical
 beings of a mysterious and magical nature. And they do not _reason
 logically_ as they work, but instead _just do the calculations_.
 
-Instead of _bras_, _kets_, and whatnot to represent tensors, the
-following will employ such notations as multivectors and matrices.
-Thus a pulse of plane-polarized light oriented along the \(x\)-axis
-can be represented by either \(e_1\) or&#xA0;\(-e_1\). Let us
-choose&#xA0;\(e_1\). Similarly, for a pulse of light plane-polarized
-normal to the first, the representation can be&#xA0;\(e_2\). Now
-suppose there is a light source that transmits a light pulse \(e_1\)
-to the left and \(e_2\) to the right. This initial _proposition_ can
-be written as a matrix thus:
+Instead of _bras_, _kets_, and whatnot to represent tensors, all the
+mathematics below will employ such notations as multivectors and
+matrices. Thus a pulse of plane-polarized light whose plane of
+polarization is oriented along the \(x\)-axis can be represented by
+either \(e_1\) or&#xA0;\(-e_1\). Let us choose&#xA0;\(e_1\).
+Similarly, for a pulse of light plane-polarized normal to the first,
+the representation can be&#xA0;\(e_2\). Now suppose “There is a light
+source that transmits a light pulse \(e_1\) to the left arm of the
+apparatus and \(e_2\) to the right arm.” This initial _proposition_
+can be written as a matrix thus:
 
 \[
 \begin{equation}
@@ -294,20 +294,21 @@ be written as a matrix thus:
 The upper row of such a matrix represents the left arm of the
 apparatus, and the lower row represents the right arm. The expression
 \(\text{prop}_1\) defines a point in a tensor space. Its meaning is
-_not_ a magical “entangled pair” of light pulses (photons). If we had
+_not_ a magical “entangled pair” of light pulses.footnote:[“Photons,”
+if we want to use a designation with stronger connotations.] If we had
 written the same thing in Dirac notation, that is what it _would have_
-meant. But we wrote the same thing in a different notation, and so it
-does not mean that. Instead it means the proposition, “To the left,
-there is a light pulse polarized in the \(e_1\) direction, and to the
-right there is a light pulse polarized in the \(e_2\) direction.”
+meant, by “quantum physics” doctrine. But we wrote the same thing in a
+different notation that comes with no such doctrine, and thus it does
+not mean that. Instead it means a proposition.
 
 That a point in a space might represent something _verbal_ rather than
 physical may seem strange to many physicists, and difficult to handle.
 If so, that is their problem, not ours. Let them get other jobs. They
-are costing university students a fortune to teach them nonsense, and
+are costing university students a fortune for lessons in nonsense, and
 they are ruining the electronics profession and threatening global
 peace, with “quantum electronics” and “quantum computers” junk that
-cannot possibly work as advertised.
+cannot possibly work as advertised. A “quantum computer” is an
+expensive and unreliable ``WAIT A WHILE THEN PRESS ENTER` device.
 
 Later we will encounter matrices with multiple columns, representing
 propositions in tensor spaces of higher dimensionality, and weighted
@@ -325,15 +326,15 @@ not retransmitted. In that case intensity can be equated with
 probability of retransmission of a light pulse.
 
 Now let us proceed from simple polarizing filters to _polarizing beam
-splitters (PBS)_, also known as _beam-splitting polarizers_. These
-are devices made, one way or another, from two complementary
-polarizing filters, that split a light beam into complementary
-polarizations. In one channel the light will be polarized along the
-main axis of transmission, and in the other channel along the
-complementary axis, which is normal to the main axis. Ideally, the
-intensity of light in the complementary channel is reduced by the
-factor \(\sin^2(\vartheta-\varphi)\), so the total intensity is not
-lost. Similarly, for our probabilistic interpretation, we will make an
+splitters (PBS)_, also known as _beam-splitting polarizers_. These are
+devices made, one way or another, from two complementary polarizing
+filters, which split impinging light into complementary polarizations.
+In one output channel the light will be polarized along the main axis
+of transmission, and in the other channel along the complementary
+axis, which is normal to the main axis. Ideally, the intensity of
+light in the complementary channel is reduced by the factor
+\(\sin^2(\vartheta-\varphi)\), so the total intensity is not lost.
+Similarly, for our probabilistic interpretation, we will make an
 idealistic assumption: that the light pulse is retransmitted in either
 the main or the complementary channel, but never lost. The probability
 of retransmission is \( \cos^2 (\vartheta - \varphi) + \sin^2
@@ -365,8 +366,8 @@ product of this projection with itself:
 \end{equation}
 \]
 
-Above we have presumed light plane-polarized either \(e_1\)
-or&#xA0;\(e_2\), and there are two polarizers, the main channel
+The initial light pulses are plane-polarized \(e_1\) and&#xA0;\(e_2\),
+and in a PBS there are two polarizers: the main channel
 \(e_\vartheta\) and the complementary channel \(e_{\vartheta+\pi/2}\).
 Therefore there are the following special instances:
 
@@ -391,9 +392,9 @@ The apparatus of the experiment has two PBS. Let us call the angles of
 the main axes of transmission \(\zeta\) (zeta) for the left PBS and
 \(\eta\) (eta) for the right PBS. For the complementary channels, the
 angles are \(\zeta+\pi/2\) and \(\eta+\pi/2\). Thus on the left side
-will be either light pulse retransmitted can be described either as
-\(e_\zeta\) or \(e_{\zeta+\pi/2}\), depending on which channel was
-taken. Similarly, on the right side, the retransmitted light pulse is
+the retransmitted light pulse can be described either as \(e_\zeta\)
+or \(e_{\zeta+\pi/2}\), depending on which channel was taken.
+Similarly, on the right side, the retransmitted light pulse is
 \(e_\eta\) or \(e_{\eta+\pi/2}\).
 
 Thus the facts of the experiment, taking into account _everything_
@@ -415,6 +416,9 @@ probabilities of the possibilities represented by the matrix columns:
 Again the upper rows represent the left side of the apparatus and the
 lower rows represent the right side.
 
+(A tongue-twisting exercise for the reader: Can you rephrase
+\(\text{prop}_2\) in ordinary language?)
+
 The probability of \(\text{prop}_1 =
 {\begin{pmatrix}e_1&e_2\end{pmatrix}}^t\) is one, and thus each of
 \(P_1,P_2,P_3,P_4\) equals the conditional probability of the left
@@ -433,23 +437,29 @@ probability,
 where in this case \( \text{P}(\text{prop}_y) =
 \text{P}(\text{prop}_1) = 1 \).
 
-Although John S. Bell famously interpreted conditional probability as
-meaning “no action at a distance,” and uses this interpretation to
-justify eliding facts from the EPR-B experiment (whereas we, above,
-made certain to include _every fact_), conditional probability _has no
-such meaning_. The _mathematical definition_ of conditional
+Although John S. Bell famously interpreted conditional probability to
+mean “no action at a distance,”footnote:[J.{nbsp}S. Bell, _Bertlmann’s
+socks and the nature of reality_, Preprint CERN-TH-2926, CERN, Geneva,
+1980. https://cds.cern.ch/record/142461/files/198009299.pdf] and used
+this interpretation to elide facts from the EPR-B experiment (whereas
+we made certain to include _every fact_), conditional probability _has
+no such meaning_. The _mathematical definition_ of conditional
 probability is _exactly_ what is written above. You can look this up
-in a text on probability theory. You can also verify, though, by
-playing with collections of ordinary objects, that conditional
-probability as defined above has the following intuitive meaning: it
-is the probability \(\text{prop}_x\) is true, given that
+in a text on probability theory. You can also verify, by playing with
+collections of ordinary objects, that conditional probability as
+defined above has _the following_ intuitive meaning (rather than
+Bell’s): it is the probability \(\text{prop}_x\) is true, given that
 \(\text{prop}_y\) is true.
 
 This means we calculate \(P_1,P_2,P_3,P_4\) by assuming \(e_1\) on the
 left and \(e_2\) on the right. We would have done so anyway, but it is
 nice to see the mathematics even subtly agreeing with us.
 
-A formula for computing the probabilities is as follows. If
+Nothing in the formalism implies, as Bell assumes it does, anything
+about detections in opposite arms of the experiment affecting each
+other.
+
+A tentative formula for computing the probabilities is as follows. If
 
 \[
 \begin{equation}
@@ -469,18 +479,18 @@ P_n \stackrel{?}{=} (\text{proj}_{e_{\angle a}}e_1)^2
 \end{equation}
 \]
 
-which is the mutual probability of the top row and bottom row. We do
-not have to do probability theory calculations to eliminate \(e_1\)
+which is a mutual probability of the top row and bottom row. We do not
+have to do probability theory calculations to eliminate \(e_1\)
 and&#xA0;\(e_2\), because the projection operations already have
 eliminated these vectors. Furthermore, the probability of one
 polarizer setting would seem not to be conditional on the probability
 of the other polarizer setting, because both these settings are
-arbitrary. Thus computing \(P_n\) is simply multiplying the
+arbitrary. Thus computing \(P_n\) might simply be multiplying the
 probabilities of the two rows.
 
-Or is it? We will see later on that it is not so simple. In
-probability theory, when there seems to be an impediment, there
-probably _is_ an impediment.
+Or is it? We will see later on it is not so simple. In probability
+theory, where there seems to be an impediment, there probably _is_ an
+impediment.
 
 Now \(\text{prop}_2\) can be written out more fully, but with doubt
 that what we are writing is correct:
@@ -510,9 +520,9 @@ P_4 &\stackrel{?}{=} \sin^2\zeta \, \cos^2\eta
 The tensor \(\text{prop}_2\) is a proposition stating the probability
 of each possible event in the two-channel Bell test experiment, in
 terms of \(\zeta\) and&#xA0;\(\eta\). Be very careful, though, in how
-you evaluate that! Those angles are defined relative to&#xA0;\(e_1\),
-and&#xA0;\(e_1\) is itself pointed in some unstated direction. We do
-not yet have a suitable result.
+you evaluate that! Those angles are defined relative to&#xA0;\(e_1\).
+But \(e_1\) itself points in some unstated direction. So how would you
+know whether the PBS were oriented correctly?
 
 We do, however, have a result that gives a probability for every
 possible event in the experiment and which can be checked for
@@ -521,7 +531,7 @@ summation to one:
 \[
 \begin{align*}
 P_1 + P_2 + P_3 + P_4
-  &= \cos^2\zeta \, \sin^2\eta
+  &\stackrel{?}{=} \cos^2\zeta \, \sin^2\eta
      + \sin^2\zeta \, \sin^2\eta \\
       &\mkern2em + \cos^2\zeta \, \cos^2\eta
           + \sin^2\zeta \, \cos^2\eta \\

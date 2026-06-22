@@ -772,22 +772,21 @@ reference book.</p>
 <div class="sect2">
 <h3 id="_notations">Notations</h3>
 <div class="paragraph">
-<p>Physicists often impress the plebeians that they do quantum mechanics
-in a “complex Hilbert tensor space” or as many terms as necessary to
-make it sound like magic. And they really do believe the space is
-magical, and that each point in it represents an instance in the
-magical phase of existence where instantaneous action at a distance
-occurs. Physicists use funny notations that are not used by
-mathematicians and therefore can be read as meaning physical entities
-rather than mathematical ones.</p>
+<p>The “complex tensor space” of quantum mechanics may seem like magic.
+Many do indeed seem to believe the space is magical, and that each
+point in it represents an instance in a phase of existence where
+“instantaneous action at a distance” occurs. Physicists use funny
+notations that are not used by mathematicians and therefore can be
+read as meaning “spooky” (that is, magical) <em>physical</em> entities rather
+than mathematical, purely <em>verbal</em> entities.</p>
 </div>
 <div class="paragraph">
 <p>We instead will use notations similar to those used by mathematicians.
 My education was in electrical engineering, with some applied
-mathematics, and my work has been in computer programming, so I do not
-write things as “pure” mathematicians do, and cannot read their very
-abstruse papers. But also, despite that electrical engineering is
-applied physics, I do not take anywhere near the liberties that “pure”
+mathematics, and my trade was computer programming, so I do not write
+things as “pure” mathematicians do, and cannot read their abstruse
+papers. But also, despite electrical engineering being applied
+physics, I do not take anywhere near the liberties that “pure”
 physicists do. With the Dirac notation, they have drifted so far from
 mathematical notations that they do not read the notations as
 mathematics, but instead as liturgical incantations about physical
@@ -795,15 +794,16 @@ beings of a mysterious and magical nature. And they do not <em>reason
 logically</em> as they work, but instead <em>just do the calculations</em>.</p>
 </div>
 <div class="paragraph">
-<p>Instead of <em>bras</em>, <em>kets</em>, and whatnot to represent tensors, the
-following will employ such notations as multivectors and matrices.
-Thus a pulse of plane-polarized light oriented along the \(x\)-axis
-can be represented by either \(e_1\) or&#xA0;\(-e_1\). Let us
-choose&#xA0;\(e_1\). Similarly, for a pulse of light plane-polarized
-normal to the first, the representation can be&#xA0;\(e_2\). Now
-suppose there is a light source that transmits a light pulse \(e_1\)
-to the left and \(e_2\) to the right. This initial <em>proposition</em> can
-be written as a matrix thus:</p>
+<p>Instead of <em>bras</em>, <em>kets</em>, and whatnot to represent tensors, all the
+mathematics below will employ such notations as multivectors and
+matrices. Thus a pulse of plane-polarized light whose plane of
+polarization is oriented along the \(x\)-axis can be represented by
+either \(e_1\) or&#xA0;\(-e_1\). Let us choose&#xA0;\(e_1\).
+Similarly, for a pulse of light plane-polarized normal to the first,
+the representation can be&#xA0;\(e_2\). Now suppose “There is a light
+source that transmits a light pulse \(e_1\) to the left arm of the
+apparatus and \(e_2\) to the right arm.” This initial <em>proposition</em>
+can be written as a matrix thus:</p>
 </div>
 <div class="paragraph">
 <p>\[
@@ -816,21 +816,21 @@ be written as a matrix thus:</p>
 <p>The upper row of such a matrix represents the left arm of the
 apparatus, and the lower row represents the right arm. The expression
 \(\text{prop}_1\) defines a point in a tensor space. Its meaning is
-<em>not</em> a magical “entangled pair” of light pulses (photons). If we had
+<em>not</em> a magical “entangled pair” of light pulses.<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> If we had
 written the same thing in Dirac notation, that is what it <em>would have</em>
-meant. But we wrote the same thing in a different notation, and so it
-does not mean that. Instead it means the proposition, “To the left,
-there is a light pulse polarized in the \(e_1\) direction, and to the
-right there is a light pulse polarized in the \(e_2\) direction.”</p>
+meant, by “quantum physics” doctrine. But we wrote the same thing in a
+different notation that comes with no such doctrine, and thus it does
+not mean that. Instead it means a proposition.</p>
 </div>
 <div class="paragraph">
 <p>That a point in a space might represent something <em>verbal</em> rather than
 physical may seem strange to many physicists, and difficult to handle.
 If so, that is their problem, not ours. Let them get other jobs. They
-are costing university students a fortune to teach them nonsense, and
+are costing university students a fortune for lessons in nonsense, and
 they are ruining the electronics profession and threatening global
 peace, with “quantum electronics” and “quantum computers” junk that
-cannot possibly work as advertised.</p>
+cannot possibly work as advertised. A “quantum computer” is an
+expensive and unreliable <code>WAIT A WHILE THEN PRESS ENTER</code> device.</p>
 </div>
 <div class="paragraph">
 <p>Later we will encounter matrices with multiple columns, representing
@@ -852,15 +852,15 @@ probability of retransmission of a light pulse.</p>
 </div>
 <div class="paragraph">
 <p>Now let us proceed from simple polarizing filters to <em>polarizing beam
-splitters (PBS)</em>, also known as <em>beam-splitting polarizers</em>. These
-are devices made, one way or another, from two complementary
-polarizing filters, that split a light beam into complementary
-polarizations. In one channel the light will be polarized along the
-main axis of transmission, and in the other channel along the
-complementary axis, which is normal to the main axis. Ideally, the
-intensity of light in the complementary channel is reduced by the
-factor \(\sin^2(\vartheta-\varphi)\), so the total intensity is not
-lost. Similarly, for our probabilistic interpretation, we will make an
+splitters (PBS)</em>, also known as <em>beam-splitting polarizers</em>. These are
+devices made, one way or another, from two complementary polarizing
+filters, which split impinging light into complementary polarizations.
+In one output channel the light will be polarized along the main axis
+of transmission, and in the other channel along the complementary
+axis, which is normal to the main axis. Ideally, the intensity of
+light in the complementary channel is reduced by the factor
+\(\sin^2(\vartheta-\varphi)\), so the total intensity is not lost.
+Similarly, for our probabilistic interpretation, we will make an
 idealistic assumption: that the light pulse is retransmitted in either
 the main or the complementary channel, but never lost. The probability
 of retransmission is \( \cos^2 (\vartheta - \varphi) + \sin^2
@@ -897,8 +897,8 @@ product of this projection with itself:</p>
 \]</p>
 </div>
 <div class="paragraph">
-<p>Above we have presumed light plane-polarized either \(e_1\)
-or&#xA0;\(e_2\), and there are two polarizers, the main channel
+<p>The initial light pulses are plane-polarized \(e_1\) and&#xA0;\(e_2\),
+and in a PBS there are two polarizers: the main channel
 \(e_\vartheta\) and the complementary channel \(e_{\vartheta+\pi/2}\).
 Therefore there are the following special instances:</p>
 </div>
@@ -925,9 +925,9 @@ Therefore there are the following special instances:</p>
 the main axes of transmission \(\zeta\) (zeta) for the left PBS and
 \(\eta\) (eta) for the right PBS. For the complementary channels, the
 angles are \(\zeta+\pi/2\) and \(\eta+\pi/2\). Thus on the left side
-will be either light pulse retransmitted can be described either as
-\(e_\zeta\) or \(e_{\zeta+\pi/2}\), depending on which channel was
-taken. Similarly, on the right side, the retransmitted light pulse is
+the retransmitted light pulse can be described either as \(e_\zeta\)
+or \(e_{\zeta+\pi/2}\), depending on which channel was taken.
+Similarly, on the right side, the retransmitted light pulse is
 \(e_\eta\) or \(e_{\eta+\pi/2}\).</p>
 </div>
 <div class="paragraph">
@@ -953,6 +953,10 @@ probabilities of the possibilities represented by the matrix columns:</p>
 lower rows represent the right side.</p>
 </div>
 <div class="paragraph">
+<p>(A tongue-twisting exercise for the reader: Can you rephrase
+\(\text{prop}_2\) in ordinary language?)</p>
+</div>
+<div class="paragraph">
 <p>The probability of \(\text{prop}_1 =
 {\begin{pmatrix}e_1&amp;e_2\end{pmatrix}}^t\) is one, and thus each of
 \(P_1,P_2,P_3,P_4\) equals the conditional probability of the left
@@ -974,16 +978,16 @@ probability,</p>
 \text{P}(\text{prop}_1) = 1 \).</p>
 </div>
 <div class="paragraph">
-<p>Although John S. Bell famously interpreted conditional probability as
-meaning “no action at a distance,” and uses this interpretation to
-justify eliding facts from the EPR-B experiment (whereas we, above,
-made certain to include <em>every fact</em>), conditional probability <em>has no
-such meaning</em>. The <em>mathematical definition</em> of conditional
+<p>Although John S. Bell famously interpreted conditional probability to
+mean “no action at a distance,”<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup> and used
+this interpretation to elide facts from the EPR-B experiment (whereas
+we made certain to include <em>every fact</em>), conditional probability <em>has
+no such meaning</em>. The <em>mathematical definition</em> of conditional
 probability is <em>exactly</em> what is written above. You can look this up
-in a text on probability theory. You can also verify, though, by
-playing with collections of ordinary objects, that conditional
-probability as defined above has the following intuitive meaning: it
-is the probability \(\text{prop}_x\) is true, given that
+in a text on probability theory. You can also verify, by playing with
+collections of ordinary objects, that conditional probability as
+defined above has <em>the following</em> intuitive meaning (rather than
+Bell’s): it is the probability \(\text{prop}_x\) is true, given that
 \(\text{prop}_y\) is true.</p>
 </div>
 <div class="paragraph">
@@ -992,7 +996,12 @@ left and \(e_2\) on the right. We would have done so anyway, but it is
 nice to see the mathematics even subtly agreeing with us.</p>
 </div>
 <div class="paragraph">
-<p>A formula for computing the probabilities is as follows. If</p>
+<p>Nothing in the formalism implies, as Bell assumes it does, anything
+about detections in opposite arms of the experiment affecting each
+other.</p>
+</div>
+<div class="paragraph">
+<p>A tentative formula for computing the probabilities is as follows. If</p>
 </div>
 <div class="paragraph">
 <p>\[
@@ -1016,19 +1025,19 @@ P_n \stackrel{?}{=} (\text{proj}_{e_{\angle a}}e_1)^2
 \]</p>
 </div>
 <div class="paragraph">
-<p>which is the mutual probability of the top row and bottom row. We do
-not have to do probability theory calculations to eliminate \(e_1\)
+<p>which is a mutual probability of the top row and bottom row. We do not
+have to do probability theory calculations to eliminate \(e_1\)
 and&#xA0;\(e_2\), because the projection operations already have
 eliminated these vectors. Furthermore, the probability of one
 polarizer setting would seem not to be conditional on the probability
 of the other polarizer setting, because both these settings are
-arbitrary. Thus computing \(P_n\) is simply multiplying the
+arbitrary. Thus computing \(P_n\) might simply be multiplying the
 probabilities of the two rows.</p>
 </div>
 <div class="paragraph">
-<p>Or is it? We will see later on that it is not so simple. In
-probability theory, when there seems to be an impediment, there
-probably <em>is</em> an impediment.</p>
+<p>Or is it? We will see later on it is not so simple. In probability
+theory, where there seems to be an impediment, there probably <em>is</em> an
+impediment.</p>
 </div>
 <div class="paragraph">
 <p>Now \(\text{prop}_2\) can be written out more fully, but with doubt
@@ -1063,9 +1072,9 @@ P_4 &amp;\stackrel{?}{=} \sin^2\zeta \, \cos^2\eta
 <p>The tensor \(\text{prop}_2\) is a proposition stating the probability
 of each possible event in the two-channel Bell test experiment, in
 terms of \(\zeta\) and&#xA0;\(\eta\). Be very careful, though, in how
-you evaluate that! Those angles are defined relative to&#xA0;\(e_1\),
-and&#xA0;\(e_1\) is itself pointed in some unstated direction. We do
-not yet have a suitable result.</p>
+you evaluate that! Those angles are defined relative to&#xA0;\(e_1\).
+But \(e_1\) itself points in some unstated direction. So how would you
+know whether the PBS were oriented correctly?</p>
 </div>
 <div class="paragraph">
 <p>We do, however, have a result that gives a probability for every
@@ -1076,7 +1085,7 @@ summation to one:</p>
 <p>\[
 \begin{align*}
 P_1 + P_2 + P_3 + P_4
-  &amp;= \cos^2\zeta \, \sin^2\eta
+  &amp;\stackrel{?}{=} \cos^2\zeta \, \sin^2\eta
      + \sin^2\zeta \, \sin^2\eta \\
       &amp;\mkern2em + \cos^2\zeta \, \cos^2\eta
           + \sin^2\zeta \, \cos^2\eta \\
@@ -1130,7 +1139,7 @@ ignored by squaring the difference.</p>
 \text{Var}(f) = \sigma_f^2
               &amp;= \text{E}\left( (f - \text{E}(f))^2 \right) \\
               &amp;= \sum_i \left( P_i \, \left( f(i)
-                        - \sum_{i'}P_{i'} f(i') \right)^2 \right)
+                        - \sum_{i'}P_{i'} f(i) \right)^2 \right)
 \end{align*}
 \]</p>
 </div>
@@ -1187,7 +1196,7 @@ characterizes the supposedly “spooky action at a distance” of the
 experiment, and should not be derivable without quantum mechanics. Yet
 below we will derive it as the ordinary correlation, even though we
 use no quantum mechanics and obviously assume only action by direct
-contact.<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup></p>
+contact.<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup></p>
 </div>
 </div>
 </div>
@@ -1259,7 +1268,7 @@ disappears from the answer.)</p>
 </div>
 <div class="paragraph">
 <p>We would have liked for the expectation to equal zero. So let us use a
-trick.<sup class="footnote" id="_footnote_specialization">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup> Let us solve two problems
+trick.<sup class="footnote" id="_footnote_specialization">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup> Let us solve two problems
 simultaneously. Let us solve also for the case where the initial light
 pulses are \(\begin{pmatrix}e_2&amp;e_1\end{pmatrix}^t\). Towards that
 end, introduce \(\text{prop}_3\) and let us analyze \(\text{prop}_3\),
@@ -1472,7 +1481,7 @@ I work at it until an effective method comes to mind.</p>
 <div class="paragraph">
 <p>What works is to <em>specialize</em> the problem so there is only one
 polarizer setting. Then that specialized solution can be generalized.
-(See <sup class="footnoteref">[<a class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup>)</p>
+(See <sup class="footnoteref">[<a class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup>)</p>
 </div>
 </div>
 <div class="sect2">
@@ -1593,7 +1602,7 @@ of main channels the two PBS.</p>
 and it is correct, but we can see that “quantum” is a misnomer. It is
 the ordinary correlation from probability theory. It also can be
 derived from classical coherence theory of electromagnetic
-waves.<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup> The only thing mysteriously
+waves.<sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup> The only thing mysteriously
 “quantum” about the expression is how any “quantum” physicist obtained
 it by <em>some</em> means, given the field’s habit of uncritically publishing
 fallacious semi-solutions such as Bell’s and Clauser’s.</p>
@@ -1631,7 +1640,7 @@ to be able to do random process analysis without even bothering to
 study the subject. A reasonable conclusion is they believe they are so
 smart they need not study the subject. That they can intuit it all
 with their gigantic brains. And that Benjamin Franklin and Michael
-Faraday were too stupid to do what today’s physicists do.<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup></p>
+Faraday were too stupid to do what today’s physicists do.<sup class="footnote">[<a id="_footnoteref_7" class="footnote" href="#_footnotedef_7" title="View footnote.">7</a>]</sup></p>
 </div>
 <div class="paragraph">
 <p>If they really were so smart, they would not believe in entangled
@@ -1653,21 +1662,27 @@ physicists have made.&#xA0;\(\square\)</p>
 <a href="#_footnoteref_1">1</a>. W.&#160;H. Beyer,&#160;ed., <em>CRC Handbook of Mathematical Sciences</em>, 6th&#160;ed., CRC&#160;Press, Boca Raton,&#160;FL, 1987.
 </div>
 <div class="footnote" id="_footnotedef_2">
-<a href="#_footnoteref_2">2</a>. I believe you will also find, if you go to the trouble, that violations of Bell or CHSH inequalities are inconsistent with this correlation function, no matter how it be derived. The inequalities are incorrect mathematics. The experimental technique of Alain Aspect and others must be flawed.
+<a href="#_footnoteref_2">2</a>. “Photons,” if we want to use a designation with stronger connotations.
 </div>
 <div class="footnote" id="_footnotedef_3">
-<a href="#_footnoteref_3">3</a>. <em>There is no “physics” reason for this trick.</em> It is a <em>mathematical</em> maneuver to take advantage of symmetry, and I would classify it as an example of the <em>specialization</em> heuristic discussed by George Pólya. (G. Pólya, <em>How to Solve It: A New Aspect of Mathematical Method</em>, expanded Princeton Science Library&#160;ed., Princeton University Press, Princeton,&#160;NJ, 2004, With a foreword by John&#160;H. Conway.) The specialization heuristic will reappear later.
+<a href="#_footnoteref_3">3</a>. J.&#160;S. Bell, <em>Bertlmann’s socks and the nature of reality</em>, Preprint CERN-TH-2926, CERN, Geneva, 1980. <a href="https://cds.cern.ch/record/142461/files/198009299.pdf" class="bare">https://cds.cern.ch/record/142461/files/198009299.pdf</a>
 </div>
 <div class="footnote" id="_footnotedef_4">
-<a href="#_footnoteref_4">4</a>. This was done by A.&#xA0;F. Kracklauer. Of course such coherence calculations are similar to ours, except they are done with continuous probability or measure theory.
+<a href="#_footnoteref_4">4</a>. I believe you will also find, if you go to the trouble, that violations of Bell or CHSH inequalities are inconsistent with this correlation function, no matter how it be derived. The inequalities are incorrect mathematics. The experimental technique of Alain Aspect and others must be flawed.
 </div>
 <div class="footnote" id="_footnotedef_5">
-<a href="#_footnoteref_5">5</a>. As if either of these Fellows of past centuries would have run to <em>Nature</em>, with a paper declaring “faster than light motion” because he had a screw loose. Desiring knowledge rather than a Nobel prize, they would have overhauled their equipment.
+<a href="#_footnoteref_5">5</a>. <em>There is no “physics” reason for this trick.</em> It is a <em>mathematical</em> maneuver to take advantage of symmetry, and I would classify it as an example of the <em>specialization</em> heuristic discussed by George Pólya. (G. Pólya, <em>How to Solve It: A New Aspect of Mathematical Method</em>, expanded Princeton Science Library&#160;ed., Princeton University Press, Princeton,&#160;NJ, 2004, With a foreword by John&#160;H. Conway.) The specialization heuristic will reappear later.
+</div>
+<div class="footnote" id="_footnotedef_6">
+<a href="#_footnoteref_6">6</a>. This was done by A.&#xA0;F. Kracklauer. Of course such coherence calculations are similar to ours, except they are done with continuous probability or measure theory.
+</div>
+<div class="footnote" id="_footnotedef_7">
+<a href="#_footnoteref_7">7</a>. As if either of these Fellows of past centuries would have run to <em>Nature</em>, with a paper declaring “faster than light motion” because he had a screw loose. Desiring knowledge rather than a Nobel prize, they would have overhauled their equipment.
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-06-22 08:28:57 -0500
+Last updated 2026-06-22 09:55:10 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">
