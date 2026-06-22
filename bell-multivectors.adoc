@@ -585,10 +585,11 @@ P_1 + P_2 + P_3 + P_4
 Let us make a small diversion onto topics of probability theory. The
 first topic will be _expectation_.
 
-An expectation is an average weighted by probabilities, by frequencies
-of occurrence, or by some similar fractions that add up to one. For
-example, suppose there are probabilities \(P_i\) that add to one, and
-associated numbers \(f(i)\). Then the expectation of \(f\) is
+In discrete probability theory (requiring no integration), an
+expectation is an average weighted by probabilities that add up
+to one. For example, suppose there are probabilities \(P_i\) that add
+to one, and associated numbers \(f(i)\). Then the expectation of \(f\)
+is
 
 \[
 \begin{equation}
@@ -656,13 +657,15 @@ The sign of a correlation depends on the definitions of \(f\)
 and&#xA0;\(g\) and tends to vary by author.
 
 For the two-channel optical Bell test, there is a dimensionless figure
-physicists call the “quantum correlation” that equals
-\(\pm\cos2(\alpha-\beta)\), where \(\alpha\) and&#xA0;\(\beta\) are
-the PBS settings. If physicists are correct, this figure characterizes
-the supposedly “spooky action at a distance” of the experiment, and
-should not be derivable without quantum mechanics. Yet below we will
-derive it as the ordinary correlation, even though we use no quantum
-mechanics and obviously assume only action by direct
+physicists call the “quantum correlation” that equals \(\pm\cos 2
+\mkern1mu(\alpha-\beta)\), where \(\alpha\) and&#xA0;\(\beta\) are the
+PBS settings. If physicists are correct, this figure characterizes the
+preternatural “action at a distance” of the experiment, and should not
+be derivable without quantum mechanics. Only by recitation of the
+correct liturgy can the magic occur. No less than the Nobel prize was
+awarded for this wizardry. Yet below we will derive \(-\cos 2
+\mkern1mu(\alpha-\beta)\) as the ordinary correlation, even though we
+use no quantum mechanics and assume only action by direct
 contact.footnote:[I believe you will also find, if you go to the
 trouble, that violations of Bell or CHSH inequalities are inconsistent
 with this correlation function, no matter how it be derived. The
