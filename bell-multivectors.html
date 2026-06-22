@@ -562,11 +562,12 @@ space, but something even fancier. I will use a tensor space of
 <div class="paragraph">
 <p>Ordinary Gibbs-Heaviside vectors are nice enough, but, like
 physicists, we want to impress the plebeians. Physicists do this by
-using complex numbers to represent rotations in a plane, but are not
-complex numbers are more properly roots of univariate real
-polynomials? A much more general set of methods is <em>geometric
-algebra</em>, from which we will draw just a miniscule subset of what it
-contains and can do.</p>
+using complex numbers to represent rotations in a plane. So did I, as
+a student of electrical engineering, use complex numbers this way.
+However, are not complex numbers more properly roots of univariate
+real polynomials? A more direct way to represent rotations is
+<em>geometric algebra</em>, from which we will draw just a miniscule subset
+of what it contains and can do.</p>
 </div>
 <div class="paragraph">
 <p>In geometric algebra, you can add a scalar and a vector. At least if
@@ -578,7 +579,9 @@ It is important to obtain an education, but current educations are
 very bad, and so it is necessary also to <em>overcome</em> the damage done. A
 school education has solidified the brain rather than made it more
 plastic, and also much of what is taught is simply wrong, or limited
-to a context but taught as if it were universal.</p>
+to a context but taught as if it were universal. So wipe that
+prejudice from your thoughts. We will be adding things together you
+may have thought you could not add.</p>
 </div>
 <div class="paragraph">
 <p>You can also multiply vectors in ways other than dot and cross
@@ -600,7 +603,9 @@ the familiar cross product.</p>
 </div>
 <div class="paragraph">
 <p>The sum of any scalars, vectors, and bivectors is called a
-<em>multivector</em>.</p>
+<em>multivector</em>. One can actually go past bivectors to any number of
+dimensions, and there are other ways things can be made more
+complicated, but we do not need any of that.</p>
 </div>
 <div class="paragraph">
 <p>Let us also introduce the <em>grade</em> operator, which returns the scalar
@@ -673,7 +678,8 @@ e_1\wedge e_2 &amp;= e_1 e_2 = -e_2 e_1 = -e_2\wedge e_1
 Complex numbers around the clock face are obtained by rotating the
 number&#xA0;1: the number&#xA0;1 is rotated counterclockwise by an
 angle&#xA0;\(\varphi\) by multiplying it by \(e^{i\varphi} =
-\cos\varphi + i\sin\varphi\).</p>
+\cos\varphi + i\sin\varphi\). The operation is equivalent to breaking
+a rightwards-pointing unit vector into components.</p>
 </div>
 <div class="paragraph">
 <p>There is an analogous operation in geometric algebra. For this
@@ -697,8 +703,9 @@ thus:</p>
 \begin{align*}
 e_\varphi &amp;= R_\varphi \, e_1 \, R_\varphi^{-1} \\
       &amp;= (\cos\varphi' - e_1 e_2 \sin\varphi') \, e_1 \, (\cos\varphi' + e_1 e_2 \sin\varphi') \\
-      &amp;= e_1 \cos^2\varphi' - e_1 e_2 e_1 \cos\varphi'\sin\varphi'
-          + e_1 e_1 e_2 \cos\varphi'\sin\varphi' - e_1 e_2 e_1 e_1 e_2 \sin^2\varphi'
+      &amp;= e_1 \cos^2\varphi' - e_1 e_2 e_1 \cos\varphi'\sin\varphi' \\
+      &amp;\mkern3em
+      + e_1 e_1 e_2 \cos\varphi'\sin\varphi' - e_1 e_2 e_1 e_1 e_2 \sin^2\varphi'
 \end{align*}
 \]</p>
 </div>
@@ -732,8 +739,10 @@ relations on page&#xA0;170:</p>
 <div class="paragraph">
 <p>\[
 \begin{align*}
-\sin 2\alpha &amp;= 2 \mkern1mu \sin\alpha \mkern1mu \cos\alpha \\
-\cos 2\alpha &amp;= \cos^2\alpha - \sin^2\alpha
+\sin 2 \mkern1mu\alpha
+     &amp;= 2 \mkern1mu \sin\alpha \mkern1mu\cos\alpha \\
+\cos 2 \mkern1mu\alpha
+     &amp;= \cos^2\alpha - \sin^2\alpha
 \end{align*}
 \]</p>
 </div>
@@ -748,16 +757,11 @@ e_\varphi &amp;= e_1\cos\varphi + e_2\sin\varphi
 \]</p>
 </div>
 <div class="paragraph">
-<p>or, in other words, we can use trigonometry and component addition.
-Which many readers already knew, but now we have impressed the
-plebeians with rotors and our possession of a massive reference book
-from yesteryear.</p>
-</div>
-<div class="paragraph">
-<p>We have also shown by implication that using complex numbers is the
-same thing: impressing the plebeians with mysteriously named entities
-“complex” and “imaginary” numbers, when actually you are doing
-trigonometry and component addition.</p>
+<p>or, in other words, we can use trigonometry and component addition,
+just as with complex numbers, except now we are using actual vectors
+instead of roots of polynomials. Also we have impressed the plebeians
+with the fancy name “rotor” and by citing from a clinically titled
+reference book.</p>
 </div>
 </div>
 </div>
@@ -1074,10 +1078,10 @@ summation to one:</p>
 P_1 + P_2 + P_3 + P_4
   &amp;= \cos^2\zeta \, \sin^2\eta
      + \sin^2\zeta \, \sin^2\eta \\
-      &amp;\mkern1em\mkern1em + \cos^2\zeta \, \cos^2\eta
+      &amp;\mkern2em + \cos^2\zeta \, \cos^2\eta
           + \sin^2\zeta \, \cos^2\eta \\
   &amp;= (\cos^2\zeta) (\sin^2\eta + \cos^2\eta) \\
-       &amp;\mkern1em\mkern1em + (\sin^2\zeta) (\sin^2\eta + \cos^2\eta) \\
+       &amp;\mkern2em + (\sin^2\zeta) (\sin^2\eta + \cos^2\eta) \\
   &amp;= \cos^2\zeta + \sin^2\zeta \\
   &amp;= 1
 \end{align*}
@@ -1239,7 +1243,7 @@ channel, \(-1\) if it retransmits in its complementary channel.</p>
 \begin{align*}
 \text{E}(f)
   &amp;\stackrel{?}{=} \cos^2\zeta \, \sin^2\eta - \sin^2\zeta \, \sin^2\eta \\
-     &amp;\quad\quad +\cos^2\zeta \, \cos^2\eta - \sin^2\zeta \, \cos^2\eta \\
+     &amp;\mkern2em +\cos^2\zeta \, \cos^2\eta - \sin^2\zeta \, \cos^2\eta \\
   &amp;= \cos^2\zeta - \sin^2\zeta
 \end{align*}
 \]</p>
@@ -1345,11 +1349,11 @@ f(M_6) &amp;= f(M_8) &amp;= -1
   &amp;\stackrel{?}{=}
      \cos^2\zeta \, \sin^2\eta
      - \sin^2\zeta \, \sin^2\eta \\
-     &amp;\quad\quad +\cos^2\zeta \, \cos^2\eta
+     &amp;\mkern2em +\cos^2\zeta \, \cos^2\eta
                  - \sin^2\zeta \, \cos^2\eta \\
-     &amp;\quad\quad\quad  +\sin^2\zeta \, \cos^2\eta
+     &amp;\mkern3em  +\sin^2\zeta \, \cos^2\eta
                        -\cos^2\zeta \, \cos^2\eta \\
-     &amp;\quad\quad\quad\quad +\sin^2\zeta \, \sin^2\eta
+     &amp;\mkern4em +\sin^2\zeta \, \sin^2\eta
                            -\cos^2\zeta \, \sin^2\eta = 0
 \end{align*}
 \]</p>
@@ -1368,11 +1372,11 @@ give us expectation and standard deviation that are easy to work with.</p>
 p  &amp;\stackrel{?}{=}
      (\cos^2\zeta \, \sin^2\eta)\,(+1 - 0)^2
      + (\sin^2\zeta \, \sin^2\eta)\,(-1 - 0)^2\\
-     &amp;\quad\quad +(\cos^2\zeta \, \cos^2 \eta)\,(+1 - 0)^2
+     &amp;\mkern2em +(\cos^2\zeta \, \cos^2 \eta)\,(+1 - 0)^2
                  + (\sin^2\zeta \, \cos^2\eta)\,(-1 - 0)^2\\
-     &amp;\quad\quad\quad  +(\sin^2\zeta \, \cos^2 \eta)\,(+1 - 0)^2
+     &amp;\mkern3em  +(\sin^2\zeta \, \cos^2 \eta)\,(+1 - 0)^2
                        +(\cos^2\zeta \, \cos^2\eta)\,(-1 - 0)^2\\
-     &amp;\quad\quad\quad\quad +(\sin^2\zeta \, \sin^2 \eta)\,(+1 - 0)^2
+     &amp;\mkern4em +(\sin^2\zeta \, \sin^2 \eta)\,(+1 - 0)^2
                            +(\cos^2\zeta \, \sin^2\eta)\,(-1 - 0)^2
      = 2
 \end{align*}
@@ -1507,7 +1511,7 @@ P_4' &amp;= P_5' = (1/2)\sin^2\zeta
 \begin{align*}
 \rho_{fg} = \text{cov}_{fg}
   &amp;= (1/2)\,(\cos^2\zeta)\,(f(M_3)g(M_3) + f(M_6)g(M_6)) \\
-  &amp;\quad\quad + (1/2)\,(\sin^2\zeta)\,(f(M_4)g(M_4) + f(M_5)g(M_5)) \\
+  &amp;\mkern2em + (1/2)\,(\sin^2\zeta)\,(f(M_4)g(M_4) + f(M_5)g(M_5)) \\
   &amp;= -(\cos^2\zeta - \sin^2\zeta) \\
   &amp;= -\cos2\mkern1.2mu\zeta \\
   &amp;= -\cos2(\zeta - \eta)
@@ -1663,7 +1667,7 @@ physicists have made.&#xA0;\(\square\)</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-06-22 07:45:47 -0500
+Last updated 2026-06-22 08:28:57 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">
