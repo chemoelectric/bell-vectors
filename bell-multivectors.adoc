@@ -104,7 +104,7 @@ using complex numbers to represent rotations in a plane. So did I, as
 a student of electrical engineering, use complex numbers this way.
 However, are not complex numbers more properly roots of univariate
 real polynomials? A more direct way to represent rotations is
-_geometric algebra_, from which we will draw just a miniscule subset
+_geometric algebra_, from which we will draw just a miniscule portion
 of what it contains and can do.
 
 In geometric algebra, you can add a scalar and a vector. At least if
@@ -114,7 +114,7 @@ vector. Such an acquaintance is a person who has obtained a high
 school or university education, but has not _overcome_ that education.
 It is important to obtain an education, but current educations are
 very bad, and so it is necessary also to _overcome_ the damage done. A
-school education solidifies the brain rather than makes it more
+school education _ossifies_ the brain rather than make it more
 plastic, and also teaches much that is simply wrong, or that is
 limited to a context but taught as if it were universal. So wipe the
 prejudice from your thoughts. We will be adding things together you
@@ -138,8 +138,8 @@ the familiar cross product.
 The sum of any scalars, vectors, and bivectors is called a
 _multivector_. One can actually go past bivectors to any number of
 dimensions, and there are other ways things can be made more
-complicated, but we do not need any of that. Our multivectors go up in
-complexity no farther than bivectors.
+complicated, but we do not need any of that. The multivectors in this
+essay go up in complexity no farther than bivectors.
 
 Let us also introduce the _grade_ operator, which returns the scalar
 (_grade&#xA0;0_), vector (_grade&#xA0;1_), or bivector
