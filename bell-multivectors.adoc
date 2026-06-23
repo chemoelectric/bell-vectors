@@ -288,7 +288,7 @@ magical being in a phase of existence where “instantaneous action at a
 distance” occurs. Physicists use funny _bra_ and _ket_ notations that
 are not used by mathematicians, and which therefore can be read as
 preternatural _physical_ entities rather than as the purely _verbal_
-entities mathematical notations are.
+entities mathematical notations actually are.
 
 We instead will use notations similar to those used by mathematicians.
 My education was in electrical engineering, with some applied
@@ -296,8 +296,8 @@ mathematics, and my trade was computer programming, so I do not write
 things as “pure” mathematicians do, and cannot read their abstruse
 papers. But also, despite electrical engineering being applied
 physics, I do not take anywhere near the liberties “pure”
-physicists do. With the Dirac notation, they have drifted so far from
-mathematical notations that they do not read the notations as
+physicists do. With the Dirac notation, physicists have drifted so far
+from mathematical notations that they do not read the notations as
 mathematics, but instead as liturgical incantations about physical
 beings of a mysterious and magical nature. And they do not _reason
 logically_ as they work, but instead _just do the calculations_.
@@ -337,41 +337,42 @@ are costing university students a fortune for lessons in nonsense, and
 they are ruining the electronics profession and threatening global
 peace, with “quantum electronics” and “quantum computers” that cannot
 possibly work as advertised. A “quantum computer” is an expensive and
-unreliable `WAIT A WHILE THEN PRESS ENTER` device.
+unreliable `WAIT A WHILE THEN PRESS ENTER` device. The industry should
+be shut down.
 
 Later we will encounter matrices with multiple columns, representing
 propositions in tensor spaces of higher dimensionality, and weighted
-sums of matrices, representing propositions of probability theory.
+sums of matrices, representing propositions of probability theory. At
+no time will magic occur.
 
 === Polarizing beam splitters (PBS)
 
 The effect of a polarizing filter on plane-polarized light is
 described by the _Law of Malus_: the intensity of the retransmitted
-light is reduced by a factor of \(\cos^2(\vartheta-\varphi)\), where
-\(\vartheta\) is the angle of the filter’s axis of transmission and
-\(\varphi\) is the angle of polarization of the impinging light. Let
-us suppose the mechanism of a polarizing filter is such that a
-discrete light pulse either is or is not retransmitted. In that case
-intensity can be equated with probability of retransmission of a light
-pulse.
+light is reduced by a factor \(\cos^2(\vartheta-\varphi)\),
+where&#xA0;\(\vartheta\) is the angle of the filter’s axis of
+transmission and&#xA0;\(\varphi\) is the angle of polarization of the
+impinging light. Let us suppose the mechanism of a polarizing filter
+is such that a discrete light pulse either is or is not retransmitted.
+In that case intensity can be equated with probability of
+retransmission of a light pulse.
 
 Now let us proceed from simple polarizing filters to _polarizing beam
 splitters (PBS)_, also known as _beam-splitting polarizers_. These are
 devices made, one way or another, from two complementary polarizing
-filters, which split impinging light into complementary polarizations.
-In one output channel the light will be polarized along the main axis
-of transmission, and in the other channel along the complementary
-axis, which is normal to the main axis. Ideally, the intensity of
-light in the complementary channel is reduced by the factor
-\(\sin^2(\vartheta-\varphi)\), so the total intensity is not lost.
-Similarly, for our probabilistic interpretation, we will make an
-idealistic assumption: that the light pulse is retransmitted in either
-the main or the complementary channel, but never lost. The probability
-of retransmission is \( \cos^2 (\vartheta - \varphi) + \sin^2
-(\vartheta - \varphi) = 1 \).
+filters, which split impinging light into orthogonal polarizations. In
+one output channel the light will be polarized along the main axis of
+transmission, and in the other channel along the orthogonal axis.
+Ideally, the intensity of light in the orthogonal channel is reduced
+by the factor \( \sin^2 ( \vartheta-\varphi ) \), so the total
+intensity is not lost. Similarly, for our probabilistic
+interpretation, we will make an idealistic assumption: that the light
+pulse is retransmitted in either the main or the orthogonal channel,
+but never lost. The probability of retransmission is therefore \( \cos^2 (
+\vartheta - \varphi ) + \sin^2 ( \vartheta - \varphi ) = 1 \).
 
 Sometimes I visualize the action of a polarizing filter as the
-projection of the vector of the impinging light onto the axis of
+projection of the unit vector of the impinging light onto the axis of
 polarization of the filter. This gives a vector of magnitude reduced
 from unity, and the square of that magnitude is the intensity of the
 retransmitted light. If \(e_\vartheta\) is a unit vector representing
@@ -398,7 +399,7 @@ product of this projection with itself:
 
 The initial light pulses are plane-polarized \(e_1\) and&#xA0;\(e_2\),
 and in a PBS there are two polarizers: the main channel
-\(e_\vartheta\) and the complementary channel \(e_{\vartheta+\pi/2}\).
+\(e_\vartheta\) and the orthogonal channel \(e_{\vartheta+\pi/2}\).
 Therefore there are the following special instances:
 
 \[
@@ -420,7 +421,7 @@ Therefore there are the following special instances:
 
 The apparatus of the experiment has two PBS. Let us call the angles of
 the main axes of transmission \(\zeta\) (zeta) for the left PBS and
-\(\eta\) (eta) for the right PBS. For the complementary channels, the
+\(\eta\) (eta) for the right PBS. For the orthogonal channels, the
 angles are \(\zeta+\pi/2\) and \(\eta+\pi/2\). Thus on the left side
 the retransmitted light pulse can be described either as \(e_\zeta\)
 or \(e_{\zeta+\pi/2}\), depending on which channel was taken.
@@ -490,8 +491,10 @@ Nothing in the formalism implies, as Bell assumes it does, anything
 about detections in opposite arms of the experiment affecting each
 other. Bell’s “encoding of no action at a distance” is meritless. Even
 Bell’s notation is not correct. The arguments of a probability should
-be propositions, not numeric quantities such as Bell writes. Bell has
-probabilities confused with functions representing causal processes.
+be propositions, not numeric quantities such as Bell writes. Bell
+wantonly conflates probabilities and functions representing causal
+processes. We will not be so cavalier. Let us proceed carefully and
+even use question marks to indicate doubt.
 
 A tentative formula for computing \(P_1,P_2,P_3,P_4\) is as follows.
 If
@@ -514,18 +517,22 @@ P_n \stackrel{?}{=} (\text{proj}_{e_{\angle a}}e_1)^2
 \end{equation}
 \]
 
-which is a mutual probability of the top row and bottom row. We do not
+which is the mutual probability of the top row and bottom row, _if_
+there is no conditionality relationship between the rows. We do not
 have to do probability theory calculations to eliminate \(e_1\)
-and&#xA0;\(e_2\), because the projection operations already have
-eliminated these vectors. Furthermore, the probability of one
-polarizer setting _might_ seem not to be conditional on the
-probability of the other polarizer setting, because both these
-settings are arbitrary. Thus \(P_n\) _might_ simply be the product of
-the probabilities of the two rows.
+and&#xA0;\(e_2\), because the projection operations already eliminate
+these vectors. Furthermore, the probability of one polarizer setting
+_might_ seem not to be conditional on the probability of the other
+polarizer setting, because both these settings are arbitrary. Thus
+\(P_n\) _might_ simply be the product of the probabilities of the two
+rows.
 
 Or is it? We will see later on it is not so simple. In probability
 theory, where there _might_ be an impediment, there likely _is_ an
-impediment.
+impediment. What physicists such as Bell do not realize is that, once
+more and more facts become known, probabilities can be _inferred_
+“backwards in time.” Probability theory is about _inference_, not
+causation.
 
 Now \(\text{prop}_2\) can be written out more fully, but with doubt
 that what we are writing is correct:
@@ -557,7 +564,7 @@ of each possible event in the two-channel Bell test experiment, in
 terms of angles \(\zeta\) and&#xA0;\(\eta\). Be careful, though, how
 you evaluate that proposition! Those angles are defined relative
 to&#xA0;\(e_1\). But \(e_1\) itself points in some unstated direction.
-So how would you know whether the PBS were oriented correctly?
+How would you know whether the PBS were oriented correctly?
 
 (This difficulty is resolved <<ThePlaneMattersNot,in the final
 subsection>>.)
@@ -708,7 +715,7 @@ f(M_2) &= f(M_4) &= -1
 \]
 
 Thus \(f\) equals \(+1\) if the left PBS retransmits in its main
-channel, \(-1\) if it retransmits in its complementary channel.
+channel, \(-1\) if it retransmits in its orthogonal channel.
 
 The expectation of \(f\) is tentatively
 
@@ -722,7 +729,7 @@ The expectation of \(f\) is tentatively
 \]
 
 which is the probability of a retransmission in the main channel minus
-the probability of a retransmission in the complementary channel.
+the probability of a retransmission in the orthogonal channel.
 
 (There is reason to believe this is a correct answer, despite that it
 was derived by questionable means. The reason is that \(\eta\)
