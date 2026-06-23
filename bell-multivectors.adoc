@@ -761,7 +761,8 @@ being oriented orthogonally to that. Which light pulse goes which way
 is even chance.” The probability of given axes and light pulse
 directions is the same in \(\text{prop}_1\)
 and&#xA0;\(\text{prop}_3\). The difference is in the algebra, which
-quickly becomes unmanageable without the trick.
+quickly becomes unmanageable without the trick.footnote:[I wonder if
+without the trick we would have had to use calculus.]
 
 We now need four more matrices:
 
@@ -931,11 +932,9 @@ in&#xA0;footnote:specialization[])
 [[SpecializedSolution]]
 === A solution for \(\eta=0\)
 
-If \(\eta=0\), then on the right side every \(e_1\) light pulse is
-retransmitted and every \(e_2\) is blocked. Thus the symbol \(\eta\)
-disappears from expressions. Physically, it is as if we put only a
-photodetector on that side of the apparatus, and had no polarizing
-filters on the right at all.
+If \(\eta=0\), the symbol \(\eta\) disappears from expressions, and
+indeed we need no PBS on the right. A channel is either totally open
+or totally closed.
 
 The difficulty with expressions containing both \(\zeta\) and \(\eta\)
 exists no longer. Effectively there is no right-side PBS. Now also all
@@ -1040,15 +1039,15 @@ This is the same expression as the so-called “quantum correlation,”
 and it is correct even if I made a derivation error somewhere, but we
 can see that “quantum” is a misnomer. It is the ordinary correlation
 from probability theory. It also can be derived from classical
-coherence theory of electromagnetic waves.footnote:[This was done by
-A.&#xA0;F. Kracklauer. (_EPR-B correlations: non-locality or
-geometry?_ J. Nonlinear Math. Phys. 11 (2004), suppl., 104–109.
-MR2117173. https://doi.org/10.2991/jnmp.2004.11.s1.13) Of course such
-coherence calculations have derivations that are similar to ours,
-except the derivations are done with continuous probability or measure
-theory.] The only thing mysteriously “quantum” about the expression is
-how any “quantum” physicist obtained it by _some_ means, given the
-field’s habit of uncritically publishing _mistakes_ such as Bell’s and
+coherence theory of electromagnetic waves.footnote:[A.&#xA0;F.
+Kracklauer, _EPR-B correlations: non-locality or geometry?_ J.
+Nonlinear Math. Phys. 11 (2004), suppl., 104–109. MR2117173.
+https://doi.org/10.2991/jnmp.2004.11.s1.13. Of course such coherence
+calculations have derivations that are similar to ours, except the
+derivations are done with continuous probability or measure theory.]
+The only thing mysteriously “quantum” about the expression is how any
+“quantum” physicist obtained it by _some_ means, given the field’s
+habit of uncritically publishing _mistakes_ such as Bell’s and
 Clauser’s.
 
 Indeed, given the “quantum correlation,” and recognizing it is
@@ -1073,33 +1072,34 @@ unaffordable. In any case I am not a colleague of “professional
 physicists,” and they would not hesitate to tell me so. I am an
 amateur with no institutional affiliation, my education is in
 electrical engineering, and my trade was computer programming. I am
-expected to be polite to professional physicists, but they are not as
-a profession polite to me. Gone are the days when Benjamin Franklin or
-Michael Faraday could become a Fellow of the Royal Society.
+expected to be polite to professional physicists, but they are not
+expected to pay me the least positive attention. Gone are the days
+when Benjamin Franklin or Michael Faraday could become a Fellow of the
+Royal Society.
 
 An excuse will be made that “specialization is necessary now and
 non-specialists cannot fathom the details,” and yet here they are,
 physicists, pretending to be able to do random process analysis
 without even bothering to study the subject. A reasonable conclusion
-is they believe they are so smart they need not study the subject.
-They can intuit it all with their gigantic brains, so much bigger than
-mine and yours. And they believe Benjamin Franklin and Michael Faraday
-were too stupid to do what today’s so very “professional” and
-specialized physicists do.footnote:[As if either of those
-undereducated Fellows of the Royal Society would have run to _Nature_,
-with a paper declaring “faster than light motion” because they had a
-screw loose. Desiring knowledge rather than a Nobel prize, and surely
-(not being stupid) knowing the measurements must be wrong, they would
-quietly have overhauled their equipment.]
+is they believe they are so smart they need not study the subject
+(which I as a signal processing student had to, enough to know Bell
+did it incorrectly). There is no need to seek assistance from
+disciplines physicists themselves have not mastered. They can intuit
+it all with their gigantic brains, so much bigger than mine and yours.
+And they believe Benjamin Franklin and Michael Faraday were too stupid
+to do what today’s so very “professional” and specialized physicists
+do.
 
-If today’s physicists really were so smart, they would not believe in
-entangled fairies and teleporting unicorns. And it is not true that
-specialization is necessary now. Physicists have demonstrated, indeed,
-that a tightly knit community of specialists causes isolation and
-orthodoxy. They are a community divorced from mathematics, logic, and
-epistemology.
+If today’s physicists really were so smart compared to Franklin and
+Faraday, they would not believe in entangled fairies and teleporting
+unicorns. And it is not true that specialization is necessary now.
+Physicists have demonstrated, indeed, that a tightly knit community of
+specialists causes isolation and orthodoxy. They are a community
+divorced from mathematics, logic, and epistemology.
 
-I finish in this subsection, rather than with a separate formal
-conclusion, because failure to realize one is free to recalibrate the
-apparatus is perhaps the worst failure to read the plain meaning of a
-mathematical expression physicists have ever made.&#xA0;\(\square\)
+And so I finish in _this_ subsection, rather than with a separate
+formal conclusion, because failure to realize one is free to
+recalibrate the apparatus is perhaps the worst failure to read the
+plain meaning of a mathematical expression physicists have ever made.
+It is a pratfall, and they awarded the Nobel prize for
+a pratfall.&#xA0;\(\square\)
