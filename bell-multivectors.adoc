@@ -43,17 +43,19 @@ made no logical sense and I should not try to understand it. In fact I
 was _ordered_ in a loud voice not to try to understand it, and
 _ordered_ “_Just do the calculations!_” The professor also mocked
 Albert&#xA0;Einstein for resistance to the new doctrines. I was being
-taught an orthodox liturgy. This is the legacy of the 1927 Solvay
-conference and the consensus that came forth from it.
+taught not science but an orthodox liturgy. This is the legacy of the
+1927 Solvay conference and the consensus that came forth from it.
 
-But Galileo demonstrated the consensus of an orthodoxy is worth no
-more than a pile of dust. Albert&#xA0;Einstein was more or less
-correct and the others were wrong.footnote:[Whether “God plays dice
-with the universe” is unimportant. What matters is that the
-“uncertainty principle,” along with the rest, were mere doctrine with
-no empirical foundation. This new approach, wherein doctrine is
-declared without empirical foundation, is how “fundamental physics”
-functions to this day.]
+Where logic can resolve the matter, a consensus is to be scorned.
+Galileo demonstrated the consensus of an orthodoxy is worth no more
+than a pile of dust. Albert&#xA0;Einstein was more or less correct and
+the others were wrong.footnote:[Whether “God plays dice with the
+universe” is unimportant, and in principle cannot be determined. What
+matters is that the “uncertainty principle,” along with the rest, was
+mere doctrine with no empirical foundation, and surely this is what
+Einstein actually found abhorrent. A new “scientific method,” wherein
+doctrine is declared without empirical foundation but then treated as
+established fact, is how “fundamental physics” functions to this day.]
 
 “Quantum physics” does not deserve the title “science.” It is a
 quasi-religion and a pseudoscience. Dirac notation is a liturgical
@@ -64,8 +66,8 @@ written in Dirac _bras_ and _kets_, into “entangled” entities.
 The “quantum” pseudoscience not only costs university students and
 their families millions of dollars, but threatens world peace. How
 much does the United States Department of Defense spend on “quantum
-computers”? Yet “quantum computers” are utter junk that cannot
-possibly function as physicists predict. There is no such thing as
+computers”? Yet “quantum computers” are junk that cannot possibly
+function as physicists predict. There is no such thing as
 “entanglement,” so the registers that supposedly operate in unit time
 must require at least polynomial time, and a device being “quantum”
 does not free us of the need to collect entropy for random number
@@ -78,13 +80,13 @@ _real_ physics and actual mathematics (rather than enchanted liturgy).
 The Dirac notation is really just an obfuscated notation for
 probability theory. What is needed, in part, is people who can do
 probability theory correctly and who do not need Dirac notation to
-do it.
+do it!
 
-A physicist will sometimes brag that the Dirac notation represents a
-complex tensor or “Hilbert” space, as if this made the mathematics
-more than just probability theory. In fact, this seems to be what some
-believe, that the complex tensor space is not merely probability
-theory, but indeed a magical phase of existence, in which
+A physicist of today will sometimes brag that the Dirac notation
+represents a complex tensor or “Hilbert” space, as if this made the
+mathematics more than just probability theory. In fact, this seems to
+be what some believe, that the complex tensor space is not merely
+probability theory, but indeed a magical phase of existence, in which
 “instantaneous action at a distance” occurs. But such a tensor space
 is merely a mathematical construct of convenience. It has no physical
 meaning. I will demonstrate this below by analyzing the two-channel
