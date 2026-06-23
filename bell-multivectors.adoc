@@ -288,9 +288,9 @@ My education was in electrical engineering, with some applied
 mathematics, and my trade was computer programming, so I do not write
 things as “pure” mathematicians do, and cannot read their abstruse
 papers. But also, despite electrical engineering being applied
-physics, I do not take anywhere near the liberties “pure”
-physicists do. With the Dirac notation, physicists have drifted so far
-from mathematical notations that they do not read the notations as
+physics, I do not like some of the liberties “pure” physicists take.
+With the Dirac notation, physicists have drifted so far from
+mathematical notations that they do not read the notations as
 mathematics, but instead as liturgical incantations about physical
 beings of a mysterious and magical nature. And they do not _reason
 logically_ as they work, but instead _just do the calculations_.
@@ -315,13 +315,10 @@ can be written as a matrix thus:
 The upper row of such a matrix represents the left arm of the
 apparatus, and the lower row represents the right arm. The expression
 \(\text{prop}_1\) defines a point in a tensor space. Its meaning is
-_not_ a magical “entangled pair” of light pulses.footnote:[“Photons,”
-if I wanted to use a designation with stronger connotations than
-“light pulses.” I do not want to.] If we had written the same thing in
-Dirac notation, by orthodox doctrine that is what it _would have_
-meant. But we wrote the same thing in a different notation that comes
-with no such doctrine, and thus it does not mean that. Instead it
-means a proposition.
+_not_ a magical “entangled pair” of light pulses.footnote:[Or of
+“photons,” if I had wanted to use a designation with stronger
+connotations than “light pulses.” I do not want to.] Its meaning is _a
+proposition_.
 
 That a point in a space might represent something _verbal_ rather than
 physical may seem strange to many physicists, and difficult to handle.
@@ -330,8 +327,8 @@ are costing university students a fortune for lessons in nonsense, and
 they are ruining the electronics profession and threatening global
 peace, with “quantum electronics” and “quantum computers” that cannot
 possibly work as advertised. A “quantum computer” is an expensive and
-unreliable `WAIT A WHILE THEN PRESS ENTER` device. The industry should
-be shut down.
+unreliable `WAIT A WHILE THEN PRESS ENTER` device. The industry in
+such worthless machines should be shut down.
 
 Later we will encounter matrices with multiple columns, representing
 propositions in tensor spaces of higher dimensionality, and weighted
@@ -342,12 +339,13 @@ no time will magic occur.
 
 The effect of a polarizing filter on plane-polarized light is
 described by the _Law of Malus_: the intensity of the retransmitted
-light is reduced by a factor \(\cos^2(\vartheta-\varphi)\),
+light is altered by a factor \(\cos^2(\vartheta-\varphi)\),
 where&#xA0;\(\vartheta\) is the angle of the filter’s axis of
 transmission and&#xA0;\(\varphi\) is the angle of polarization of the
 impinging light. Let us suppose the mechanism of a polarizing filter
-is such that a discrete light pulse either is or is not retransmitted.
-In that case intensity can be equated with probability of
+is that a discrete light pulse either is or is not retransmitted, but
+retains its intensity. In that case the Law of Malus gives an
+_average_ intensity, which can be regarded as the probability of
 retransmission of a light pulse.
 
 Now let us proceed from simple polarizing filters to _polarizing beam
@@ -356,21 +354,23 @@ devices made, one way or another, from two complementary polarizing
 filters, which split impinging light into orthogonal polarizations. In
 one output channel the light will be polarized along the main axis of
 transmission, and in the other channel along the orthogonal axis.
-Ideally, the intensity of light in the orthogonal channel is reduced
-by the factor \( \sin^2 ( \vartheta-\varphi ) \), so the total
-intensity is not lost. Similarly, for our probabilistic
+Ideally, the average intensity of light in the orthogonal channel is
+altered by the factor \( \sin^2 ( \vartheta-\varphi ) \), so the total
+average intensity is not lost. Similarly, for our probabilistic
 interpretation, we will make an idealistic assumption: that the light
 pulse is retransmitted in either the main or the orthogonal channel,
-but never lost. The probability of retransmission is therefore \( \cos^2 (
-\vartheta - \varphi ) + \sin^2 ( \vartheta - \varphi ) = 1 \).
+but never lost. The probability of retransmission is therefore \(
+\cos^2 ( \vartheta - \varphi ) + \sin^2 ( \vartheta - \varphi ) = 1
+\).
 
 Sometimes I visualize the action of a polarizing filter as the
 projection of the unit vector of the impinging light onto the axis of
 polarization of the filter. This gives a vector of magnitude reduced
-from unity, and the square of that magnitude is the intensity of the
-retransmitted light. If \(e_\vartheta\) is a unit vector representing
-the axis of transmission of the filter, and \(e_\varphi\) is the
-vector of polarization of the impinging light, then the projection is
+from unity, and the square of that magnitude is the (possibly
+probabilistic) intensity of the retransmitted light. If
+\(e_\vartheta\) is a unit vector representing the axis of transmission
+of the filter, and \(e_\varphi\) is the vector of polarization of the
+impinging light, then the projection is
 
 \[
 \begin{equation}
@@ -477,8 +477,11 @@ Bell’s): it is the probability \(\text{prop}_x\) is true, given that
 
 This means we calculate \(P_1,P_2,P_3,P_4\) by assuming the light
 pulse has polarization \(e_1\) on the left and \(e_2\) on the right.
-We would have done so anyway, but it is nice to see the mathematics
-even subtly agreeing with us.
+In other words, we assume \(\text{prop}_1\). We would have done so
+anyway, but it is nice to see the mathematics even subtly agreeing
+with us.footnote:[Incredibly, Bell’s “encoding of no action at a
+distance” alters \(\text{prop}_1\), even though we know it to be
+true.]
 
 Nothing in the formalism implies, as Bell assumes it does, anything
 about detections in opposite arms of the experiment affecting each
@@ -510,15 +513,15 @@ P_n \stackrel{?}{=} (\text{proj}_{e_{\angle a}}e_1)^2
 \end{equation}
 \]
 
-which is the mutual probability of the top row and bottom row, _if_
-there is no conditionality relationship between the rows. We do not
-have to do probability theory calculations to eliminate \(e_1\)
-and&#xA0;\(e_2\), because the projection operations already eliminate
-these vectors. Furthermore, the probability of one polarizer setting
-_might_ seem not to be conditional on the probability of the other
-polarizer setting, because both these settings are arbitrary. Thus
-\(P_n\) _might_ simply be the product of the probabilities of the two
-rows.
+which would be the mutual probability of the top row and bottom row,
+_if_ there were no conditionality relationship between the rows. We do
+not have to do probability theory calculations to eliminate \(e_1\)
+and&#xA0;\(e_2\), because the projection operations eliminate these
+vectors. Furthermore, the probability of one polarizer setting _might_
+seem not to be conditional on the probability of the other polarizer
+setting, because both these settings are arbitrary. Thus \(P_n\)
+_might_ simply be the product of the probabilities of the two rows, as
+written above.
 
 Or is it? We will see later on it is not so simple. In probability
 theory, where there _might_ be an impediment, there likely _is_ an
@@ -721,12 +724,9 @@ The expectation of \(f\) is tentatively
 \end{align*}
 \]
 
-which is the probability of a retransmission in the main channel minus
-the probability of a retransmission in the orthogonal channel.
-
-(There is reason to believe this is a correct answer, despite that it
-was derived by questionable means. The reason is that \(\eta\)
-disappears from the answer.)
+(I suspect this is a correct answer, despite that it was derived by
+questionable means. My reason is that \(\eta\) disappears from the
+answer.)
 
 We would have liked for the expectation to equal zero. So let us use a
 trick.footnote:specialization[There is no “physics” in this trick. It
@@ -736,11 +736,12 @@ _specialization_ heuristic. (G. Pólya, _How to Solve It: A New Aspect
 of Mathematical Method_, expanded Princeton Science Library{nbsp}ed.,
 Princeton University Press, Princeton,{nbsp}NJ, 2004, With a foreword
 by John{nbsp}H. Conway.) The specialization heuristic will
-<<SpecializedSolution,reappear later>>.] Let us solve two problems
-simultaneously. Let us solve also for the case where the initial light
-pulses are \(\begin{pmatrix}e_2&e_1\end{pmatrix}^t\). A weighted sum
-of the two initial light-pulse matrices gives \(\text{prop}_3\), which
-has a symmetry \(\text{prop}_1\) does not have:
+<<SpecializedSolution,reappear later>>.] Let us solve two equivalent
+problems simultaneously. That is, let us solve also for the case where
+the initial light pulses are
+\(\begin{pmatrix}e_2&e_1\end{pmatrix}^t\). A weighted sum of the two
+initial light-pulse matrices gives \(\text{prop}_3\), which has a
+symmetry \(\text{prop}_1\) does not have:
 
 \[
 \begin{equation}
@@ -751,12 +752,16 @@ has a symmetry \(\text{prop}_1\) does not have:
 \]
 
 Remember that in \(\text{prop}_1\) the axis of transmission was not
-specified. Thus \(\text{prop}_3\) is, in effect, the same problem as
-\(\text{prop}_1\). The new proposition says “The orthogonal planes of
-polarization have one half probability of being a certain way, one
-half the opposite way, but the ‘certain way’ is unspecified.” If we
-analyze that problem, we are for practical purposes analyzing the same
-problem as the original.
+specified. Thus \(\text{prop}_3\) is, for practical purposes, the same
+problem as \(\text{prop}_1\). The new proposition says, “The
+orthogonal planes of polarization have one half probability of being
+oriented a certain unspecified way, and one half probability of being
+oriented orthogonally to that.” The probability of given axes is the
+same in either \(\text{prop}_1\) or&#xA0;\(\text{prop}_3\). The
+difference is in the algebra.
+
+(A person could carry out the calculations without the trick, if they
+wished. Here I wish to demonstrate the trick.)
 
 We now need four more matrices:
 
