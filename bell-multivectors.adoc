@@ -78,7 +78,7 @@ A physicist of today will sometimes brag that the Dirac notation
 represents a complex tensor or “Hilbert” space, as if this made the
 mathematics more than just probability theory. In fact, this seems to
 be what some believe, that the complex tensor space is not merely
-probability theory, but indeed a magical phase of existence, in which
+probability theory, but indeed a magical phase of existence in which
 “instantaneous action at a distance” occurs. But such a tensor space
 is merely a mathematical construct of convenience. It has no physical
 meaning. I will demonstrate this below by analyzing the two-channel
