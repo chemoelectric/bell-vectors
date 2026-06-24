@@ -719,7 +719,9 @@ f(M_2) &= f(M_4) &= -1
 Thus \(f\) equals \(+1\) if the left PBS retransmits in its main
 channel, \(-1\) if it retransmits in its orthogonal channel.
 
-The expectation of \(f\) is tentatively
+The expectation of \(f\) is tentatively&#x202F;footnote:[I suspect
+this is a correct answer, despite that it was derived by questionable
+means. My reason is that \(\eta\) disappears from the answer.]
 
 \[
 \begin{align*}
@@ -729,10 +731,6 @@ The expectation of \(f\) is tentatively
   &= \cos^2\zeta - \sin^2\zeta
 \end{align*}
 \]
-
-(I suspect this is a correct answer, despite that it was derived by
-questionable means. My reason is that \(\eta\) disappears from the
-answer.)
 
 We would have liked for the expectation to equal zero. So let us use a
 trick.footnote:specialization[There is no “physics” in this trick. It
@@ -881,12 +879,12 @@ Our result will have a minus sign.
 
 === A naïve attempt to derive the correlation of \(f\) and \(g\)
 
-Because the expectations of \(f\) and&#xA0;\(g\) are both zero, and
-their standard deviations are both one, the covariance and correlation
-of \(f\) and&#xA0;\(g\) are equal to each other. In general they would
-be different at least in that correlation is dimensionless and
-covariance is not, but our \(f\) and&#xA0;\(g\) already are
-dimensionless, so our covariance is dimensionless.
+Because the standard deviations of \(f\) and&#xA0;\(g\) are both one,
+the covariance and correlation of \(f\) and&#xA0;\(g\) are equal to
+each other. In general they would be different at least in that
+correlation is dimensionless and covariance is not, but our \(f\)
+and&#xA0;\(g\) already are dimensionless, so our covariance is
+dimensionless.
 
 We can thus compute the covariance and treat the result as the
 correlation.
@@ -1040,20 +1038,17 @@ along and insist I assumed “instantaneous action at a distance” at
 such and such a point. Please feel free to laugh at them. They are
 making a fool of themself.]
 
-This is the same expression as the so-called “quantum correlation,”
-and it is correct even if I made a derivation error somewhere, but we
-can see that “quantum” is a misnomer. It is the ordinary correlation
-from probability theory. It also can be derived from classical
-coherence theory of electromagnetic waves.footnote:[A.&#xA0;F.
-Kracklauer, _EPR-B correlations: non-locality or geometry?_ J.
-Nonlinear Math. Phys. 11 (2004), suppl., 104–109. MR2117173.
-https://doi.org/10.2991/jnmp.2004.11.s1.13. Of course such coherence
-calculations have derivations that are similar to ours, except the
-derivations are done with continuous probability or measure theory.]
-The only thing mysteriously “quantum” about the expression is how any
-“quantum” physicist obtained it by _some_ means, given the field’s
-habit of uncritically publishing _mistakes_ such as Bell’s and
-Clauser’s.
+This is the same expression as the so-called “quantum correlation”—and
+it is correct, even if I made a derivation error somewhere—but we can
+see that “quantum” is a misnomer. It is the ordinary correlation from
+probability theory. It also can be derived from classical coherence
+theory of electromagnetic waves.footnote:[A.&#xA0;F. Kracklauer,
+_EPR-B correlations: non-locality or geometry?_ J. Nonlinear Math.
+Phys. 11 (2004), suppl., 104–109. MR2117173.
+https://doi.org/10.2991/jnmp.2004.11.s1.13] The only thing
+mysteriously “quantum” about the expression is how any “quantum”
+physicist obtained it by _some_ means, given the field’s habit of
+uncritically publishing _mistakes_ such as Bell’s and Clauser’s.
 
 Indeed, given the “quantum correlation,” and recognizing it is
 invariant to in-unison rotations of \(\alpha\) and&#xA0;\(\beta\),
@@ -1071,15 +1066,14 @@ Unspeakable in Quantum Mechanics_, Cambridge Univ. Press, Cambridge,
 one of the most pathological examples.
 
 Let me finish by repeating my harshness is because the defense of the
-United States is at stake, and because students are fleeced of their
-belongings to be taught nonsense. “Collegial politeness” is
-unaffordable. In any case I am not a colleague of “professional
-physicists,” and they would not hesitate to tell me so. I am an
-amateur with no institutional affiliation, my education is in
-electrical engineering, and my trade was computer programming. I am
-expected to be polite to professional physicists, but they are not
-expected to pay me the least positive attention. Gone are the days
-when Benjamin Franklin or Michael Faraday could become a Fellow of the
+United States is at stake, and because students are bankrupted to be
+taught nonsense. “Collegial politeness” is unaffordable. In any case I
+am not a colleague of “professional physicists,” as they have
+sometimes reminded me. I am an amateur with no institutional
+affiliation, my education is in electrical engineering, and my trade
+was computer programming. I am expected to be polite to professional
+physicists, but the reverse is not expected. Gone are the days when
+Benjamin Franklin or Michael Faraday could become a Fellow of the
 Royal Society.
 
 An excuse will be made that “specialization is necessary now and
@@ -1087,12 +1081,14 @@ non-specialists cannot fathom the details,” and yet here they are,
 physicists, pretending to be able to do random process analysis
 without even bothering to study the subject. A reasonable conclusion
 is they believe they are so smart they need not study the subject
-(which I as a signal processing student had to, enough to know Bell
-did it incorrectly). There is no need to seek assistance from
-disciplines physicists themselves have not mastered. They can intuit
-it all with their gigantic brains, so much bigger than mine and yours.
-And they believe Benjamin Franklin and Michael Faraday were too stupid
-to do what today’s so very “professional” and specialized physicists
+(which I as a signal processing student had to, so I could study
+random process subjects such as “sphere hardening” and then have
+devices I might design actually _function_). There is no need for
+physicists to seek assistance from disciplines they themselves have
+not mastered. They can intuit it all with their gigantic brains, so
+much bigger than mine and yours. And they believe Benjamin Franklin
+and Michael Faraday were too stupid to do what today’s so very
+“professional” and specialized physicists
 do.
 
 If today’s physicists really were so smart compared to Franklin and
@@ -1105,6 +1101,6 @@ divorced from mathematics, logic, and epistemology.
 And so I finish in _this_ subsection, rather than with a separate
 formal conclusion, because failure to realize one is free to
 recalibrate the apparatus is perhaps the worst failure to read the
-plain meaning of a mathematical expression physicists have ever made.
-It is a pratfall, and they awarded the Nobel prize for
-a pratfall.&#xA0;\(\square\)
+plain meaning of a mathematical expression any scientists have ever
+made. It is a pratfall, and the Nobel prize was awarded for this
+pratfall.&#xA0;\(\square\)
