@@ -1,6 +1,10 @@
 m4_changequote(«[,]»)m4_changecom«[]»m4_dnl
 = Analysis of the two-channel optical Bell test, using multivectors and matrices
 Barry Schwartz
+:description: A derivation of the correlation of the Bell test, without QM.
+:copyright: Copyright © 2026 Barry Schwartz
+:license-type: CC BY-ND 4.0
+:license-url: https://creativecommons.org/licenses/by-nd/4.0/
 :doctype: doctype_attribute
 :toc: toc_attribute
 :stem: stem_attribute
@@ -1103,4 +1107,6 @@ formal conclusion, because failure to realize one is free to
 recalibrate the apparatus is perhaps the worst failure to read the
 plain meaning of a mathematical expression any scientists have ever
 made. It is a pratfall, and the Nobel prize was awarded for this
-pratfall.&#xA0;\(\square\)
+pratfall.&#xA0;\(\square\)&#x202F;footnote:[{copyright}. This essay is
+licensed under a link:{license-url}[Creative Commons
+Attribution-NoDerivatives 4.0 International License].]
