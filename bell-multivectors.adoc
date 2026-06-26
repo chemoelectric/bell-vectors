@@ -1109,4 +1109,7 @@ plain meaning of a mathematical expression any scientists have ever
 made. It is a pratfall, and the Nobel prize was awarded for this
 pratfall.&#xA0;\(\square\)&#x202F;footnote:[{copyright}. This essay is
 licensed under a link:{license-url}[Creative Commons
-Attribution-NoDerivatives 4.0 International License].]
+Attribution-NoDerivatives 4.0 International License]. It is available
+as a webpage at https://bell-multivectors.crudfactory.com/ and as a
+pdf at
+https://bell-multivectors.crudfactory.com/bell-multivectors.pdf]
